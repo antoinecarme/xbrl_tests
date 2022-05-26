@@ -1,0 +1,3249 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/CR/2021-02-03/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "hel": "http://www.hellofresh.com/20201231",
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2019-03-27/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/CR/2021-02-03",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://www.hellofresh.com/20201231/hel-2020-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8yOC9mcmFnOmZkNzVjN2YyNWY0ODQ3NTY4NDBmNmU4ZWU0ZDJiZmE5L3RleHRyZWdpb246ZmQ3NWM3ZjI1ZjQ4NDc1Njg0MGY2ZThlZTRkMmJmYTlfNzE0NjgyNTU4MjIzMg_406c873b-c8de-4b49-9af0-1f250507e02b": {
+   "value": "Deutschland",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xMjQvZnJhZzo1NGU2MjIzMDI3MmE0YWY1OTUwYTcxZGMxZTI1MDgyNi90ZXh0cmVnaW9uOjU0ZTYyMjMwMjcyYTRhZjU5NTBhNzFkYzFlMjUwODI2XzEwOTk1MTE2MzAxODM_4f75cea0-a4ca-405d-b33f-6501461dd34f": {
+   "value": "HelloFresh SE",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfParentEntity",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xMjQvZnJhZzo1NGU2MjIzMDI3MmE0YWY1OTUwYTcxZGMxZTI1MDgyNi90ZXh0cmVnaW9uOjU0ZTYyMjMwMjcyYTRhZjU5NTBhNzFkYzFlMjUwODI2XzEwOTk1MTE2MzAxODM_da741128-07bd-4198-b105-693125a0654c": {
+   "value": "HelloFresh SE",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xMjQvZnJhZzo1NGU2MjIzMDI3MmE0YWY1OTUwYTcxZGMxZTI1MDgyNi90ZXh0cmVnaW9uOjU0ZTYyMjMwMjcyYTRhZjU5NTBhNzFkYzFlMjUwODI2XzEwOTk1MTE2MzAxODM_ea33b843-089f-4fb0-9165-fe0499c5b845": {
+   "value": "HelloFresh SE",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xMjQvZnJhZzo1NGU2MjIzMDI3MmE0YWY1OTUwYTcxZGMxZTI1MDgyNi90ZXh0cmVnaW9uOjU0ZTYyMjMwMjcyYTRhZjU5NTBhNzFkYzFlMjUwODI2XzQzOTgwNDY1MTI0OTc_9f4a8d04-7b06-4ad1-af62-8d909d8c44db": {
+   "value": "Berlin",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xMjQvZnJhZzo1NGU2MjIzMDI3MmE0YWY1OTUwYTcxZGMxZTI1MDgyNi90ZXh0cmVnaW9uOjU0ZTYyMjMwMjcyYTRhZjU5NTBhNzFkYzFlMjUwODI2XzQzOTgwNDY1MTI0OTY_04cc8e9f-bc7b-42c5-b1d2-34bf153be7e4": {
+   "value": "Deutschland",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzMtNC0xLTEtMA_262fda2c-c233-4d2f-9185-f96860e589d9": {
+   "value": "263100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzMtNS0xLTEtMA_b43e977d-2ffd-43e7-b920-dec69757c28a": {
+   "value": "179600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzQtNC0xLTEtMA_944aa687-ae8a-4ef7-9798-93b3f6694efb": {
+   "value": "58300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzQtNS0xLTEtMA_1fe1d82d-f3b3-44e1-96cf-b0ef8bfbc7b1": {
+   "value": "15200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzUtNC0xLTEtMA_50777b17-9fc0-4368-9f57-3ce1380fbb0f": {
+   "value": "206600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzUtNS0xLTEtMA_3eb3dc51-6237-4c8e-9122-ad0601dbd2ed": {
+   "value": "49600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzYtNC0xLTEtMA_4eb2cdc4-860a-46c8-ad93-240200473a9e": {
+   "value": "9000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInAssociatesAccountedForUsingEquityMethod",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzYtNS0xLTEtMA_de8ff10b-e510-468c-9545-fffda7d8800d": {
+   "value": "22100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInAssociatesAccountedForUsingEquityMethod",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzctNC0xLTEtMA_46c3ad51-1610-4f7b-80e4-359db84f34c4": {
+   "value": "20800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentFinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzctNS0xLTEtMA_f768201e-26db-46ce-8f0b-68af38f13124": {
+   "value": "19900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentFinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzgtNC0xLTEtMA_9cc5152f-73aa-4d22-bb8c-bcb187bf0763": {
+   "value": "600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentNonfinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzgtNS0xLTEtMA_3106ec2f-9e3e-4d81-8d9c-71911bdc818a": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentNonfinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzktNC0xLTEtMA_449c4e2b-4acd-4c2f-a84a-b24ddca923ae": {
+   "value": "45200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzktNS0xLTEtMA_a64e6b7a-506e-47fb-b66d-56bc18dc023a": {
+   "value": "1800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzEwLTQtMS0xLTA_572367e9-0038-4905-a28a-a8fa7bc13a6f": {
+   "value": "603600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzEwLTUtMS0xLTA_6b63135a-d771-43f1-9729-6f1cc39e497a": {
+   "value": "288700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzEzLTQtMS0xLTA_4df415f2-f07b-4faf-bb1b-50065b49faa0": {
+   "value": "113700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzEzLTUtMS0xLTA_056f950f-1499-48c0-a5e0-c3d1a82b73a0": {
+   "value": "44100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE0LTQtMS0xLTA_90d4bfd5-717f-41bd-89a3-b8844f328175": {
+   "value": "28800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTradeReceivables",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE0LTUtMS0xLTA_724cb69f-3d05-4beb-9b67-a102bd0a8679": {
+   "value": "8600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTradeReceivables",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE1LTQtMS0xLTA_22403996-4798-4194-9c19-7c3c0a3d5bbf": {
+   "value": "6500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentFinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE1LTUtMS0xLTA_c1395705-9567-4e72-a892-4cd1136f6852": {
+   "value": "8900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentFinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE2LTQtMS0xLTA_12d2b8ec-58fb-4f4f-9b6c-cb40019144c1": {
+   "value": "44000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentNonfinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE2LTUtMS0xLTA_e1b3948a-46e9-4a2a-84f6-f0fd9c5ea146": {
+   "value": "26300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentNonfinancialAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE3LTQtMS0xLTA_2b92eb4f-fa20-480c-8729-c3374e290e05": {
+   "value": "729000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE3LTUtMS0xLTA_6fa16e74-dea9-44a6-ad3d-96dc84658946": {
+   "value": "193600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE4LTQtMS0xLTA_d74b5d2e-c527-40aa-9cb3-6ee280567933": {
+   "value": "922000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzE4LTUtMS0xLTA_9e4c49d6-363a-4d06-a6d3-39198aa2a72f": {
+   "value": "281500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzIwLTQtMS0xLTA_98cd99c7-0469-4d59-a440-3c716236e068": {
+   "value": "1525600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTphMTUwOGUyMmJlYmY0M2JiOGVhMWUxOGIzYjAyOTkwOC90YWJsZXJhbmdlOmExNTA4ZTIyYmViZjQzYmI4ZWExZTE4YjNiMDI5OTA4XzIwLTUtMS0xLTA_f7bcb0e9-2bbd-48ee-b6e9-f49133e89d4c": {
+   "value": "570200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzQtNC0xLTEtMA_c188f1f9-3a77-4997-8dbb-cd366d16ae12": {
+   "value": "173900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzQtNS0xLTEtMA_cfdd9d72-3c99-4233-ad8d-aa6ca38d63b7": {
+   "value": "164600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzUtNC0xLTEtMA_fd44bb5d-d553-44f1-819b-14862df4f9b9": {
+   "value": "2800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TreasuryShares",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzUtNS0xLTEtMA_94a8f95a-b715-43d1-a20c-8afbf66db143": {
+   "value": "2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TreasuryShares",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzYtNC0xLTEtMA_cdc84e1e-ae60-4ad5-a97e-e2e3fde8ab68": {
+   "value": "471700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CapitalReserve",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzYtNS0xLTEtMA_76d9755b-ae3e-4552-acfb-6f05e2dc9f37": {
+   "value": "445300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CapitalReserve",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzctNC0xLTEtMA_154409a4-0e1c-4435-a245-8a43c522dd28": {
+   "value": "95900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzctNS0xLTEtMA_890e6223-b727-494b-b2fd-e1fdd10ec2b0": {
+   "value": "71900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzgtNC0xLTEtMA_8a269b1d-4b3e-4b49-a183-9f070315ffd1": {
+   "value": "-57000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzgtNS0xLTEtMA_2a1366d2-f2e1-4208-9788-421d85aae46b": {
+   "value": "-426000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzktNC0xLTEtMA_0fe438c6-b537-4d10-aeef-306d89dfbb0c": {
+   "value": "-25300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AccumulatedOtherComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzktNS0xLTEtMA_e6211f30-d69b-4827-ae48-d8ad144efa04": {
+   "value": "-7000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AccumulatedOtherComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzEwLTQtMS0xLTA_7f3445c2-a1c5-4788-89af-1410c8fbc484": {
+   "value": "656400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzEwLTUtMS0xLTA_f651b9b1-4520-4c30-a6bb-bca769c5415a": {
+   "value": "246100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzExLTQtMS0xLTA_fada3d94-e3ca-489c-8dbb-9cf1b9b76fc5": {
+   "value": "-400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzExLTUtMS0xLTA_faea24d5-4dd1-4a3c-b9ce-db6a8e5a7fc4": {
+   "value": "-800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzEyLTQtMS0xLTA_68248dbd-0e12-4d18-8edd-46da74ab3d70": {
+   "value": "656000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzEyLTUtMS0xLTA_cd610a70-9e0e-43b5-99e0-718c0c60d3b8": {
+   "value": "245300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE1LTQtMS0xLTA_7767c1b9-5b62-4193-a0e1-627374e26479": {
+   "value": "182400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentFinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE1LTUtMS0xLTA_a1fd6998-5168-49d9-ac05-292ac1dc774c": {
+   "value": "105900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentFinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE2LTQtMS0xLTA_030f2d0d-3322-452a-a218-a5f68ea9a39a": {
+   "value": "6200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE2LTUtMS0xLTA_cbe7cfab-9c11-41d1-8213-67d19b4980ac": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE3LTQtMS0xLTA_9e165b82-2e7c-403f-a490-5143cb6f359f": {
+   "value": "151400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Borrowings",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE3LTUtMS0xLTA_da279370-100a-4b26-95c2-7d3a2b3cc0d7": {
+   "value": "2900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Borrowings",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE4LTQtMS0xLTA_b0e39136-e2a1-411b-8457-e1bfcf7b9f6b": {
+   "value": "700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE4LTUtMS0xLTA_e5ca8c4c-34e3-49f5-ab4c-deb247022cc2": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE5LTQtMS0xLTA_9a468e07-86a6-42e9-aaad-3d5a346f0a64": {
+   "value": "9100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentNonfinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzE5LTUtMS0xLTA_c1dc12fe-f661-4b9d-a18a-083accd47201": {
+   "value": "700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentNonfinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzIwLTQtMS0xLTA_633eea33-e8a4-4dc8-93e6-b2fc4eca5a5f": {
+   "value": "349800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzIwLTUtMS0xLTA_e7c071cd-e4ad-483e-93a2-2dd6d8d65a58": {
+   "value": "111100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzIzLTQtMS0xLTA_68aa978f-a1e3-4087-8fdb-d5a09c876b4f": {
+   "value": "291700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzIzLTUtMS0xLTA_2db0f399-fd8f-4b53-95fe-d8c4af2529ab": {
+   "value": "135900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI0LTQtMS0xLTA_bd17cc32-7c96-4db5-8984-ae020d6fafd8": {
+   "value": "34000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentFinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI0LTUtMS0xLTA_54fcbe09-9abc-4c76-bc71-6379402eb3ab": {
+   "value": "21800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentFinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI1LTQtMS0xLTA_164bc711-4017-441b-a096-132e016fd464": {
+   "value": "17200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentProvisions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI1LTUtMS0xLTA_f5ee8718-eb63-48f9-b7f8-c7e450e5ff01": {
+   "value": "13700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentProvisions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI2LTQtMS0xLTA_4ad1f243-52a7-4784-ae98-3e26b0e00a96": {
+   "value": "55100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI2LTUtMS0xLTA_c0929f27-8d46-4929-a38c-c7edfc705f51": {
+   "value": "3800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI3LTQtMS0xLTA_68bce574-dd96-4fe3-89c4-e0fd5997232c": {
+   "value": "121800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentNonfinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI3LTUtMS0xLTA_73751dd0-aee1-4f01-aac7-9c0ce97e6ea2": {
+   "value": "38600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentNonfinancialLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI4LTQtMS0xLTA_0b50e90c-be14-4305-a88f-e86d12bf3926": {
+   "value": "519800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzI4LTUtMS0xLTA_8ee5446a-c213-4170-ac92-a7c77040dcbb": {
+   "value": "213800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzMwLTQtMS0xLTA_77023022-7d7c-4f2b-b36f-73ecd71aa950": {
+   "value": "1525600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjYvZnJhZzo3ZDJhMWJmMjU2Y2U0OGY5OTUyYjY5ZDFkOWU2NGY0ZC90YWJsZTpkOTM2MzM5MThkNmE0YWIwOTFiZWJkOWZhZmNhYmJiOS90YWJsZXJhbmdlOmQ5MzYzMzkxOGQ2YTRhYjA5MWJlYmQ5ZmFmY2FiYmI5XzMwLTUtMS0xLTA_8fb19ce6-0a0f-4391-ad7b-0c5265939fdc": {
+   "value": "570200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEtNC0xLTEtMA_40463f5c-9347-4d89-8b03-68066926a164": {
+   "value": "3749900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEtNS0xLTEtMA_3fcd7f4c-50cf-406a-bc3b-7f54a16cd99a": {
+   "value": "1809000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzItNC0xLTEtMA_f22d4c4f-b0e5-45ab-bfc7-f2a9b9fc1276": {
+   "value": "1276700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CostOfSales",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzItNS0xLTEtMA_0743f07d-7af3-49da-8dd3-fb0fa330131f": {
+   "value": "640500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CostOfSales",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzMtNC0xLTEtMA_ed7f4323-a943-4c0a-9569-e788b88b8df0": {
+   "value": "1422100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:SellingExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzMtNS0xLTEtMA_e29af933-b375-460e-85c2-766aa61c3770": {
+   "value": "652000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:SellingExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzQtNC0xLTEtMA_4a3dbfef-9003-48aa-80e4-081e08fb8001": {
+   "value": "469700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:SalesAndMarketingExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzQtNS0xLTEtMA_77962cfc-66df-4b79-8f1c-b7c48fc5f446": {
+   "value": "405200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:SalesAndMarketingExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzUtNC0xLTEtMA_1e4c6613-ac8d-48bc-bcdb-e9c048f0d699": {
+   "value": "146000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GeneralAndAdministrativeExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzUtNS0xLTEtMA_32581bc6-c6c3-48cd-ac52-b378802bdf4d": {
+   "value": "132800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GeneralAndAdministrativeExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzYtNC0xLTEtMA_4b8f9d34-abac-44cf-96b8-4ee3db6fcb52": {
+   "value": "6600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzYtNS0xLTEtMA_2f317c9a-be29-41b8-bb40-b39dc8083455": {
+   "value": "4500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzctNC0xLTEtMA_2cac21e8-5ecd-4b8d-8f8f-bf0f224d2af9": {
+   "value": "16100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByFunction",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzctNS0xLTEtMA_f0236174-a7f0-476e-a41d-fa428e0f9493": {
+   "value": "8800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByFunction",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzgtNC0xLTEtMA_d9b4f453-bdff-4f72-8d95-0825190f76a1": {
+   "value": "425900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzgtNS0xLTEtMA_578ac293-11b9-4ca4-a68b-1174f4edd1e2": {
+   "value": "-25800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEwLTQtMS0xLTA_5fa2669a-7b71-45de-a5d4-704df2a03736": {
+   "value": "-13100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfAssociates",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEwLTUtMS0xLTA_372ea7d6-e9cb-4d72-b91f-6272f9e52035": {
+   "value": "-1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfAssociates",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzExLTQtMS0xLTEwNDIz_f920a543-ef31-41c3-baee-db4ae4f43c2e": {
+   "value": "1000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestIncomeOnDeposits",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzExLTUtMS0xLTEwMzIw_cd3ba9bd-0083-4200-b182-3dd20964bb3e": {
+   "value": "600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestIncomeOnDeposits",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEyLTQtMS0xLTEwNDIz_2241104d-54a6-48d8-9ef4-63b6cbaaa29f": {
+   "value": "10000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEyLTUtMS0xLTEwNDIz_de8d927d-40f4-4cc5-abe6-87a96f2bd94d": {
+   "value": "6200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzExLTQtMS0xLTA_1f0d2e82-50c8-4cb9-a560-41831b5267e4": {
+   "value": "5000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzExLTUtMS0xLTA_838d2bd9-e706-4985-8d6a-62694f2c5c02": {
+   "value": "40100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEyLTQtMS0xLTA_20cf99cd-c38b-4ef3-8d2a-954f2172fb1f": {
+   "value": "13000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEyLTUtMS0xLTA_3a49d0f2-2c99-46f4-9937-476a503c3ece": {
+   "value": "12500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEzLTQtMS0xLTA_b4dbf056-3ce9-40c0-be5d-78733bcc2032": {
+   "value": "395800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzEzLTUtMS0xLTA_77e1f78d-2a67-4fcc-88e7-945baad03933": {
+   "value": "-5300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE1LTQtMS0xLTA_134d624e-5ce5-4137-8807-cf68d39351a1": {
+   "value": "26700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE1LTUtMS0xLTA_2c900328-0059-4aec-aeef-18a5515d240d": {
+   "value": "4800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE2LTQtMS0xLTA_f07988e3-654b-45a8-bb7a-a7a31d19d177": {
+   "value": "369100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE2LTUtMS0xLTA_94870270-1b09-496d-901e-891254c5e587": {
+   "value": "-10100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE4LTQtMS0xLTA_c8c88cec-2fb7-40bd-823c-d5f672972683": {
+   "value": "369000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE4LTUtMS0xLTA_f3e39648-472d-4de4-9d3f-884c58cdd069": {
+   "value": "-10200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE5LTQtMS0xLTA_dc75eed3-c376-4c97-91ce-76b9cfdda09a": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzE5LTUtMS0xLTA_bd7f9b7f-2bd8-4b0f-930a-72e0486484e9": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzIzLTQtMS0xLTA_e6313f7f-0fa6-4ebd-97d5-6ef034fff71c": {
+   "value": "-2900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzIzLTUtMS0xLTA_c78f6e6d-4740-4c23-9c31-da1c03d65e02": {
+   "value": "9200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI0LTQtMS0xLTA_72e08d98-cf11-49b9-8ade-6692f23af588": {
+   "value": "-1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxHedgesOfNetInvestmentsInForeignOperations",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI0LTUtMS0xLTA_aa529b6a-fb87-4dcc-9aa6-aa99ae56b087": {
+   "value": "-6500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxHedgesOfNetInvestmentsInForeignOperations",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI3LTQtMS0xLTEwNDI3_c33b6b7e-b983-46f6-b1be-e6f1f582b982": {
+   "value": "-13800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnChangeInValueOfTimeValueOfOptionsNetOfTax",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI3LTUtMS0xLTEwNDI3_b96ac5ee-202c-4862-b9c4-8e2fc3f830ee": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnChangeInValueOfTimeValueOfOptionsNetOfTax",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI1LTQtMS0xLTA_16d90fd2-298e-411d-969d-7279327a662f": {
+   "value": "-18200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI1LTUtMS0xLTA_82540871-ca42-4755-ad65-f0cc82b7bbe8": {
+   "value": "2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI2LTQtMS0xLTA_7768f260-7225-4ee8-9240-e1284f596726": {
+   "value": "350900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI2LTUtMS0xLTA_45d1070d-22e4-47da-9cf6-193dbb43e0a3": {
+   "value": "-7400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI5LTQtMS0xLTA_b0300673-68ae-4eac-81f2-8d014fa28199": {
+   "value": "350800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzI5LTUtMS0xLTA_e88f161d-9c16-42db-8bee-ce59f96d900f": {
+   "value": "-7500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzMwLTQtMS0xLTA_afaaddfb-c926-404d-92b9-da07d15f0477": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzMwLTUtMS0xLTA_05da9e52-2904-45ed-941c-0bfbe61c8a87": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzMxLTQtMS0xLTA_0b3c7355-dc3b-4034-9685-3f5893873ad1": {
+   "value": "2.19",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicAndDilutedEarningsLossPerShare",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzMxLTUtMS0xLTA_bc076c41-0c97-434c-a29f-6d31a822fac0": {
+   "value": "-0.06",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicAndDilutedEarningsLossPerShare",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNjkvZnJhZzpmMDM5NDVkNjc5ZDM0YTMxODM0OWFlNmY5M2Y1NmMyNS90YWJsZTo1MTJmNDAyNzE1YTI0NTVlYmI1NjkwYjBjNjc3MTZiYy90YWJsZXJhbmdlOjUxMmY0MDI3MTVhMjQ1NWViYjU2OTBiMGM2NzcxNmJjXzM1LTQtMS0xLTIwOTI_0c44a2f3-9ad2-4051-baa6-845673fc66f6": {
+   "value": "2.09",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShare",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtMi0xLTEtMA_4980717e-3c12-45de-83e6-2a4e4c3d2877": {
+   "value": "164400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtMy0xLTEtMA_dbdcde1e-2168-460f-a8cf-55da4e02d815": {
+   "value": "-7900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtNC0xLTEtMA_bb237025-64e4-45a9-98a7-8ce76dd76595": {
+   "value": "448400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtNS0xLTEtMA_86091e09-0d9b-42c2-8325-91f17251684a": {
+   "value": "53600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtNi0xLTEtMA_99fe2716-8a83-4a71-84c5-2e76d3fa8731": {
+   "value": "-411600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtNy0xLTEtMA_337c9ead-14fd-4fc6-bcf1-950f47f53256": {
+   "value": "-9700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtOC0xLTEtMA_36540df9-ae5b-4211-91c6-9d19c63b9713": {
+   "value": "237200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtOS0xLTEtMA_7b6550d7-914c-49cf-b88a-eb367ddfd853": {
+   "value": "-500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzMtMTAtMS0xLTA_00c9510c-6384-4b95-b157-eda5fbe912ae": {
+   "value": "236700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzUtNi0xLTEtMA_232ef7cf-9cc8-44de-9f1f-cc9bacd7a9cb": {
+   "value": "-10200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzUtOC0xLTEtMA_de933d0d-b7b2-4fd6-b39f-2711cabf3126": {
+   "value": "-10200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzUtOS0xLTEtMA_b29e537b-948d-4e52-857a-b99a05282810": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzUtMTAtMS0xLTA_b9a0264d-c8fc-4d98-9ee6-5aab3069a8b3": {
+   "value": "-10100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzYtNy0xLTEtMA_475f01d4-636a-49da-84cb-7fb6cc3bc8ff": {
+   "value": "2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AmountRemovedFromReserveOfChangeInValueOfForeignCurrencyBasisSpreadsAndIncludedInInitialCostOrOtherCarryingAmountOfNonfinancialAssetLiabilityOrFirmCommitmentForWhichFairValueHedgeAccountingIsApplied",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzYtOC0xLTEtMA_c741b549-9ccb-4199-a68b-01240e146156": {
+   "value": "2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AmountRemovedFromReserveOfChangeInValueOfForeignCurrencyBasisSpreadsAndIncludedInInitialCostOrOtherCarryingAmountOfNonfinancialAssetLiabilityOrFirmCommitmentForWhichFairValueHedgeAccountingIsApplied",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzYtMTAtMS0xLTA_ea116f90-9469-48da-b71d-9c2eaa5c2ae4": {
+   "value": "2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AmountRemovedFromReserveOfChangeInValueOfForeignCurrencyBasisSpreadsAndIncludedInInitialCostOrOtherCarryingAmountOfNonfinancialAssetLiabilityOrFirmCommitmentForWhichFairValueHedgeAccountingIsApplied",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctNi0xLTEtMjY5OQ_1b811a30-0b65-4b97-aab3-e2748f88f9b0": {
+   "value": "-4200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctOC0xLTEtMjY4OA_3f72208e-0238-4490-b179-58fe17419e73": {
+   "value": "-4200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctOS0xLTEtMjY4OA_aa963b5d-d5a1-4f19-91a0-c4c559de050c": {
+   "value": "-400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctMTAtMS0xLTI2ODg_d3f51da9-c5f5-4e54-b7b0-fe09805115d0": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctOC0xLTEtMA_50513486-4b33-4411-8f6b-e0aca54d9006": {
+   "value": "-11700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctOS0xLTEtMA_005ea200-1963-41ed-b3a7-c208821b4f9e": {
+   "value": "-300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzctMTAtMS0xLTA_d473fd7f-1a51-4391-a566-b0a2780a1528": {
+   "value": "-12000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:GroupShareOfComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzgtMi0xLTEtMA_ca6acf9a-eb00-4f45-930a-f725436250d6": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzgtMy0xLTEtMA_45630664-920a-41e7-babd-71c5ece7cfb9": {
+   "value": "5200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzgtNC0xLTEtMA_b23addf1-7039-45bc-ba44-0cda1d1a750e": {
+   "value": "-3100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzgtOC0xLTEtMA_d178ad8d-f760-4995-bf85-fe20cb432d36": {
+   "value": "2300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzgtMTAtMS0xLTA_a68e26f6-07b0-489a-ab8c-20af0084436f": {
+   "value": "2300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzktNS0xLTEtMA_a7ef0fed-092b-4db7-917c-8627027afbdc": {
+   "value": "18300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzktOC0xLTEtMA_6d2be1a6-c499-48da-b3a3-5c38dc2c4e95": {
+   "value": "18300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzktMTAtMS0xLTA_671e5afd-8d02-41a2-a2fc-d7af040a16a8": {
+   "value": "18300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTItMS0xLTA_053d2599-831d-4afb-95c2-38df79e73025": {
+   "value": "164600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTMtMS0xLTA_05f6c99d-f7aa-4c9d-a567-0e53fc684853": {
+   "value": "-2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTQtMS0xLTA_eccde5da-0d7e-4d75-9214-e239fd19bd00": {
+   "value": "445300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTUtMS0xLTA_c3482874-d7f1-4f8e-9142-185a3805d386": {
+   "value": "71900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTYtMS0xLTA_b7586780-5844-4b51-ad2d-3fd7e22fd286": {
+   "value": "-426000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTctMS0xLTA_18a98397-d40f-428d-8e99-1b2864966a90": {
+   "value": "-7000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTgtMS0xLTA_0beaa994-5ebd-4e6e-a9e3-7557ad3c7360": {
+   "value": "246100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTktMS0xLTA_bb3c1b34-a7b9-4d9e-9005-d5f920f378dc": {
+   "value": "-800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEwLTEwLTEtMS0w_0c8b1662-56e4-4d8f-9b92-7619ef78fb4a": {
+   "value": "245300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTItMS0xLTA_0e72f6e9-7baf-403f-8bb1-179ffade8145": {
+   "value": "164600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTMtMS0xLTA_f18d58fc-5070-4806-ab28-37982a3888f1": {
+   "value": "-2700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTQtMS0xLTA_9f015740-dd36-42c6-a6f6-9592695fcc8e": {
+   "value": "445300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTUtMS0xLTA_b5d7ec75-04aa-4765-9bc1-eca664eca891": {
+   "value": "71900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTYtMS0xLTA_3c6abaa7-7865-4d5f-8609-6c7c12b1b99d": {
+   "value": "-426000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTctMS0xLTA_aa835cae-65af-4079-bcdc-1d801fd0ab63": {
+   "value": "-7000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTgtMS0xLTA_dc7f1cb2-b49d-43f4-96cb-a604dd6c7ca3": {
+   "value": "246100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTktMS0xLTA_c3394885-87cf-4a19-97b4-0146a2579ac8": {
+   "value": "-800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzEyLTEwLTEtMS0w_f71b4019-2ca1-4d6f-b721-6bac68a46a5e": {
+   "value": "245300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE0LTYtMS0xLTA_09d96532-8cf5-4c3c-a1d8-a7f1546d336c": {
+   "value": "369000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE0LTgtMS0xLTA_76e97ad3-450c-4e94-8323-166904eb95bd": {
+   "value": "369000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE0LTktMS0xLTA_0e7af07b-bc87-4038-91b6-47c67d8eca86": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE0LTEwLTEtMS0w_8fb6ad01-df1e-434e-aab9-b02f604526c4": {
+   "value": "369100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE1LTctMS0xLTA_3a8643be-9006-4646-8828-5f47753f8ee1": {
+   "value": "-4400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AmountRemovedFromReserveOfChangeInValueOfForeignCurrencyBasisSpreadsAndIncludedInInitialCostOrOtherCarryingAmountOfNonfinancialAssetLiabilityOrFirmCommitmentForWhichFairValueHedgeAccountingIsApplied",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE1LTgtMS0xLTA_9de74984-b52b-409d-b7f3-7532589fe4a4": {
+   "value": "-4400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AmountRemovedFromReserveOfChangeInValueOfForeignCurrencyBasisSpreadsAndIncludedInInitialCostOrOtherCarryingAmountOfNonfinancialAssetLiabilityOrFirmCommitmentForWhichFairValueHedgeAccountingIsApplied",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE1LTEwLTEtMS0w_fede601d-8618-4cbb-834d-9d9b3181fd4c": {
+   "value": "-4400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AmountRemovedFromReserveOfChangeInValueOfForeignCurrencyBasisSpreadsAndIncludedInInitialCostOrOtherCarryingAmountOfNonfinancialAssetLiabilityOrFirmCommitmentForWhichFairValueHedgeAccountingIsApplied",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE3LTQtMS0xLTQxNzM_fc8cadc0-4323-4fb3-abb8-8f87ad189813": {
+   "value": "-4500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE3LTctMS0xLTQxNzM_e76a0795-152a-4e86-b0de-25bfa89bfc22": {
+   "value": "-13800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE2LTgtMS0xLTA_b0746f51-3e22-4098-8240-2b3dce1c6523": {
+   "value": "-18300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE2LTktMS0xLTA_0d0875f5-6127-475d-96be-660f8f45e26c": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE2LTEwLTEtMS0w_9037ae9c-b6ea-4592-92ea-588bd1387d9e": {
+   "value": "-18000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE3LTgtMS0xLTA_928dee25-d604-4ee7-a581-d030860d595b": {
+   "value": "346300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE3LTktMS0xLTA_eea3fea3-4f7e-4b2e-a5c7-6133fbce2110": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE3LTEwLTEtMS0w_b9e379dd-f4e6-4bf3-8e6c-86c5b076078f": {
+   "value": "346700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:GroupShareOfComprehensiveIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE4LTItMS0xLTA_1794d60d-7e93-459c-abde-2a0e0aeda779": {
+   "value": "9200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE4LTMtMS0xLTA_d280b35d-c7cb-44a7-b9be-41be7b919448": {
+   "value": "-100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE4LTQtMS0xLTA_01593e56-9925-4ddb-a758-04fa998fcf36": {
+   "value": "4900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE4LTgtMS0xLTA_2aeda0c9-5aeb-4ca9-8810-bf8eeea71690": {
+   "value": "14000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE4LTEwLTEtMS0w_388c3d33-9f69-4ca6-a0b1-7edd2c26ac4b": {
+   "value": "14000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTQtMS0xLTQxNzc_298ffac7-6c4c-448f-887c-e589443a79f3": {
+   "value": "26000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughConversionOfConvertibleInstruments",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTgtMS0xLTEwODcz_7918fd01-ac42-4329-8305-1955fdf4562c": {
+   "value": "26000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughConversionOfConvertibleInstruments",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTEwLTEtMS00MTc3_e1b26b27-b207-4f94-a48a-c5009f52f9cd": {
+   "value": "26000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughConversionOfConvertibleInstruments",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE5LTUtMS0xLTA_793bd3f0-3607-459c-b4e3-b3df2233861c": {
+   "value": "24000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE5LTgtMS0xLTA_2adf1d18-edff-49d3-9325-e14a00a15004": {
+   "value": "24000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzE5LTEwLTEtMS0w_659fe671-b247-49a0-997e-0605608ff309": {
+   "value": "24000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTItMS0xLTA_79ab2388-22d5-4e61-8d0c-f8d700364c8c": {
+   "value": "173900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTMtMS0xLTA_90c125e9-ab7b-4ddc-9215-21fd5dd01be6": {
+   "value": "-2800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTQtMS0xLTA_93d5bb81-ffb7-4cae-a14e-15c4b6f5068e": {
+   "value": "471700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:CapitalReserveMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTUtMS0xLTA_474a168a-7285-4d14-b163-cc68d72cb399": {
+   "value": "95900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTYtMS0xLTA_f3ae527c-6c34-4d1f-91d7-0598d349465d": {
+   "value": "-57000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTctMS0xLTA_d203a5c9-7c5f-45d0-a3ec-503017f67f45": {
+   "value": "-25300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:MiscellaneousOtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTgtMS0xLTA_3466cbd5-83e7-4b0e-b828-ca3929f2d6fb": {
+   "value": "656400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTktMS0xLTA_1087b05f-9dd3-4391-8b50-b87abcc626c5": {
+   "value": "-400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzIvZnJhZzpkMmNiNGU4NjRkNzk0Nzg0YWFmY2E2NzAwNTJmOTM4Mi90YWJsZTpjMDdhMjQwOWZlNmI0ZGQ4OGNhMGRhMTRhZjNjYmU4OS90YWJsZXJhbmdlOmMwN2EyNDA5ZmU2YjRkZDg4Y2EwZGExNGFmM2NiZTg5XzIwLTEwLTEtMS0w_ddadc7cb-d95a-40ee-9c6a-2d567554c133": {
+   "value": "656000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzItMS0xLTEtMA_a99ba8f4-9da0-4822-af45-d41487aad67c": {
+   "value": "369100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzItMi0xLTEtMA_fafd2657-40f7-4cae-861b-6583924f20b9": {
+   "value": "-10100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzQtMS0xLTEtMA_deac26ee-cde1-4e0f-8816-e3be174c32db": {
+   "value": "-13100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfAssociates",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzQtMi0xLTEtMA_c2fdb921-3925-4af3-b43b-5fff2016e450": {
+   "value": "-1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfAssociates",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzUtMS0xLTEtNDE4Mw_109665c4-98ec-4217-830c-c63cbfc6e201": {
+   "value": "10000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungGezahlteZinsenBetrieblicheTaetigkeit",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzUtMi0xLTEtNDE4Mw_053f985f-1782-4f2a-8f9f-eaca0f0af334": {
+   "value": "-6300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungGezahlteZinsenBetrieblicheTaetigkeit",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzYtMS0xLTEtNDE4Mw_6a7559f3-7553-4f64-8e4b-37ae82b04456": {
+   "value": "-1000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenZinsertrgeZugeordnetBetrieblicherTtigkeit",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzYtMi0xLTEtNDE4Mw_cb0d1f8a-e88a-43aa-9da8-58f448fc2f75": {
+   "value": "-600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenZinsertrgeZugeordnetBetrieblicherTtigkeit",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzUtMS0xLTEtMA_2d67c831-e2d2-40fc-8fb5-4dbb11b26be2": {
+   "value": "5000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzUtMi0xLTEtMA_64a1d355-6169-428a-b307-7306f19ac6a8": {
+   "value": "40100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzYtMS0xLTEtMA_9a6772c0-ebda-4775-aec8-b2952862b357": {
+   "value": "13000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceCosts",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzYtMi0xLTEtMA_bc91ae67-c1bb-41f2-bae1-e5dac152355f": {
+   "value": "12300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceCosts",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzctMS0xLTEtMA_962600b4-b75f-41d5-b1bd-957e63a3abf8": {
+   "value": "26700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncomeTaxExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzctMi0xLTEtMA_bfe34cc0-e48e-4a30-bc08-ff3784b5d182": {
+   "value": "4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncomeTaxExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzgtMS0xLTEtMA_816e404e-7153-41cc-9527-3a683cf704be": {
+   "value": "15000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzgtMi0xLTEtMA_69af41f5-abb7-4808-b0c9-1d7d853ae5a6": {
+   "value": "1900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzktMS0xLTEtMA_fb501e08-2511-46dc-84b6-5dd67f0d808c": {
+   "value": "19000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzktMi0xLTEtMA_86fe699d-6ca8-4b9e-a902-0ab7bd5118a2": {
+   "value": "13700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzEwLTEtMS0xLTA_7c7b0089-b560-419d-88c9-2bb51edd1b7f": {
+   "value": "24200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurDieAbschreibungDesNutzungsrechtsAsset",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzEwLTItMS0xLTA_f231ffc9-8fa4-4291-8a23-7bbaf4378288": {
+   "value": "21400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurDieAbschreibungDesNutzungsrechtsAsset",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzExLTEtMS0xLTA_f7a33e65-8e05-4fad-9d0a-f1eabe232ec1": {
+   "value": "3800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForAmortisationExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzExLTItMS0xLTA_835236d1-d17c-4174-acf6-dbef9d365ddd": {
+   "value": "4700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForAmortisationExpense",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzEyLTEtMS0xLTA_4d6ac963-ed1e-4fe2-b492-a0f7530428a2": {
+   "value": "600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForGainLossOnDisposalsPropertyPlantAndEquipment",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzEyLTItMS0xLTA_6db44a4e-b859-4ec4-b44e-76a8f1f1aeed": {
+   "value": "-1200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForGainLossOnDisposalsPropertyPlantAndEquipment",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzEzLTEtMS0xLTA_dd2674fa-6f5c-4617-95af-d25379321bff": {
+   "value": "24000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForSharebasedPayments",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzEzLTItMS0xLTA_ceb8b803-6006-4717-91e8-876dc9f1483d": {
+   "value": "18800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForSharebasedPayments",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE0LTEtMS0xLTA_d277216e-5ef9-4058-b01e-2076de9a9bb3": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAdjustmentsForNoncashItems",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE0LTItMS0xLTA_2b061841-beef-47ef-b40f-b69d5fda313f": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAdjustmentsForNoncashItems",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE1LTEtMS0xLTA_25837bda-66c5-424c-8000-335f2ba0dcdd": {
+   "value": "4700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE1LTItMS0xLTA_d7efd3b9-7a4a-4712-9af0-a88fbd43fc96": {
+   "value": "11100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE3LTEtMS0xLTA_a222843a-d2c8-41a7-9df6-dab81896d10b": {
+   "value": "-20500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE3LTItMS0xLTA_2f31e100-e301-4d19-b9b3-ea201f93bab7": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE4LTEtMS0xLTA_5e6ce3a2-6dd4-45e1-a790-c28fb29ce7c7": {
+   "value": "-73900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE4LTItMS0xLTA_cc87db22-9c35-4cb6-adcd-5b5d584a56c6": {
+   "value": "-21400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE5LTEtMS0xLTA_c4c682ad-9233-415d-8863-d32b1335f8f9": {
+   "value": "154900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzE5LTItMS0xLTA_4cec91b4-06ad-46b0-afc3-a87912f993f4": {
+   "value": "28800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAndOtherPayables",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIwLTEtMS0xLTA_15075529-ff5d-40d5-8a6d-d34a3557bfc7": {
+   "value": "52800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInDeferredIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIwLTItMS0xLTA_ad6ecdb0-7d3b-4990-b927-a5b223ec9704": {
+   "value": "-800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInDeferredIncome",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIxLTEtMS0xLTA_1cfe5cc0-bc69-4a7f-985d-4e4b836c8567": {
+   "value": "-3000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurDenRuckgangDerHandelsUndSonstigenForderungenUndVerbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIxLTItMS0xLTA_ce65ff57-ac9d-4b16-89f4-87f53277f3d7": {
+   "value": "700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurDenRuckgangDerHandelsUndSonstigenForderungenUndVerbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIyLTEtMS0xLTA_dad4c298-6bd6-4974-8ded-8e817af17d67": {
+   "value": "-2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurEinenErhohtenRuckgangAndererFinanziellerVermogenswerte",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIyLTItMS0xLTA_3974d31b-d0b7-4729-a555-ea2ccab09c5d": {
+   "value": "-3400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurEinenErhohtenRuckgangAndererFinanziellerVermogenswerte",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIzLTEtMS0xLTA_ba87f209-288c-47d3-8b5e-d9430907cd22": {
+   "value": "-8200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurDenZunehmendenRuckgangAndererNichtfinanziellerVermogenswerte",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzIzLTItMS0xLTA_271f2a43-5148-49a5-ae03-94dde9264880": {
+   "value": "-2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurDenZunehmendenRuckgangAndererNichtfinanziellerVermogenswerte",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI0LTEtMS0xLTA_a56b88a8-b073-4948-bdcb-894250b0b2fa": {
+   "value": "3000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurEinenZunehmendenRuckgangDerSonstigenFinanziellenVerbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI0LTItMS0xLTA_2ff62f1f-6e27-45ce-910d-97cbf563d4b9": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurEinenZunehmendenRuckgangDerSonstigenFinanziellenVerbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI1LTEtMS0xLTA_48d1e2ae-ca12-4d6f-bcc5-28028b05a198": {
+   "value": "21900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurEinenZunehmendenRuckgangAndererNichtFinanziellerVerbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI1LTItMS0xLTA_9818cb0b-35f2-4e90-bbe3-59cd116b543d": {
+   "value": "1000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AnpassungenFurEinenZunehmendenRuckgangAndererNichtFinanziellerVerbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI2LTEtMS0xLTA_3c9cf97e-ed0e-48e2-bc72-2a2461ef6185": {
+   "value": "600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI2LTItMS0xLTA_d06be806-cf2d-4756-89a2-70f54559740a": {
+   "value": "600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzMwLTEtMS0xLTEwMzc5_9baf33de-e7cb-4184-8d70-38a566571a6e": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:ErhalteneLeasingzinsenKlassifiziertAlsBetriebliche",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzMwLTItMS0xLTEwMzc5_58b6f1f0-34fb-466b-b7c2-b6962f28e9d4": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:ErhalteneLeasingzinsenKlassifiziertAlsBetriebliche",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI3LTEtMS0xLTA_6eb462be-1fa9-4e05-b373-32f0db7ed352": {
+   "value": "5400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI3LTItMS0xLTA_6bdd81c3-b63b-4a0d-8e1b-bf8d50fb39d4": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI4LTEtMS0xLTA_c8a278ed-e708-447b-9131-ce3fa0b4eb18": {
+   "value": "4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:GezahlteLeasingzinsenKlassifiziertAlsBetriebliche",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI4LTItMS0xLTA_f476b2d3-866b-4184-9a92-4a828435aa27": {
+   "value": "5500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:GezahlteLeasingzinsenKlassifiziertAlsBetriebliche",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI5LTEtMS0xLTA_a5c9fa58-1723-46ca-9ea1-d04a7affa97f": {
+   "value": "601500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTpjOGJhMmFlMjk0YTQ0ODk1YWYyMTkyYTRlNTViZTViZC90YWJsZXJhbmdlOmM4YmEyYWUyOTRhNDQ4OTVhZjIxOTJhNGU1NWJlNWJkXzI5LTItMS0xLTA_fa4d4136-9ec9-4443-b6d1-d4416eacd143": {
+   "value": "42200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzMtMS0xLTEtMA_c7e8149a-ea1b-4767-8ed8-06417a586aea": {
+   "value": "128300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzMtMi0xLTEtMA_85149c08-a34b-46c4-ad12-fb5dabcf3aeb": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzQtMS0xLTEtMA_33d82478-4e1b-4b05-8f0d-4f9eeb265c43": {
+   "value": "74400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzQtMi0xLTEtMA_4d128fed-b27a-4a3b-87e9-46d22707e22f": {
+   "value": "31500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzUtMS0xLTEtMA_5619482c-ca31-4c4e-a5ce-6e92c38ec22f": {
+   "value": "9900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsForDevelopmentProjectExpenditure",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzUtMi0xLTEtMA_9e61abf9-98d4-4c81-8a8d-1acb7037a0ef": {
+   "value": "6800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsForDevelopmentProjectExpenditure",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzYtMS0xLTEtMA_3d00c9f5-d899-4477-959a-55806de738c0": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzYtMi0xLTEtMA_5f3c97e3-9568-4843-b098-2427898405d7": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzctMS0xLTEtMTA1NzI_211db62f-facc-470a-b559-9681fc7586f0": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromDisposalsOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzctMi0xLTEtMTA1NzI_07e258ab-1f0d-4e76-8f24-b945d732bfed": {
+   "value": "2600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromDisposalsOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzctMS0xLTEtMTAzODY_487aff33-6f47-4906-8a22-d52028129380": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:ErhalteneLeasingzahlungenAusFinanzierungsleasingverhltnissenIFRS16",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzctMi0xLTEtMTAzODY_0c1f86da-79b7-4a7b-9dbb-8f2052da4c6a": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:ErhalteneLeasingzahlungenAusFinanzierungsleasingverhltnissenIFRS16",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzktMS0xLTEtMTA1MDA_466c36af-e6b1-4064-a969-13a93297935d": {
+   "value": "-9700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:TransferZahlungsmittelKontenVerfuegungsbeschraenkteZahlungsmittelUndLangfristigeEinlagen",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzktMi0xLTEtMTA1MDA_0a55dad4-e929-481c-90cd-d555d41bd718": {
+   "value": "-7700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:TransferZahlungsmittelKontenVerfuegungsbeschraenkteZahlungsmittelUndLangfristigeEinlagen",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzgtMS0xLTEtMA_ca7ac8a6-3ac4-4e91-af5f-3d9ec4463bb7": {
+   "value": "10900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:ZahlungsstrmeAbnahmeVerfgungsbeschrnkteZahlungsmittelUndLangfristigeEinlagen",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzgtMi0xLTEtMA_224be86b-dd04-4363-9b81-ef86c045b290": {
+   "value": "14900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:ZahlungsstrmeAbnahmeVerfgungsbeschrnkteZahlungsmittelUndLangfristigeEinlagen",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzktMS0xLTEtMA_f44a7e47-bad7-45db-9143-554d964d5a0b": {
+   "value": "-210500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzktMi0xLTEtMA_765d5207-4dd6-49f4-9f06-b0d7ebdb8a44": {
+   "value": "-29000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzEyLTEtMS0xLTA_6887a1b1-b676-4a5f-86af-8bf42aa73034": {
+   "value": "14100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssuingShares",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzEyLTItMS0xLTA_f342929f-9f7b-4828-a547-c39885d8edfc": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssuingShares",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE1LTEtMS0xLTEwNTEx_a0664667-9748-4924-9a53-7a24d8f80e32": {
+   "value": "4200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsFromChangesInOwnershipInterestsInSubsidiaries",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzEzLTEtMS0xLTA_32001cc4-9339-4ff8-914a-936de7592eb8": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAdvancesAndLoansFromRelatedParties",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzEzLTItMS0xLTA_5f16bb72-926b-4354-bfe1-af90e8554dc0": {
+   "value": "400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAdvancesAndLoansFromRelatedParties",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE2LTEtMS0xLTI3MDc_532e842d-5c71-47e5-a3db-98c462d67f14": {
+   "value": "172400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE2LTItMS0xLTI3MDc_bfb326b0-1a61-48d0-b8ad-56d72da1d06d": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE3LTEtMS0xLTI3MDk_e526d40e-79c9-4aed-aeb3-2500e8de129a": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AuszahlungenVonLangfristigenFinanzverbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE3LTItMS0xLTI3MDk_7b3452d0-fba1-4ee3-8ae6-777d16323c85": {
+   "value": "2400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "hel:AuszahlungenVonLangfristigenFinanzverbindlichkeiten",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE1LTEtMS0xLTA_2ccca8d8-7bcb-4ef1-b442-948f6ca5a109": {
+   "value": "900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE1LTItMS0xLTA_349bcd2c-18af-4400-89da-fcf59f20136f": {
+   "value": "0",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE2LTEtMS0xLTA_c2051d5d-f048-4696-b3df-256a63b0c4ed": {
+   "value": "18000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE2LTItMS0xLTA_55fe0b05-0169-4fa5-b59b-d45775b4af18": {
+   "value": "17800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE3LTEtMS0xLTA_16dc34a1-bbd5-45b2-b598-2ba44b444d34": {
+   "value": "163400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE3LTItMS0xLTA_e234beea-794d-4185-9c87-300132832fba": {
+   "value": "-14800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE4LTEtMS0xLTA_08e18bc0-4ec7-4fca-8b44-a28bc146cdbf": {
+   "value": "-19000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE4LTItMS0xLTA_941d132d-431d-45f5-9542-519de2b01981": {
+   "value": "1300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE5LTEtMS0xLTA_210ab3c6-c5dd-4fae-a87c-1b9e09145c2f": {
+   "value": "193600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzE5LTItMS0xLTA_e20028bf-5fdf-4fd9-8b4e-65b76307bd1e": {
+   "value": "193900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2019-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzIxLTEtMS0xLTA_55c34a41-654f-4747-8be6-6855a710fbc7": {
+   "value": "729000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xNzUvZnJhZzo4YTRmNWMwODY4Mzg0M2JlYThkZGU4NTczY2JhNjA2ZS90YWJsZTo1YTEzMGRlNjBjYjE0ZjEzYjJkMjgyNjQ3ODkyZjY3Yi90YWJsZXJhbmdlOjVhMTMwZGU2MGNiMTRmMTNiMmQyODI2NDc4OTJmNjdiXzIxLTItMS0xLTA_74c0d0cb-ba73-4284-81da-f845071dbcf0": {
+   "value": "193600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xODEvZnJhZzoyODk2ODFiNGJlOWY0ZWI2YmUyYzdkYzU4YWY1ZmUzYi90ZXh0cmVnaW9uOjI4OTY4MWI0YmU5ZjRlYjZiZTJjN2RjNThhZjVmZTNiXzQzOTgwNDY1MTE5NDU_49223179-ff64-41cd-8123-26ca15213bd2": {
+   "value": "Societas Europaea",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xODEvZnJhZzoyODk2ODFiNGJlOWY0ZWI2YmUyYzdkYzU4YWY1ZmUzYi90ZXh0cmVnaW9uOjI4OTY4MWI0YmU5ZjRlYjZiZTJjN2RjNThhZjVmZTNiXzQzOTgwNDY1MTE5NDg_3f4a6c6b-b682-4900-b6ad-3ecf06e3a959": {
+   "value": "Saarbr\u00fccker Stra\u00dfe 37a, 10405 Berlin",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "id3VybDovL2RvY3MudjEvZG9jOjFiMGZkYTFiMDU3NTRiOWY5YmEyOGFmNDZjNGE0NGViL3NlYzoxYjBmZGExYjA1NzU0YjlmOWJhMjhhZjQ2YzRhNDRlYl8xODEvZnJhZzoyODk2ODFiNGJlOWY0ZWI2YmUyYzdkYzU4YWY1ZmUzYi90ZXh0cmVnaW9uOjI4OTY4MWI0YmU5ZjRlYjZiZTJjN2RjNThhZjVmZTNiXzg0MA_e0de3e9b-a870-443f-8a34-9dac5081c444": {
+   "value": "Die Hauptgesch\u00e4ftst\u00e4tigkeit des Konzerns besteht darin integrierte Lebensmittelkonzepte anzubieten. Dies beinhaltet Kochboxen, Zusatzprodukte und vorgekochte Fertiggerichte.",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "de",
+    "entity": "scheme:391200ZAF4V6XD2M9G57",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  }
+ }
+}

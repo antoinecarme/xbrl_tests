@@ -1,0 +1,5220 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/CR/2021-02-03/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "deutschelufthansa": "http://deutschelufthansa.com/xbrl/2020",
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2019-03-27/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/CR/2021-02-03",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "linkTypes": {
+   "ftTyp_fact-footnote": "http://www.xbrl.org/2003/arcrole/fact-footnote"
+  },
+  "linkGroups": {
+   "ftGrp_default": "http://www.xbrl.org/2003/role/link"
+  },
+  "taxonomy": [
+   "http://deutschelufthansa.com/xbrl/2020/deutschelufthansa-2020-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "fact-1": {
+   "value": "Deutsche Lufthansa AG, Venloer Str. 151 \u2013 153, 50672 K\u00f6ln",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "de",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-15": {
+   "value": "9078000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromRenderingOfTransportServices",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-16": {
+   "value": "28136000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromRenderingOfTransportServices",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-17": {
+   "value": "4511000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherRevenue",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-18": {
+   "value": "8288000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherRevenue",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-19": {
+   "value": "13589000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-20": {
+   "value": "36424000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-21": {
+   "value": "175000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:BestandsveraenderungenUndAndereAktivierteEigenleistungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-22": {
+   "value": "685000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:BestandsveraenderungenUndAndereAktivierteEigenleistungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-23": {
+   "value": "1897000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-1f606e63-34de-48df-a92d-7d02bde2e56d"
+     ]
+    }
+   }
+  },
+  "fact-24": {
+   "value": "1889000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-1f606e63-34de-48df-a92d-7d02bde2e56d"
+     ]
+    }
+   }
+  },
+  "fact-25": {
+   "value": "8453000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RawMaterialsAndConsumablesUsed",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-26": {
+   "value": "19827000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RawMaterialsAndConsumablesUsed",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-27": {
+   "value": "6436000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-28": {
+   "value": "9121000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-29": {
+   "value": "4389000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Abschreibungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-c7055585-5ca8-4c10-a4d8-6fe01c27b918"
+     ]
+    }
+   }
+  },
+  "fact-30": {
+   "value": "2776000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Abschreibungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-c7055585-5ca8-4c10-a4d8-6fe01c27b918"
+     ]
+    }
+   }
+  },
+  "fact-31": {
+   "value": "3472000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-d587e769-a519-4558-8f19-afb40d8ca447"
+     ]
+    }
+   }
+  },
+  "fact-32": {
+   "value": "5585000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-d587e769-a519-4558-8f19-afb40d8ca447"
+     ]
+    }
+   }
+  },
+  "fact-33": {
+   "value": "-7089000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-34": {
+   "value": "1689000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-35": {
+   "value": "-276000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-36": {
+   "value": "88000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-37": {
+   "value": "12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-38": {
+   "value": "80000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-39": {
+   "value": "83000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromInterest",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-40": {
+   "value": "79000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromInterest",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-41": {
+   "value": "417000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-42": {
+   "value": "394000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-43": {
+   "value": "-944000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherFinanceIncomeCost",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-44": {
+   "value": "318000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherFinanceIncomeCost",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-45": {
+   "value": "-1542000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncomeCost",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-46": {
+   "value": "171000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncomeCost",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-47": {
+   "value": "-8631000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-48": {
+   "value": "1860000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-49": {
+   "value": "-1865000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-50": {
+   "value": "615000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-51": {
+   "value": "-6766000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-52": {
+   "value": "1245000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-53": {
+   "value": "41000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-54": {
+   "value": "-32000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-55": {
+   "value": "-6725000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-56": {
+   "value": "1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-57": {
+   "value": "-12.51",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicAndDilutedEarningsLossPerShare",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-58": {
+   "value": "2.55",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicAndDilutedEarningsLossPerShare",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-2": {
+   "value": "36000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AufloesungWertberichtigungForderungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-3": {
+   "value": "46000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AufloesungWertberichtigungForderungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-4": {
+   "value": "19000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AbschreibungenForderungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-5": {
+   "value": "23000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AbschreibungenForderungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-6": {
+   "value": "251000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:WertberichtigungenForderungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-7": {
+   "value": "120000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:WertberichtigungenForderungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-59": {
+   "value": "-6766000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-60": {
+   "value": "1245000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-61": {
+   "value": "-107000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-62": {
+   "value": "115000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-63": {
+   "value": "-29000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-64": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-65": {
+   "value": "-655000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxCashFlowHedges",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-66": {
+   "value": "258000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxCashFlowHedges",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-67": {
+   "value": "143000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:FolgebewertungHedgesKostenDerAbsicherung",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-68": {
+   "value": "476000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:FolgebewertungHedgesKostenDerAbsicherung",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-69": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-70": {
+   "value": "13000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-71": {
+   "value": "-4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:SonstigeErfolgsneutraleAufwendungenundErtraege",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-72": {
+   "value": "15000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:SonstigeErfolgsneutraleAufwendungenundErtraege",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-73": {
+   "value": "-125000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-74": {
+   "value": "182000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-75": {
+   "value": "-523000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-76": {
+   "value": "705000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-77": {
+   "value": "-2584000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-78": {
+   "value": "-1108000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-79": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnHedgingInstrumentsThatHedgeInvestmentsInEquityInstruments",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-80": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnHedgingInstrumentsThatHedgeInvestmentsInEquityInstruments",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-81": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-82": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-83": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:SonstigeErfolgsneutraleAufwendungenUndErtraege_ohne_Reklass",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-84": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:SonstigeErfolgsneutraleAufwendungenUndErtraege_ohne_Reklass",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-85": {
+   "value": "-622000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-86": {
+   "value": "-345000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-87": {
+   "value": "-1961000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-88": {
+   "value": "-757000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-89": {
+   "value": "-2484000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-90": {
+   "value": "-52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-91": {
+   "value": "-9250000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-92": {
+   "value": "1193000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-93": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-94": {
+   "value": "-31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-95": {
+   "value": "-9202000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-96": {
+   "value": "1162000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-97": {
+   "value": "1169000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ImmaterielleVermoegenswerteMitUnbestimmterNutzungsdauer",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-1fd265ad-4826-4316-abd1-89139e5b7cf6"
+     ]
+    }
+   }
+  },
+  "fact-98": {
+   "value": "1395000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ImmaterielleVermoegenswerteMitUnbestimmterNutzungsdauer",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-1fd265ad-4826-4316-abd1-89139e5b7cf6"
+     ]
+    }
+   }
+  },
+  "fact-99": {
+   "value": "469000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIntangibleAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-100": {
+   "value": "547000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIntangibleAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-101": {
+   "value": "15842000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:FlugzeugeUndReservetriebwerke",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-102": {
+   "value": "18349000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:FlugzeugeUndReservetriebwerke",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-103": {
+   "value": "1823000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ReparaturfaehigeFlugzeugersatzteile",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-104": {
+   "value": "2270000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ReparaturfaehigeFlugzeugersatzteile",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-105": {
+   "value": "3671000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherPropertyPlantAndEquipment",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-106": {
+   "value": "4041000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherPropertyPlantAndEquipment",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-107": {
+   "value": "403000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-108": {
+   "value": "672000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-109": {
+   "value": "252000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsOtherThanInvestmentsAccountedForUsingEquityMethod",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-110": {
+   "value": "256000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsOtherThanInvestmentsAccountedForUsingEquityMethod",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-111": {
+   "value": "54000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:LangfristigeWertpapiere",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-112": {
+   "value": "53000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:LangfristigeWertpapiere",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-113": {
+   "value": "440000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentReceivables",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-114": {
+   "value": "469000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentReceivables",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-115": {
+   "value": "363000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentDerivativeFinancialAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-116": {
+   "value": "906000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentDerivativeFinancialAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-117": {
+   "value": "91000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAccruedIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-118": {
+   "value": "116000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAccruedIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-119": {
+   "value": "34000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsNoncurrent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-120": {
+   "value": "32000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsNoncurrent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-121": {
+   "value": "4833000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-122": {
+   "value": "2268000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-123": {
+   "value": "29444000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-124": {
+   "value": "31374000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-125": {
+   "value": "726000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-126": {
+   "value": "980000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-127": {
+   "value": "142000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentContractAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-128": {
+   "value": "277000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentContractAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-129": {
+   "value": "2843000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherReceivables",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-130": {
+   "value": "5417000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherReceivables",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-131": {
+   "value": "260000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentDerivativeFinancialAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-132": {
+   "value": "459000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentDerivativeFinancialAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-133": {
+   "value": "193000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAccruedIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-134": {
+   "value": "245000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAccruedIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-135": {
+   "value": "282000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsCurrent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-136": {
+   "value": "153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsCurrent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-137": {
+   "value": "3654000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Wertpapiere",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-138": {
+   "value": "1970000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Wertpapiere",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-139": {
+   "value": "1806000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:BankguthabenUndKassenbestaende",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-140": {
+   "value": "1415000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:BankguthabenUndKassenbestaende",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-141": {
+   "value": "134000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-142": {
+   "value": "369000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-143": {
+   "value": "10040000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-144": {
+   "value": "11285000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-145": {
+   "value": "39484000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-146": {
+   "value": "42659000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-147": {
+   "value": "1530000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-148": {
+   "value": "1224000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-149": {
+   "value": "378000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdditionalPaidinCapital",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-150": {
+   "value": "378000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdditionalPaidinCapital",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-151": {
+   "value": "4868000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Gewinnruecklagen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-152": {
+   "value": "5617000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Gewinnruecklagen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-153": {
+   "value": "1296000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-154": {
+   "value": "1715000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-155": {
+   "value": "-6725000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Konzernergebnis",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-156": {
+   "value": "1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Konzernergebnis",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-157": {
+   "value": "1347000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-158": {
+   "value": "10147000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-159": {
+   "value": "40000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-160": {
+   "value": "109000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-161": {
+   "value": "1387000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-162": {
+   "value": "10256000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-163": {
+   "value": "9531000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisionsForEmployeeBenefits",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-164": {
+   "value": "6659000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisionsForEmployeeBenefits",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-165": {
+   "value": "558000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherLongtermProvisions",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-166": {
+   "value": "490000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherLongtermProvisions",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-167": {
+   "value": "12252000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Finanzschulden",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-168": {
+   "value": "8396000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Finanzschulden",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-169": {
+   "value": "36000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentContractLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-170": {
+   "value": "25000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentContractLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-171": {
+   "value": "86000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentFinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-172": {
+   "value": "76000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentFinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-173": {
+   "value": "33000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentNonfinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-174": {
+   "value": "32000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentNonfinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-175": {
+   "value": "457000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentDerivativeFinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-176": {
+   "value": "128000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentDerivativeFinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-177": {
+   "value": "485000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-178": {
+   "value": "611000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-179": {
+   "value": "23438000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-180": {
+   "value": "16417000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-181": {
+   "value": "831000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherShorttermProvisions",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-182": {
+   "value": "794000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherShorttermProvisions",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-183": {
+   "value": "3116000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Finanzschuldenkurzfristig",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-184": {
+   "value": "1634000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Finanzschuldenkurzfristig",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-185": {
+   "value": "3321000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-186": {
+   "value": "5351000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-187": {
+   "value": "2064000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:VertragsverbindlichkeitenAusNichtAusgeflogenenFlugdokumenten",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-188": {
+   "value": "4071000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:VertragsverbindlichkeitenAusNichtAusgeflogenenFlugdokumenten",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-189": {
+   "value": "2977000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:UebrigeVertragsverbindlichkeiten",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-190": {
+   "value": "2675000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:UebrigeVertragsverbindlichkeiten",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-191": {
+   "value": "1295000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentNonfinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-192": {
+   "value": "382000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentNonfinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-193": {
+   "value": "366000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentDerivativeFinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-194": {
+   "value": "137000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentDerivativeFinancialLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-195": {
+   "value": "689000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-196": {
+   "value": "402000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-197": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-198": {
+   "value": "540000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-199": {
+   "value": "14659000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-200": {
+   "value": "15986000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-201": {
+   "value": "39484000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-202": {
+   "value": "42659000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-203": {
+   "value": "1217000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-204": {
+   "value": "343000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-205": {
+   "value": "237000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-206": {
+   "value": "388000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-207": {
+   "value": "236000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-208": {
+   "value": "324000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-209": {
+   "value": "1185000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-210": {
+   "value": "4588000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-211": {
+   "value": "2163000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-212": {
+   "value": "9496000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-213": {
+   "value": "110000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-214": {
+   "value": "9606000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-215": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-216": {
+   "value": "35000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-217": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-218": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-219": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-220": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-221": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-222": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-223": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-224": {
+   "value": "42000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-225": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-226": {
+   "value": "43000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-227": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-228": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-229": {
+   "value": "-9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-230": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-231": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-232": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-233": {
+   "value": "-9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-234": {
+   "value": "1792000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-235": {
+   "value": "-1783000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-236": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-237": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-238": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-239": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-240": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-241": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-242": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-243": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-244": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-245": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-246": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-247": {
+   "value": "380000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-248": {
+   "value": "380000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-249": {
+   "value": "33000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-250": {
+   "value": "413000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-251": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-252": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-253": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-254": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-255": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-256": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-257": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-258": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-259": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-260": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-261": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-262": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-263": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-264": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-265": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-266": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-267": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-268": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-269": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-270": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-271": {
+   "value": "1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-272": {
+   "value": "1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-273": {
+   "value": "32000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-274": {
+   "value": "1245000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-275": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-276": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-277": {
+   "value": "569000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-278": {
+   "value": "115000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-279": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-280": {
+   "value": "28000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-281": {
+   "value": "712000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-282": {
+   "value": "-763000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-283": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-284": {
+   "value": "-51000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-285": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-286": {
+   "value": "-52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-287": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-288": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-289": {
+   "value": "-173000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-290": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-291": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-292": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-293": {
+   "value": "-173000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-294": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-295": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-296": {
+   "value": "-173000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-297": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-298": {
+   "value": "-173000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-299": {
+   "value": "1224000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-300": {
+   "value": "378000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-301": {
+   "value": "624000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-302": {
+   "value": "503000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-303": {
+   "value": "236000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-304": {
+   "value": "352000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-305": {
+   "value": "1715000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-306": {
+   "value": "5617000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-307": {
+   "value": "1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-308": {
+   "value": "10147000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-309": {
+   "value": "109000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-310": {
+   "value": "10256000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-311": {
+   "value": "306000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-312": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-313": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-314": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-315": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-316": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-317": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-318": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-319": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-320": {
+   "value": "306000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-321": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-322": {
+   "value": "306000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Kapitalerhoehungenundherabsetzungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-323": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-324": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-325": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-326": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-327": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-328": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-329": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-330": {
+   "value": "1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-331": {
+   "value": "-1213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-332": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-333": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-334": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-335": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-336": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-337": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-338": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-339": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-340": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-341": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-342": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-343": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-344": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-345": {
+   "value": "21000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-346": {
+   "value": "21000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-347": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-348": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-349": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-350": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-351": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-352": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-353": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-354": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-355": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-356": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-357": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-358": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-359": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-360": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-361": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-362": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-363": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-364": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-365": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-366": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-367": {
+   "value": "-6725000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-368": {
+   "value": "-6725000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-369": {
+   "value": "-41000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-370": {
+   "value": "-6766000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-371": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-372": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-373": {
+   "value": "-415000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-374": {
+   "value": "-107000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-375": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-376": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-377": {
+   "value": "-515000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-378": {
+   "value": "-1962000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-379": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-380": {
+   "value": "-2477000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-381": {
+   "value": "-7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-382": {
+   "value": "-2484000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-383": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-384": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-385": {
+   "value": "96000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-386": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-387": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-388": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-389": {
+   "value": "96000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-390": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-391": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-392": {
+   "value": "96000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-393": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-394": {
+   "value": "96000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Sicherungsergebnisse",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-395": {
+   "value": "1530000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-396": {
+   "value": "378000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AdditionalPaidinCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-397": {
+   "value": "305000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:MarktbewertungsruecklageFinanzinstrumenteMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-398": {
+   "value": "396000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-399": {
+   "value": "236000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:NeubewertungsruecklageSukzessiverwerbeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-400": {
+   "value": "359000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SonstigeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-401": {
+   "value": "1296000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:SummeNeutraleRuecklagenMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-402": {
+   "value": "4868000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-403": {
+   "value": "-6725000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "deutschelufthansa:KonzernergebnisMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-404": {
+   "value": "1347000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-405": {
+   "value": "40000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-406": {
+   "value": "1387000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-407": {
+   "value": "1431000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-408": {
+   "value": "1434000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-409": {
+   "value": "-8631000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-410": {
+   "value": "1860000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-411": {
+   "value": "4393000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerAbschreibungenAufAnlagevermoegenSaldiertMitZuschreibungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-412": {
+   "value": "2738000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerAbschreibungenAufAnlagevermoegenSaldiertMitZuschreibungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-413": {
+   "value": "159000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerAbschreibungenAufUmlaufteileSaldiertMitZuschreibungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-414": {
+   "value": "99000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerAbschreibungenAufUmlaufteileSaldiertMitZuschreibungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-415": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-416": {
+   "value": "20000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-417": {
+   "value": "264000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenausdemBeteiligungsergebnis",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-418": {
+   "value": "-168000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenausdemBeteiligungsergebnis",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-419": {
+   "value": "334000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerZinsergebnis",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-420": {
+   "value": "315000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerZinsergebnis",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-421": {
+   "value": "81000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-422": {
+   "value": "-1009000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-423": {
+   "value": "212000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerWesentlicheNichtZahlungswirksameAufwendungenErtraege",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-424": {
+   "value": "-134000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerWesentlicheNichtZahlungswirksameAufwendungenErtraege",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-425": {
+   "value": "-683000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungfuerVeraenderungTradeWorkingCapital",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-426": {
+   "value": "490000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungfuerVeraenderungTradeWorkingCapital",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-427": {
+   "value": "1534000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerVeraenderungUebrigerAktivaPassiva",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-428": {
+   "value": "-181000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AnpassungenfuerVeraenderungUebrigerAktivaPassiva",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-429": {
+   "value": "-2328000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-430": {
+   "value": "4030000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-431": {
+   "value": "-1249000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenfuerInvestitionenInSachanlagenUndImmaterielleVermoegenswerte",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-432": {
+   "value": "-3486000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenfuerInvestitionenInSachanlagenUndImmaterielleVermoegenswerte",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-433": {
+   "value": "-24000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenfuerlnvestitioneninFinanzanlagen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-434": {
+   "value": "-73000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenfuerlnvestitioneninFinanzanlagen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-435": {
+   "value": "-276000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenEinzahlungenfuerZugaengeAbgaengeAnReparaturfaehigenFlugzeugersatzteilen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-436": {
+   "value": "231000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenEinzahlungenfuerZugaengeAbgaengeAnReparaturfaehigenFlugzeugersatzteilen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-437": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinnahmenAusVerkaeufenVonNichtKonsolidiertenAnteilen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-438": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinnahmenAusVerkaeufenVonNichtKonsolidiertenAnteilen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-439": {
+   "value": "-218000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-634db6bc-9219-468f-8f8e-0e1877c9fb24"
+     ]
+    }
+   }
+  },
+  "fact-440": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-634db6bc-9219-468f-8f8e-0e1877c9fb24"
+     ]
+    }
+   }
+  },
+  "fact-441": {
+   "value": "-39000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenfuerKaeufeKapitalerhoehungenVonBeiNichtKonsolidiertenAnteilen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-442": {
+   "value": "-107000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:AuszahlungenfuerKaeufeKapitalerhoehungenVonBeiNichtKonsolidiertenAnteilen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-443": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-444": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-445": {
+   "value": "166000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinzahlungenausdemAbgangSach-undsonstigeFinanzanlagen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-446": {
+   "value": "132000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinzahlungenausdemAbgangSach-undsonstigeFinanzanlagen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-447": {
+   "value": "66000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-448": {
+   "value": "70000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-449": {
+   "value": "57000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-450": {
+   "value": "243000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-451": {
+   "value": "-962000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:NettozuAbfluesseAusDerInvestitionstaetigkeit",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-452": {
+   "value": "-3448000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:NettozuAbfluesseAusDerInvestitionstaetigkeit",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-453": {
+   "value": "10678000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-454": {
+   "value": "4989000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-455": {
+   "value": "9298000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-456": {
+   "value": "4570000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-457": {
+   "value": "-2342000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-458": {
+   "value": "-3867000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-459": {
+   "value": "306000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinzahlungausKapitalerhoehungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-460": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinzahlungausKapitalerhoehungen",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-461": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinzahlungenAuszahlungenfuerTransaktionenDurchNichtBeherrschendeAnteile",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-462": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:EinzahlungenAuszahlungenfuerTransaktionenDurchNichtBeherrschendeAnteile",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-463": {
+   "value": "6738000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-464": {
+   "value": "3843000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-465": {
+   "value": "1724000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-466": {
+   "value": "3413000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-467": {
+   "value": "21000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-468": {
+   "value": "414000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-469": {
+   "value": "223000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-470": {
+   "value": "178000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-471": {
+   "value": "5076000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-472": {
+   "value": "-161000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-473": {
+   "value": "406000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-474": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-475": {
+   "value": "-33000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-476": {
+   "value": "-5000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-477": {
+   "value": "1804000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-478": {
+   "value": "1431000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-479": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ZahlungsmittelzumVerkauf",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-480": {
+   "value": "16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ZahlungsmittelzumVerkauf",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-481": {
+   "value": "1804000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ZahlungsmittelFortgefuehrteTaetigkeiten",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-4f638f54-78e6-42e8-97a8-955cf5566729"
+     ]
+    }
+   }
+  },
+  "fact-482": {
+   "value": "1415000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:ZahlungsmittelFortgefuehrteTaetigkeiten",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "fid-4f638f54-78e6-42e8-97a8-955cf5566729"
+     ]
+    }
+   }
+  },
+  "fact-483": {
+   "value": "3654000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Wertpapiere",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-484": {
+   "value": "1970000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Wertpapiere",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-485": {
+   "value": "5458000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:FluessigeMittel",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-486": {
+   "value": "3385000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:FluessigeMittel",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-487": {
+   "value": "2073000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:NettozuAbnahmeDerFluessigenMittel",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-488": {
+   "value": "216000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:NettozuAbnahmeDerFluessigenMittel",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-8": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Termingelderueber3Monate",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-9": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "deutschelufthansa:Termingelderueber3Monate",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-10": {
+   "value": "Deutsche Lufthansa AG",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "de",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-14": {
+   "value": "Die Lufthansa Group ist ein weltweit operierender Luftver-kehrskonzern, deren Tochterunternehmen und Beteiligungs-gesellschaften im Gesch\u00e4ftsjahr 2020 in f\u00fcnf Gesch\u00e4fts-feldern organisiert waren: Network Airlines, Eurowings, Logistik, Technik und Catering.",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "de",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-12": {
+   "value": "AG",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "de",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-11": {
+   "value": "K\u00f6ln",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "de",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-13": {
+   "value": "Deutschland",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "de",
+    "entity": "scheme:529900PH63HYJ86ASW55",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fid-634db6bc-9219-468f-8f8e-0e1877c9fb24": {
+   "value": "1)  Abz\u00fcglich abgehender Zahlungsmitt<span class=\"_ _2\"/>el.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "fid-634db6bc-9219-468f-8f8e-0e1877c9fb24",
+    "language": "de"
+   }
+  },
+  "fid-4f638f54-78e6-42e8-97a8-955cf5566729": {
+   "value": "2) <span class=\"_ _1\"> </span> <span class=\"_ _16\"/>Die Abweichung <span class=\"_ _2\"/>von den in der<span class=\"_ _2\"/> Bilanz ausgewiesenen Bankguthaben und Kassenbes<span class=\"_ _2\"/>t\u00e4nden ergibt sich aus <span class=\"_ _4\"/>T<span class=\"_ _2\"/>ermingeldern mit v<span class=\"_ _2\"/>ereinbarter<span class=\"_ _2\"/> Laufzeit zwischen vier<span class=\"_ _4\"/>  und zw\u00f6lf Mona<span class=\"_ _2\"/>ten in H\u00f6he v<span class=\"_ _2\"/>on 2 Mio. EUR (V<span class=\"_ _2\"/>orjahr: 0 Mio. EUR).",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "fid-4f638f54-78e6-42e8-97a8-955cf5566729",
+    "language": "de"
+   }
+  },
+  "fid-d587e769-a519-4558-8f19-afb40d8ca447": {
+   "value": "3) <span class=\"_ _1\"/>Darin enthalten 251 Mio. EUR (V<span class=\"_ _4\"/>orjahr: 120 Mio. EUR) aus der Bildung von <span class=\"_ _2\"/>W<span class=\"_ _2\"/>ertberichtigungen auf kurzfris<span class=\"_ _2\"/>tige Forderungen.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "fid-d587e769-a519-4558-8f19-afb40d8ca447",
+    "language": "de"
+   }
+  },
+  "fid-c7055585-5ca8-4c10-a4d8-6fe01c27b918": {
+   "value": "2) <span class=\"_ _1\"> </span>Darin enthalten 19 Mio. EUR (V<span class=\"_ _2\"/>orjahr: 23 Mio. EUR) aus der Bildung <span class=\"_ _2\"/>von <span class=\"_ _2\"/>Abschreibungen auf<span class=\"_ _2\"/> langfristige For<span class=\"_ _2\"/>derungen.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "fid-c7055585-5ca8-4c10-a4d8-6fe01c27b918",
+    "language": "de"
+   }
+  },
+  "fid-1fd265ad-4826-4316-abd1-89139e5b7cf6": {
+   "value": "1)  Inkl. Gesch\u00e4fts- oder Firmenwert<span class=\"_ _2\"/>e.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "fid-1fd265ad-4826-4316-abd1-89139e5b7cf6",
+    "language": "de"
+   }
+  },
+  "fid-1f606e63-34de-48df-a92d-7d02bde2e56d": {
+   "value": "1)  Darin enthalten 36 Mio. EUR (V<span class=\"_ _4\"/>orjahr: 46 Mio. EUR) aus der Aufl\u00f6sung <span class=\"_ _2\"/>von W<span class=\"_ _4\"/>ertberichtigungen auf Forderungen.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "fid-1f606e63-34de-48df-a92d-7d02bde2e56d",
+    "language": "de"
+   }
+  }
+ }
+}
