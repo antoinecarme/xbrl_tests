@@ -1,0 +1,4382 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2019-03-27/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "neles": "http://neles.com",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://neles.com/neles-2020-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "fact-1": {
+   "value": "576000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-2": {
+   "value": "660000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-3": {
+   "value": "386000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CostOfSales",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-4": {
+   "value": "435000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CostOfSales",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-5": {
+   "value": "190000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GrossProfit",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-6": {
+   "value": "225000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GrossProfit",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-7": {
+   "value": "65000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:SalesAndMarketingExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-8": {
+   "value": "73000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:SalesAndMarketingExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-9": {
+   "value": "39000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdministrativeExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-10": {
+   "value": "39000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdministrativeExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-11": {
+   "value": "14000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-12": {
+   "value": "17000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ResearchAndDevelopmentExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-13": {
+   "value": "-2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherOperatingIncomeExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-14": {
+   "value": "-4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherOperatingIncomeExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-15": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-16": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-17": {
+   "value": "70000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-18": {
+   "value": "93000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-19": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-20": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-21": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-22": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-23": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-24": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-25": {
+   "value": "-6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncomeCost",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-26": {
+   "value": "-2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncomeCost",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-27": {
+   "value": "64000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-28": {
+   "value": "91000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-29": {
+   "value": "16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-30": {
+   "value": "22000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-31": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-32": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-33": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-34": {
+   "value": "230000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-35": {
+   "value": "2198000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-36": {
+   "value": "299000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-37": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperationsAttributableToOrdinaryEquityHoldersOfParentEntity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-38": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperationsAttributableToOrdinaryEquityHoldersOfParentEntity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-39": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperationsAttributableToOrdinaryEquityHoldersOfParentEntity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-40": {
+   "value": "232000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperationsAttributableToOrdinaryEquityHoldersOfParentEntity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-41": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-42": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperationsAttributableToNoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-43": {
+   "value": "2198000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-44": {
+   "value": "301000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-45": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-46": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-47": {
+   "value": "0.32",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShareFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-48": {
+   "value": "0.46",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShareFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-49": {
+   "value": "0.32",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShareFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-50": {
+   "value": "0.46",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShareFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-51": {
+   "value": "14.31",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShareFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-52": {
+   "value": "1.54",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShareFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-53": {
+   "value": "14.31",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShareFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-54": {
+   "value": "1.54",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShareFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-55": {
+   "value": "14.63",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-56": {
+   "value": "2",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-57": {
+   "value": "14.63",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShare",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-58": {
+   "value": "2",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShare",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "fact-59": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-60": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-61": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-62": {
+   "value": "-16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-63": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-64": {
+   "value": "-16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-65": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-66": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-67": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-68": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-69": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-70": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-71": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-72": {
+   "value": "-13000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-73": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-74": {
+   "value": "35000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-75": {
+   "value": "70000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-76": {
+   "value": "35000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-77": {
+   "value": "70000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-78": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-79": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-80": {
+   "value": "230000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-81": {
+   "value": "-52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:OtherComprehensiveIncomeDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-82": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:OtherComprehensiveIncomeDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-83": {
+   "value": "2098000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-84": {
+   "value": "231000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-85": {
+   "value": "2098000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ProfitFromDiscontinuedOperationsAttributableToShareholdersOfTheParentCompany",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-86": {
+   "value": "232000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ProfitFromDiscontinuedOperationsAttributableToShareholdersOfTheParentCompany",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-87": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:NonControllingInterestsDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-88": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:NonControllingInterestsDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-89": {
+   "value": "2133000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-90": {
+   "value": "301000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-91": {
+   "value": "2133000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:AttributableToShareholdersOfTheParentCompanyContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-92": {
+   "value": "303000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:AttributableToShareholdersOfTheParentCompanyContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-93": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:NonControllingInterestsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-94": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:NonControllingInterestsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-95": {
+   "value": "57000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-96": {
+   "value": "62000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-97": {
+   "value": "17000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-98": {
+   "value": "18000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-99": {
+   "value": "74000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsAndGoodwill",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-100": {
+   "value": "81000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsAndGoodwill",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-101": {
+   "value": "6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Land",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-102": {
+   "value": "6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Land",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-103": {
+   "value": "22000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Buildings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-104": {
+   "value": "21000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Buildings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-105": {
+   "value": "30000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Machinery",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-106": {
+   "value": "28000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Machinery",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-107": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ConstructionInProgress",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-108": {
+   "value": "11000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ConstructionInProgress",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-109": {
+   "value": "62000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-110": {
+   "value": "67000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-111": {
+   "value": "51000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-112": {
+   "value": "46000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-113": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-114": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-115": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentFinancialAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-116": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentFinancialAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-117": {
+   "value": "18000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-118": {
+   "value": "13000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-119": {
+   "value": "12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-120": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-121": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-122": {
+   "value": "14000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-123": {
+   "value": "217000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-124": {
+   "value": "208000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-125": {
+   "value": "160000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InventoriesTotal",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-126": {
+   "value": "181000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InventoriesTotal",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-127": {
+   "value": "89000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-128": {
+   "value": "95000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-129": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DerivativeFinancialAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-130": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DerivativeFinancialAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-131": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsCurrent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-132": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssetsCurrent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-133": {
+   "value": "37000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-134": {
+   "value": "40000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-135": {
+   "value": "136000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-136": {
+   "value": "57000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-137": {
+   "value": "426000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-138": {
+   "value": "374000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-139": {
+   "value": "3305000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DiscontinuedOperationsAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-140": {
+   "value": "644000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-141": {
+   "value": "3887000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-142": {
+   "value": "51000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-143": {
+   "value": "141000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-144": {
+   "value": "36000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfExchangeDifferencesOnTranslation",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-145": {
+   "value": "52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfExchangeDifferencesOnTranslation",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-146": {
+   "value": "28000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-147": {
+   "value": "298000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-148": {
+   "value": "-155000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-149": {
+   "value": "148000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-150": {
+   "value": "1187000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-151": {
+   "value": "263000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-152": {
+   "value": "1523000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-153": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-154": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-155": {
+   "value": "263000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-156": {
+   "value": "1526000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-157": {
+   "value": "150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentPortionOfNoncurrentLoansReceived",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-158": {
+   "value": "36000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentPortionOfNoncurrentLoansReceived",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-159": {
+   "value": "41000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-160": {
+   "value": "37000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-161": {
+   "value": "21000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentRecognisedLiabilitiesDefinedBenefitPlan",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-162": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentRecognisedLiabilitiesDefinedBenefitPlan",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-163": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-164": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-165": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-166": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-167": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-168": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-169": {
+   "value": "216000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-170": {
+   "value": "89000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-171": {
+   "value": "16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShorttermBorrowings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-172": {
+   "value": "20000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShorttermBorrowings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-173": {
+   "value": "11000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLeaseLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-174": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLeaseLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-175": {
+   "value": "60000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-176": {
+   "value": "63000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayablesToTradeSuppliers",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-177": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentProvisions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-178": {
+   "value": "12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentProvisions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-179": {
+   "value": "27000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAdvances",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-180": {
+   "value": "24000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAdvances",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-181": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentDerivativeFinancialLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-182": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentDerivativeFinancialLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-183": {
+   "value": "5000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-184": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-185": {
+   "value": "35000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-186": {
+   "value": "39000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-187": {
+   "value": "164000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-188": {
+   "value": "171000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-189": {
+   "value": "381000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-190": {
+   "value": "259000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-191": {
+   "value": "2102000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DiscontinuedOperationsLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-192": {
+   "value": "644000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-193": {
+   "value": "3887000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-194": {
+   "value": "141000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-195": {
+   "value": "52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-196": {
+   "value": "298000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-197": {
+   "value": "-155000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-198": {
+   "value": "1187000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-199": {
+   "value": "1523000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-200": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-201": {
+   "value": "1526000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-202": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-203": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-204": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-205": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-206": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-207": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-208": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-209": {
+   "value": "-16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-210": {
+   "value": "-53000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-211": {
+   "value": "-68000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-212": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-213": {
+   "value": "-68000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-214": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DefinedBenefitPlanActuarialGainsAndLossesContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-215": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DefinedBenefitPlanActuarialGainsAndLossesContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-216": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DefinedBenefitPlanActuarialGainsAndLossesContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-217": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-218": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-219": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-220": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-221": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-222": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-223": {
+   "value": "-16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-224": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-225": {
+   "value": "-53000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-226": {
+   "value": "2200000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-227": {
+   "value": "2133000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-228": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-229": {
+   "value": "2133000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-230": {
+   "value": "221000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-231": {
+   "value": "221000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-232": {
+   "value": "221000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-233": {
+   "value": "-3171000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-234": {
+   "value": "-3171000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-235": {
+   "value": "-3171000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-236": {
+   "value": "-90000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EffectOfDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-237": {
+   "value": "-273000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EffectOfDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-238": {
+   "value": "208000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EffectOfDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-239": {
+   "value": "156000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EffectOfDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-240": {
+   "value": "-3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EffectOfDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-241": {
+   "value": "-3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EffectOfDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-242": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-243": {
+   "value": "-8000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-244": {
+   "value": "-6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-245": {
+   "value": "-6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-246": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-247": {
+   "value": "-3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-248": {
+   "value": "-2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-249": {
+   "value": "-2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-250": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:PriorYearCorrections",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-251": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:PriorYearCorrections",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-252": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:PriorYearCorrections",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-253": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-254": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-255": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-256": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-257": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-258": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EquityFinancingMetsoGroup",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-259": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EquityFinancingMetsoGroup",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-260": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:EquityFinancingMetsoGroup",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-261": {
+   "value": "51000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-262": {
+   "value": "36000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-263": {
+   "value": "28000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-264": {
+   "value": "148000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-265": {
+   "value": "263000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-266": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-267": {
+   "value": "263000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-268": {
+   "value": "141000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-269": {
+   "value": "-101000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-270": {
+   "value": "302000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-271": {
+   "value": "1061000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-272": {
+   "value": "1403000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-273": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-274": {
+   "value": "1413000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-275": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-276": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-277": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-278": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-279": {
+   "value": "232000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-280": {
+   "value": "232000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-281": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-282": {
+   "value": "230000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-283": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnCashFlowHedgesBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-284": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnCashFlowHedgesBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-285": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnCashFlowHedgesBeforeTax",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-286": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-287": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-288": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-289": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-290": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-291": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-292": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-293": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-294": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-295": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CurrencyTranslationOnSubsidiaryNetInvestmentsContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-296": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DefinedBenefitPlanActuarialGainsAndLossesContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-297": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DefinedBenefitPlanActuarialGainsAndLossesContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-298": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:DefinedBenefitPlanActuarialGainsAndLossesContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-299": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-300": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-301": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-302": {
+   "value": "151000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-303": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-304": {
+   "value": "-155000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-305": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:ComprehensiveIncomeDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-306": {
+   "value": "152000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-307": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-308": {
+   "value": "-155000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-309": {
+   "value": "302000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-310": {
+   "value": "302000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-311": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-312": {
+   "value": "301000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:TotalComprehensiveIncomeContinuingDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-313": {
+   "value": "180000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-314": {
+   "value": "180000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-315": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-316": {
+   "value": "180000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-317": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-318": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-319": {
+   "value": "6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-320": {
+   "value": "6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-321": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-322": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-323": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-324": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DecreaseIncreaseThroughTaxOnSharebasedPaymentTransactions",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-325": {
+   "value": "-12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-326": {
+   "value": "12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-327": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-328": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-329": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-330": {
+   "value": "-7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-331": {
+   "value": "-7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-332": {
+   "value": "-7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-333": {
+   "value": "-13000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughDisposalOfSubsidiary",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-334": {
+   "value": "141000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-335": {
+   "value": "52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-336": {
+   "value": "298000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-337": {
+   "value": "-155000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "neles:DiscontinuedoperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-338": {
+   "value": "1187000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-339": {
+   "value": "1523000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-340": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-341": {
+   "value": "1526000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-342": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-343": {
+   "value": "69000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-344": {
+   "value": "2150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-345": {
+   "value": "230000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-346": {
+   "value": "24000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-347": {
+   "value": "82000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-348": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-349": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-350": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfAssociates",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-351": {
+   "value": "18000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceCosts",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-352": {
+   "value": "38000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceCosts",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-353": {
+   "value": "63000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncomeTaxExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-354": {
+   "value": "95000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncomeTaxExpense",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-355": {
+   "value": "-2022000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:FairValueOfDistributedNetAssetInTheDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-356": {
+   "value": "6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAdjustmentsToReconcileProfitLoss",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-357": {
+   "value": "-2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAdjustmentsToReconcileProfitLoss",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-358": {
+   "value": "-203000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInWorkingCapital",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-359": {
+   "value": "254000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInWorkingCapital",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-360": {
+   "value": "488000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-361": {
+   "value": "258000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-362": {
+   "value": "21000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-363": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-364": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-365": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-366": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-367": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-368": {
+   "value": "51000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-369": {
+   "value": "137000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-370": {
+   "value": "416000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-371": {
+   "value": "91000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-372": {
+   "value": "54000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-373": {
+   "value": "107000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-374": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-375": {
+   "value": "8000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-376": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-377": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-378": {
+   "value": "214000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-379": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-380": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-381": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-382": {
+   "value": "-52000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-383": {
+   "value": "-276000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-384": {
+   "value": "221000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-385": {
+   "value": "180000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-386": {
+   "value": "13000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsFromChangesInOwnershipInterestsInSubsidiaries",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-387": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfOtherEquityInstruments",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-388": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:IncreaseInLoanReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-389": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:IncreaseInLoanReceivables",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-390": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-391": {
+   "value": "-78000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-392": {
+   "value": "140000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-393": {
+   "value": "450000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-394": {
+   "value": "175000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBorrowingsClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-395": {
+   "value": "23000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-396": {
+   "value": "34000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-397": {
+   "value": "14000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashFlowOfEquityFinancingMetsoGroup",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-398": {
+   "value": "-116000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-399": {
+   "value": "-29000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-400": {
+   "value": "248000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-401": {
+   "value": "-215000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-402": {
+   "value": "-12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-403": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-404": {
+   "value": "312000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsTransferredInDemerger",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-405": {
+   "value": "57000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-406": {
+   "value": "156000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsDiscontinuedOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-407": {
+   "value": "213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsAtBeginningOfYear",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-02T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-408": {
+   "value": "426000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsAtBeginningOfYear",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2019-01-02T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-409": {
+   "value": "57000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsAtEndOfYearContinuingOperations",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-410": {
+   "value": "156000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsDiscontinued",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ContinuingAndDiscontinuedOperationsAxis": "ifrs-full:DiscontinuedOperationsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-411": {
+   "value": "136000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsTotal",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-412": {
+   "value": "213000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "neles:CashAndCashEquivalentsTotal",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "fact-413": {
+   "value": "Neles",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-414": {
+   "value": "globaali virtauksens\u00e4\u00e4t\u00f6- ratkaisujen ja -palveluiden toimittaja. Se palvelee \u00f6ljyn- ja kaasunjalostusteollisuutta, sellu-,  paperi- ja biotuoteteollisuutta, kemianteollisuutta sek\u00e4 muita prosessiteollisuuksia",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-415": {
+   "value": "Oyj ",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-416": {
+   "value": "Neles Oyj",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-417": {
+   "value": "Suomi",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-418": {
+   "value": "Vanha Porvoontie 229",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-419": {
+   "value": "1.1.\u201331. 12. 2020",
+   "dimensions": {
+    "concept": "ifrs-full:PeriodCoveredByFinancialStatements",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-420": {
+   "value": "Neles Oyj",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfParentEntity",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-421": {
+   "value": "Konsernitilinp\u00e4\u00e4t\u00f6s ",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfFinancialStatements",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-422": {
+   "value": "Neleksen ylim\u00e4\u00e4r\u00e4isen yhti\u00f6kokouksen 29. 10. 2019 tekem\u00e4n osittaisjakautumista  koskevan p\u00e4\u00e4t\u00f6ksen mukaisesti Minerals-segmentin liiketoiminnat sek\u00e4 vastaava osuus  er\u00e4st\u00e4 Konsernihallinto ja muut on luokiteltu ja esitetty IFRS 5 mukaisina lopetettuina toimin- toina marraskuun 2019 alusta alkaen, ja vastaavasti siihen kohdistuvien poistojen laskenta  lopetettu samaan ajankohtaan. Osittaisjakautumisen my\u00f6t\u00e4 Neleksen (ennen Flow Control)  liiketoiminnat muodostivat Neles-konsernin (ennen Metso) jatkuvat toiminnot. Minerals- liiketoiminnan osittaisjakautuminen astui voimaan 30. 6. 2020. ",
+   "dimensions": {
+    "concept": "ifrs-full:ExplanationOfChangeInNameOfReportingEntityOrOtherMeansOfIdentificationFromEndOfPrecedingReportingPeriod",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-423": {
+   "value": "Neleksen tilinp\u00e4\u00e4t\u00f6s esitet\u00e4\u00e4n euroina, joka on Neles Oyj:n toiminnallinen valuutta ja  Neleksen esitt\u00e4misvaluutta",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfPresentationCurrency",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-424": {
+   "value": "Esitetyt luvut on py\u00f6ristetty, jolloin yksitt\u00e4isten lukujen summa voi  poiketa esitetyst\u00e4 summaluvusta.",
+   "dimensions": {
+    "concept": "ifrs-full:LevelOfRoundingUsedInFinancialStatements",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-425": {
+   "value": "Suomi",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-426": {
+   "value": "Suomi ",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "fi",
+    "entity": "scheme:2138007FRMWVPUDCMA45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  }
+ }
+}
