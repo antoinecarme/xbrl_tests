@@ -1,0 +1,4413 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "fimbank": "http://fimbank.com/xbrl/2021",
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://fimbank.com/xbrl/2021/529900q2c3i7vcillg45-2021-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "fact-1": {
+   "value": "public limited company",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-2": {
+   "value": "Malta",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-3": {
+   "value": "The Bank is principally active in providing international trade finance and to act as an intermediary to other financial institutions for international settlements, real estate financing, factoring and loan syndications",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-9": {
+   "value": "239998839",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndBankBalancesAtCentralBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-10": {
+   "value": "319287524",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndBankBalancesAtCentralBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-11": {
+   "value": "841688",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DerivativeFinancialAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-12": {
+   "value": "991624",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DerivativeFinancialAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-13": {
+   "value": "439985203",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-14": {
+   "value": "452326547",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-15": {
+   "value": "198488576",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:LoansAndAdvancesToBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-16": {
+   "value": "193139577",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:LoansAndAdvancesToBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-17": {
+   "value": "628912340",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:LoansAndAdvancesToCustomers",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-18": {
+   "value": "591995726",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:LoansAndAdvancesToCustomers",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-19": {
+   "value": "19966163",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FinancialAssetsAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-20": {
+   "value": "20385323",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FinancialAssetsAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-21": {
+   "value": "162408542",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FinancialAssetsAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-22": {
+   "value": "153327686",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FinancialAssetsAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-23": {
+   "value": "9914754",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FinancialAssetsAtAmortisedCost",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-24": {
+   "value": "9839457",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FinancialAssetsAtAmortisedCost",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-25": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInSubsidiaries",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-26": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInSubsidiaries",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-27": {
+   "value": "30910454",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-28": {
+   "value": "32166816",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-29": {
+   "value": "17223820",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentProperty",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-30": {
+   "value": "17223820",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentProperty",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-31": {
+   "value": "9376595",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsAndGoodwill",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-32": {
+   "value": "9698335",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsAndGoodwill",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-33": {
+   "value": "1280465",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-34": {
+   "value": "1397553",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-35": {
+   "value": "24920527",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-36": {
+   "value": "25875734",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-37": {
+   "value": "4244384",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-38": {
+   "value": "6390301",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-39": {
+   "value": "1788472350",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-40": {
+   "value": "1834046023",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-41": {
+   "value": "1499026",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DerivativeFinancialLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-42": {
+   "value": "1629434",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DerivativeFinancialLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-43": {
+   "value": "563553044",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-44": {
+   "value": "429443480",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-45": {
+   "value": "934096196",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromCustomers",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-46": {
+   "value": "1101570295",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromCustomers",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-47": {
+   "value": "45345575",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DebtSecurities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-48": {
+   "value": "50832661",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DebtSecurities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-49": {
+   "value": "567144",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-50": {
+   "value": "337725",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-51": {
+   "value": "4215075",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-52": {
+   "value": "4215075",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-53": {
+   "value": "356722",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Provisions",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-54": {
+   "value": "275889",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Provisions",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-55": {
+   "value": "14859385",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-56": {
+   "value": "12583335",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-57": {
+   "value": "1564492167",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-58": {
+   "value": "1600887894",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-59": {
+   "value": "261221882",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-60": {
+   "value": "261221882",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-61": {
+   "value": "858885",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-62": {
+   "value": "858885",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-63": {
+   "value": "2218995",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ReserveForGeneralBankingRisks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-64": {
+   "value": "3358738",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ReserveForGeneralBankingRisks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-65": {
+   "value": "-10941184",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfExchangeDifferencesOnTranslation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-66": {
+   "value": "-10011229",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfExchangeDifferencesOnTranslation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-67": {
+   "value": "9879740",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-68": {
+   "value": "13367626",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-69": {
+   "value": "2982435",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-70": {
+   "value": "2982435",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-71": {
+   "value": "-42869373",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-72": {
+   "value": "-39027680",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-73": {
+   "value": "223351380",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-74": {
+   "value": "232750657",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAttributableToOwnersOfParent",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-75": {
+   "value": "628803",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-76": {
+   "value": "407472",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-77": {
+   "value": "223980183",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-78": {
+   "value": "233158129",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-79": {
+   "value": "1788472350",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-80": {
+   "value": "1834046023",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-81": {
+   "value": "1950534",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ContingentLiabilitiesRecognisedAsOfAcquisitionDate",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-82": {
+   "value": "1910418",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ContingentLiabilitiesRecognisedAsOfAcquisitionDate",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-83": {
+   "value": "153618234",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CapitalCommitments",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-84": {
+   "value": "105043456",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CapitalCommitments",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-85": {
+   "value": "37472230",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromInterest",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-86": {
+   "value": "42210926",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromInterest",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-87": {
+   "value": "12603475",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-88": {
+   "value": "13567776",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-89": {
+   "value": "24868755",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestRevenueExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-90": {
+   "value": "28643150",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestRevenueExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-91": {
+   "value": "15899548",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-92": {
+   "value": "14256769",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-93": {
+   "value": "5061985",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-94": {
+   "value": "5287088",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-95": {
+   "value": "10837563",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionIncomeExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-96": {
+   "value": "8969681",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionIncomeExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-97": {
+   "value": "2502426",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:TradingIncomeExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-98": {
+   "value": "-121164",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:TradingIncomeExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-99": {
+   "value": "1137221",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:NetGainFromOtherFinancialInstrumentsCarriedAtFairValue",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-100": {
+   "value": "277137",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:NetGainFromOtherFinancialInstrumentsCarriedAtFairValue",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-101": {
+   "value": "1089189",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromDividends",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-102": {
+   "value": "240817",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromDividends",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-103": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:LossesOnLeaseModifications",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-104": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:LossesOnLeaseModifications",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-105": {
+   "value": "728990",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:MiscellaneousOtherOperatingIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-106": {
+   "value": "893869",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:MiscellaneousOtherOperatingIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-107": {
+   "value": "128908",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:MiscellaneousOtherOperatingExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-108": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:MiscellaneousOtherOperatingExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-109": {
+   "value": "41035236",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:OperatingIncomeBeforeNetImpairment",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-110": {
+   "value": "38903490",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:OperatingIncomeBeforeNetImpairment",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-111": {
+   "value": "1907796",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-112": {
+   "value": "32990319",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-113": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossRecognisedInProfitOrLossGoodwill",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-114": {
+   "value": "2687000",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossRecognisedInProfitOrLossGoodwill",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-115": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossOnFinancialAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-116": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossOnFinancialAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-117": {
+   "value": "39127440",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueAndOperatingIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-118": {
+   "value": "3226171",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueAndOperatingIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-119": {
+   "value": "37085595",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdministrativeExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-120": {
+   "value": "35610076",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdministrativeExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-121": {
+   "value": "3334779",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAndAmortisationExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-122": {
+   "value": "3426029",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAndAmortisationExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-123": {
+   "value": "40420374",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OperatingExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-124": {
+   "value": "39036105",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OperatingExpense",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-125": {
+   "value": "-1292934",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-126": {
+   "value": "-35809934",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-127": {
+   "value": "2319589",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-128": {
+   "value": "11222821",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-129": {
+   "value": "-3612523",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-130": {
+   "value": "-47032755",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-131": {
+   "value": "-3840703",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-132": {
+   "value": "-46898575",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-133": {
+   "value": "228180",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-134": {
+   "value": "-134180",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-135": {
+   "value": "-3612523",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-136": {
+   "value": "-47032755",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-137": {
+   "value": "-0.74",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD/xbrli:shares"
+   }
+  },
+  "fact-138": {
+   "value": "-8.98",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD/xbrli:shares"
+   }
+  },
+  "fact-139": {
+   "value": "-3612523",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-140": {
+   "value": "-47032755",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-141": {
+   "value": "-399566",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-142": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-143": {
+   "value": "-399566",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-144": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-145": {
+   "value": "-1677971",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-146": {
+   "value": "-2878066",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-147": {
+   "value": "-3484283",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-148": {
+   "value": "3784630",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-149": {
+   "value": "749186",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-150": {
+   "value": "1308075",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-151": {
+   "value": "-745583",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-152": {
+   "value": "420207",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-153": {
+   "value": "-5165857",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-154": {
+   "value": "-821718",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-155": {
+   "value": "-5565423",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-156": {
+   "value": "-821718",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-157": {
+   "value": "-9177946",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-158": {
+   "value": "-47854473",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-159": {
+   "value": "-9399277",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-160": {
+   "value": "-47767412",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-161": {
+   "value": "221331",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-162": {
+   "value": "-87061",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-163": {
+   "value": "-9177946",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-164": {
+   "value": "-47854473",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-165": {
+   "value": "261221882",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-166": {
+   "value": "858885",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-167": {
+   "value": "3358738",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-168": {
+   "value": "-10011229",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-169": {
+   "value": "13367626",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-170": {
+   "value": "2982435",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-171": {
+   "value": "-39027680",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-172": {
+   "value": "232750657",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-173": {
+   "value": "407472",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-174": {
+   "value": "233158129",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-175": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-176": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-177": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-178": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-179": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-180": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-181": {
+   "value": "-3840703",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-182": {
+   "value": "-3840703",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-183": {
+   "value": "228180",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-184": {
+   "value": "-3612523",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-185": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-186": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-187": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-188": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-189": {
+   "value": "-2738700",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-190": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-191": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-192": {
+   "value": "-2738700",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-193": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-194": {
+   "value": "-2738700",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-195": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-196": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-197": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-198": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-199": {
+   "value": "749186",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-200": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-201": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-202": {
+   "value": "749186",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-203": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-204": {
+   "value": "749186",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-205": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-206": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-207": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-208": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-209": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-210": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-211": {
+   "value": "-399566",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-212": {
+   "value": "-399566",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-213": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-214": {
+   "value": "-399566",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-215": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-216": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-217": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-218": {
+   "value": "-1671122",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-219": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-220": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-221": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-222": {
+   "value": "-1671122",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-223": {
+   "value": "-6849",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-224": {
+   "value": "-1677971",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-225": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-226": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-227": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-228": {
+   "value": "-1671122",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-229": {
+   "value": "-3487886",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-230": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-231": {
+   "value": "-399566",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-232": {
+   "value": "-5558574",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-233": {
+   "value": "-6849",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-234": {
+   "value": "-5565423",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-235": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-236": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-237": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-238": {
+   "value": "-1671122",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-239": {
+   "value": "-3487886",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-240": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-241": {
+   "value": "-4240269",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-242": {
+   "value": "-9399277",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-243": {
+   "value": "221331",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-244": {
+   "value": "-9177946",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-245": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-246": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-247": {
+   "value": "-1139743",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-248": {
+   "value": "741167",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-249": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-250": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-251": {
+   "value": "398576",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-252": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-253": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-254": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-255": {
+   "value": "261221882",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-256": {
+   "value": "858885",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-257": {
+   "value": "2218995",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-258": {
+   "value": "-10941184",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-259": {
+   "value": "9879740",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-260": {
+   "value": "2982435",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-261": {
+   "value": "-42869373",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-262": {
+   "value": "223351380",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-263": {
+   "value": "628803",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-264": {
+   "value": "223980183",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-265": {
+   "value": "261221882",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-266": {
+   "value": "858885",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-267": {
+   "value": "2323486",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-268": {
+   "value": "-7086044",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-269": {
+   "value": "11311278",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-270": {
+   "value": "2916863",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-271": {
+   "value": "10937616",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-272": {
+   "value": "282483966",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-273": {
+   "value": "-1471364",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-274": {
+   "value": "281012602",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-275": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-276": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-277": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-278": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-279": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-280": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-281": {
+   "value": "-46898575",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-282": {
+   "value": "-46898575",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-283": {
+   "value": "-134180",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-284": {
+   "value": "-47032755",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-285": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-286": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-287": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-288": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-289": {
+   "value": "3364423",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-290": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-291": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-292": {
+   "value": "3364423",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-293": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-294": {
+   "value": "3364423",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-295": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-296": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-297": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-298": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-299": {
+   "value": "1308075",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-300": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-301": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-302": {
+   "value": "1308075",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-303": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-304": {
+   "value": "1308075",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-305": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-306": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-307": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-308": {
+   "value": "-2925185",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-309": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-310": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-311": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-312": {
+   "value": "-2925185",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-313": {
+   "value": "47119",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-314": {
+   "value": "-2878066",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationBeforeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-315": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-316": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-317": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-318": {
+   "value": "-2925185",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-319": {
+   "value": "2056348",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-320": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-321": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-322": {
+   "value": "-868837",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-323": {
+   "value": "47119",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-324": {
+   "value": "-821718",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-325": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-326": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-327": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-328": {
+   "value": "-2925185",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-329": {
+   "value": "2056348",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-330": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-331": {
+   "value": "-46898575",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-332": {
+   "value": "-47767412",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-333": {
+   "value": "-87061",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-334": {
+   "value": "-47854473",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-335": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-336": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-337": {
+   "value": "1035252",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-338": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-339": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-340": {
+   "value": "65572",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-341": {
+   "value": "-3066721",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-342": {
+   "value": "-1965897",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-343": {
+   "value": "1965897",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-344": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:TransferBetweenReserves",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-345": {
+   "value": "261221882",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-346": {
+   "value": "858885",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-347": {
+   "value": "3358738",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:ReserveForGeneralBankingRisksMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-348": {
+   "value": "-10011229",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfExchangeDifferencesOnTranslationMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-349": {
+   "value": "13367626",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "fimbank:FairValueReserveMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-350": {
+   "value": "2982435",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-351": {
+   "value": "-39027680",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-352": {
+   "value": "232750657",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:EquityAttributableToOwnersOfParentMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-353": {
+   "value": "407472",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-354": {
+   "value": "233158129",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-355": {
+   "value": "55525226",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-356": {
+   "value": "67872276",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-357": {
+   "value": "8927656",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-358": {
+   "value": "-12300696",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-359": {
+   "value": "12647022",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-360": {
+   "value": "37471828",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-361": {
+   "value": "34541419",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:PaymentsToEmployeesAndSuppliers",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-362": {
+   "value": "36713674",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:PaymentsToEmployeesAndSuppliers",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-363": {
+   "value": "17264441",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-364": {
+   "value": "-18613922",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-365": {
+   "value": "11562138",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-366": {
+   "value": "11620752",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAndOtherReceivables",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-367": {
+   "value": "-49314586",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:AdjustmentsForLoansAndAdvancesToCustomersAndBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-368": {
+   "value": "-117922078",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:AdjustmentsForLoansAndAdvancesToCustomersAndBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-369": {
+   "value": "1887605",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInOtherAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-370": {
+   "value": "4763352",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInOtherAssets",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-371": {
+   "value": "-102639099",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:AdjustmentsForAmountsOwedToCustomersAndBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-372": {
+   "value": "204687776",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:AdjustmentsForAmountsOwedToCustomersAndBanks",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-373": {
+   "value": "-40600",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInOtherLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-374": {
+   "value": "-2133345",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInOtherLiabilities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-375": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-376": {
+   "value": "0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-377": {
+   "value": "-121280101",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:NetCashGeneratedFromOperatingActivitiesBeforeIncomeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-378": {
+   "value": "82402535",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:NetCashGeneratedFromOperatingActivitiesBeforeIncomeTax",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-379": {
+   "value": "409062",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-380": {
+   "value": "829093",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-381": {
+   "value": "-121689163",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-382": {
+   "value": "81573442",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-383": {
+   "value": "74874050",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ProceedsToAcquireFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-384": {
+   "value": "109616706",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ProceedsToAcquireFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-385": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:PaymentsToAcquireSharesInSubsidiaryCompaniesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-386": {
+   "value": "-0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:PaymentsToAcquireSharesInSubsidiaryCompaniesClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-387": {
+   "value": "518656",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-388": {
+   "value": "477381",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-389": {
+   "value": "779861",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-390": {
+   "value": "393096",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-391": {
+   "value": "160770",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ProceedsOnDisposalOfFinancialAssetsAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-392": {
+   "value": "105639259",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ProceedsOnDisposalOfFinancialAssetsAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-393": {
+   "value": "50918619",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ProceedsOnDisposalOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-394": {
+   "value": "49246582",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:ProceedsOnDisposalOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-395": {
+   "value": "9751",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-396": {
+   "value": "328",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-397": {
+   "value": "1089189",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-398": {
+   "value": "240817",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-399": {
+   "value": "-23994238",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-400": {
+   "value": "44639803",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-401": {
+   "value": "-145683401",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:IncreaseDecreaseInCashAndCashEquivalentsCF",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-402": {
+   "value": "126213245",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:IncreaseDecreaseInCashAndCashEquivalentsCF",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-403": {
+   "value": "-145683401",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:IncreaseDecreaseInCashAndCashEquivalentsBF",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-404": {
+   "value": "126213245",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:IncreaseDecreaseInCashAndCashEquivalentsBF",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-405": {
+   "value": "-5490217",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:NetMovementsInDebtSecurities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-406": {
+   "value": "-28492240",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "fimbank:NetMovementsInDebtSecurities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-407": {
+   "value": "1139127",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-408": {
+   "value": "967167",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-409": {
+   "value": "-6629344",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-410": {
+   "value": "-29459407",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-411": {
+   "value": "-152312745",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-412": {
+   "value": "96753838",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-413": {
+   "value": "-24586990",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-414": {
+   "value": "27958339",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-415": {
+   "value": "-127725755",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-416": {
+   "value": "68795499",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-417": {
+   "value": "-152312745",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-418": {
+   "value": "96753838",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-419": {
+   "value": "241923849",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-420": {
+   "value": "145170011",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-421": {
+   "value": "89611104",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-422": {
+   "value": "241923849",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:USD"
+   }
+  },
+  "fact-4": {
+   "value": "FIMBank p.l.c.",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-5": {
+   "value": "Malta",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-6": {
+   "value": "Mercury Tower, The Exchange Financial and Business Centre, Elia Zammit Street, St. Julian\u2019s STJ 3155, Malta",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-423": {
+   "value": "Mercury Tower, The Exchange Financial and Business Centre, Elia Zammit Street, St. Julian\u2019s STJ 3155, Malta",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-7": {
+   "value": "Kuwait Projects Company (Holding) K.S.C.P.",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-8": {
+   "value": "United Gulf Holding Company B.S.C.",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfParentEntity",
+    "language": "en",
+    "entity": "scheme:529900Q2C3I7VCILLG45",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  }
+ }
+}
