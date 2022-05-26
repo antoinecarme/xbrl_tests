@@ -1,0 +1,4275 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "sparebank1srstnorge": "http://sparebank1srstnorge.com/xbrl/2021",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://sparebank1srstnorge.com/xbrl/2021/sparebank1srstnorge-2021-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "fact-1": {
+   "value": "SpareBank 1 S\u00f8r\u00f8st-Norge",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-2": {
+   "value": " Sparebank",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-3": {
+   "value": "SpareBank 1 S\u00f8r\u00f8st-Norge",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfParentEntity",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-4": {
+   "value": "SpareBank 1 S\u00f8r\u00f8st-Norge",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-10": {
+   "value": "96000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-11": {
+   "value": "96000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-12": {
+   "value": "1157000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestRevenueCalculatedUsingEffectiveInterestMethod",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-13": {
+   "value": "884000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestRevenueCalculatedUsingEffectiveInterestMethod",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-14": {
+   "value": "333000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-15": {
+   "value": "331000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-16": {
+   "value": "920000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestRevenueExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-17": {
+   "value": "649000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestRevenueExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-18": {
+   "value": "513000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-19": {
+   "value": "331000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-20": {
+   "value": "30000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-21": {
+   "value": "19000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FeeAndCommissionExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-22": {
+   "value": "233000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-23": {
+   "value": "165000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-24": {
+   "value": "716000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:FeeComisionsAndOtherIncomeExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-25": {
+   "value": "477000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:FeeComisionsAndOtherIncomeExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-26": {
+   "value": "33000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromDividends",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-27": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromDividends",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-28": {
+   "value": "153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-29": {
+   "value": "101000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-30": {
+   "value": "22000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-31": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-32": {
+   "value": "151000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherFinanceIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-33": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherFinanceIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-34": {
+   "value": "360000000",
+   "decimals": -7,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialLiabilitiesAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-35": {
+   "value": "134000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialLiabilitiesAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-36": {
+   "value": "1995000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-37": {
+   "value": "1260000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-38": {
+   "value": "529000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-39": {
+   "value": "359000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-40": {
+   "value": "357000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-41": {
+   "value": "240000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-42": {
+   "value": "886000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OperatingExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-43": {
+   "value": "599000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OperatingExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-44": {
+   "value": "1109000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:ProfitLossBeforeTaxAndImpaiment",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-45": {
+   "value": "661000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:ProfitLossBeforeTaxAndImpaiment",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-46": {
+   "value": "79000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossImpairmentGainAndReversalOfImpairmentLossDeterminedInAccordanceWithIFRS9",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-47": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossImpairmentGainAndReversalOfImpairmentLossDeterminedInAccordanceWithIFRS9",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-48": {
+   "value": "1030000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-49": {
+   "value": "630000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-50": {
+   "value": "161000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-51": {
+   "value": "125000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-52": {
+   "value": "869000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-53": {
+   "value": "505000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-54": {
+   "value": "865000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-55": {
+   "value": "503000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-56": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-57": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-58": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-59": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-60": {
+   "value": "-15000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-61": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-62": {
+   "value": "-14000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-63": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-64": {
+   "value": "855000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-65": {
+   "value": "507000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-66": {
+   "value": "851000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-67": {
+   "value": "505000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-68": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-69": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-70": {
+   "value": "5.37",
+   "decimals": 4,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK/xbrli:shares"
+   }
+  },
+  "fact-71": {
+   "value": "4.34",
+   "decimals": 4,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK/xbrli:shares"
+   }
+  },
+  "fact-72": {
+   "value": "114000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndBankBalancesAtCentralBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-73": {
+   "value": "101000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndBankBalancesAtCentralBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-74": {
+   "value": "455000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:LoansToBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-75": {
+   "value": "305000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:LoansToBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-76": {
+   "value": "1698000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdvancesToBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-77": {
+   "value": "769000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdvancesToBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-78": {
+   "value": "62542000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:LoansAndAdvancesToCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-79": {
+   "value": "32444000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:LoansAndAdvancesToCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-80": {
+   "value": "6146000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DebtInstrumentsHeld",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-81": {
+   "value": "4433000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DebtInstrumentsHeld",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-82": {
+   "value": "2203000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityInstrumentsHeld",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-83": {
+   "value": "1372000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityInstrumentsHeld",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-84": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInSubsidiariesJointVenturesAndAssociates",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-85": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentsInSubsidiariesJointVenturesAndAssociates",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-86": {
+   "value": "1141000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-87": {
+   "value": "713000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-88": {
+   "value": "277000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-89": {
+   "value": "102000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-90": {
+   "value": "34000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-91": {
+   "value": "25000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-92": {
+   "value": "23000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-93": {
+   "value": "12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-94": {
+   "value": "279000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAssets",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-95": {
+   "value": "180000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAssets",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-96": {
+   "value": "74911000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-97": {
+   "value": "40455000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-98": {
+   "value": "150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-99": {
+   "value": "200000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-100": {
+   "value": "46212000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-101": {
+   "value": "25864000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DepositsFromCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-102": {
+   "value": "16913000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DebtSecurities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-103": {
+   "value": "7909000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DebtSecurities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-104": {
+   "value": "220000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-105": {
+   "value": "125000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-106": {
+   "value": "664000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-107": {
+   "value": "421000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-108": {
+   "value": "651000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:SubordinatedLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-109": {
+   "value": "401000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:SubordinatedLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-110": {
+   "value": "64811000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-111": {
+   "value": "34919000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-112": {
+   "value": "1778000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-113": {
+   "value": "947000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-114": {
+   "value": "2777000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-115": {
+   "value": "1026000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-116": {
+   "value": "811000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:RiskEqualisationFund",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-117": {
+   "value": "645000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:RiskEqualisationFund",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-118": {
+   "value": "3532000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:OwnerlessCapitalFund",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-119": {
+   "value": "2261000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:OwnerlessCapitalFund",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-120": {
+   "value": "26000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstruments",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-121": {
+   "value": "22000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstruments",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-122": {
+   "value": "350000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalTier1Capital",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-123": {
+   "value": "250000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalTier1Capital",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-124": {
+   "value": "318000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-125": {
+   "value": "258000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-126": {
+   "value": "202000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AllocatedToGifts",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-127": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AllocatedToGifts",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-128": {
+   "value": "297000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwners",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-129": {
+   "value": "120000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwners",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-130": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-131": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-132": {
+   "value": "10100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-133": {
+   "value": "5537000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-134": {
+   "value": "74911000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-135": {
+   "value": "40455000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-136": {
+   "value": "947000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-137": {
+   "value": "1026000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-138": {
+   "value": "537000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-139": {
+   "value": "153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-140": {
+   "value": "2072000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-141": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-142": {
+   "value": "25000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-143": {
+   "value": "250000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-144": {
+   "value": "175000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-145": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-146": {
+   "value": "5193000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-147": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-148": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-149": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-150": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-151": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-152": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-153": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-154": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-155": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-156": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-157": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-158": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:IncreaseThroughAdditionalTier1CapitalTransactions",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-159": {
+   "value": "100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:IncreaseThroughAdditionalTier1CapitalTransactions",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-160": {
+   "value": "100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:IncreaseThroughAdditionalTier1CapitalTransactions",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-161": {
+   "value": "-100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:DecreaseThroughAdditionalTier1CapitalTransactions",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-162": {
+   "value": "-100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:DecreaseThroughAdditionalTier1CapitalTransactions",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-163": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-164": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-165": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-166": {
+   "value": "153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-167": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-168": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-169": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-170": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-171": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-172": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-173": {
+   "value": "153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-174": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-175": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-176": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-177": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-178": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-179": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-180": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-181": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-182": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-183": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-184": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-185": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-186": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-187": {
+   "value": "109000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-188": {
+   "value": "120000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-189": {
+   "value": "189000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-190": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-191": {
+   "value": "-6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-192": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-193": {
+   "value": "92000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-194": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-195": {
+   "value": "505000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-196": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-197": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-198": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-199": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-200": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-201": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-202": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-203": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-204": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-205": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-206": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-207": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-208": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-209": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-210": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-211": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-212": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-213": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-214": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-215": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-216": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-217": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-218": {
+   "value": "947000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-219": {
+   "value": "1026000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-220": {
+   "value": "645000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-221": {
+   "value": "120000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-222": {
+   "value": "2261000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-223": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-224": {
+   "value": "22000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-225": {
+   "value": "250000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-226": {
+   "value": "258000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-227": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-228": {
+   "value": "5537000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-229": {
+   "value": "947000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-230": {
+   "value": "1026000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-231": {
+   "value": "645000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-232": {
+   "value": "120000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-233": {
+   "value": "2261000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-234": {
+   "value": "7000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-235": {
+   "value": "22000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-236": {
+   "value": "250000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-237": {
+   "value": "258000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-238": {
+   "value": "2000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-239": {
+   "value": "5537000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-240": {
+   "value": "831000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-241": {
+   "value": "1751000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-242": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-243": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-244": {
+   "value": "1162000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-245": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-246": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-247": {
+   "value": "100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-248": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-249": {
+   "value": "5000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-250": {
+   "value": "3849000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:AdditionalEquityAfterMerger",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-251": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-252": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-253": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-254": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-255": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-256": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-257": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-258": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-259": {
+   "value": "11000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-260": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-261": {
+   "value": "11000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherEquityInterest",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-262": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-263": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-264": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-265": {
+   "value": "120000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-266": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-267": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-268": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-269": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-270": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-271": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-272": {
+   "value": "121000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-273": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-274": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-275": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-276": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-277": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-278": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-279": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-280": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-281": {
+   "value": "-8000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-282": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-283": {
+   "value": "-8000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransfersAndOtherChangesEquity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-284": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-285": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-286": {
+   "value": "175000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-287": {
+   "value": "297000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-288": {
+   "value": "115000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-289": {
+   "value": "196000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-290": {
+   "value": "3000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-291": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-292": {
+   "value": "80000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-293": {
+   "value": "4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-294": {
+   "value": "869000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-295": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-296": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-297": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-298": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-299": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-300": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-301": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-302": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-303": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-304": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-305": {
+   "value": "1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-306": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-307": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-308": {
+   "value": "-8000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-309": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-310": {
+   "value": "-6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-311": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-312": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-313": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-314": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-315": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-316": {
+   "value": "-15000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-317": {
+   "value": "1778000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-318": {
+   "value": "2777000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-319": {
+   "value": "811000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:RiskEqualisationFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-320": {
+   "value": "297000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToDividendsRecognisedAsDistributionsToOwnersMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-321": {
+   "value": "3532000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:OwnerlessCapitalFundMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-322": {
+   "value": "202000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AllocatedToGiftsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-323": {
+   "value": "26000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-324": {
+   "value": "350000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "sparebank1srstnorge:AdditionalTier1CapitalMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-325": {
+   "value": "318000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-326": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:NoncontrollingInterestsMember",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-327": {
+   "value": "10100000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-328": {
+   "value": "1030000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-329": {
+   "value": "630000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-330": {
+   "value": "-153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-331": {
+   "value": "-101000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossBeforeTax",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-332": {
+   "value": "-151000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossRecognisedInProfitOrLossGoodwill",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-333": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossRecognisedInProfitOrLossGoodwill",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-334": {
+   "value": "6000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-335": {
+   "value": "-4000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossPropertyPlantAndEquipment",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-336": {
+   "value": "36000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-337": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-338": {
+   "value": "79000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-339": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-340": {
+   "value": "-123000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncomeTaxExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-341": {
+   "value": "-115000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncomeTaxExpense",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-342": {
+   "value": "-3959000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-343": {
+   "value": "-1056000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-344": {
+   "value": "1642000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInDepositsFromCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-345": {
+   "value": "1439000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInDepositsFromCustomers",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-346": {
+   "value": "59000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInDepositsFromBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-347": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInDepositsFromBanks",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-348": {
+   "value": "-293000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInFinancialAssetsHeldForTrading",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-349": {
+   "value": "-304000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInFinancialAssetsHeldForTrading",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-350": {
+   "value": "-46000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-351": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-352": {
+   "value": "-16000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-353": {
+   "value": "-14000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInOtherCurrentLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-354": {
+   "value": "-1888000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-355": {
+   "value": "526000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-356": {
+   "value": "1186000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalentsInSubsidiaryOrBusinessesAcquiredOrDisposed2013",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-357": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalentsInSubsidiaryOrBusinessesAcquiredOrDisposed2013",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-358": {
+   "value": "29000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-359": {
+   "value": "48000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-360": {
+   "value": "23000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-361": {
+   "value": "8000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-362": {
+   "value": "81000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-363": {
+   "value": "68000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-364": {
+   "value": "223000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-365": {
+   "value": "78000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-366": {
+   "value": "1322000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-367": {
+   "value": "-30000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-368": {
+   "value": "4450000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssueOfBondsNotesAndDebentures",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-369": {
+   "value": "1677000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssueOfBondsNotesAndDebentures",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-370": {
+   "value": "2817000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBondsNotesAndDebentures",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-371": {
+   "value": "1971000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfBondsNotesAndDebentures",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-372": {
+   "value": "150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssueOfSubordinatedLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-373": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssueOfSubordinatedLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-374": {
+   "value": "150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfSubordinatedLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-375": {
+   "value": "40000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RepaymentsOfSubordinatedLiabilities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-376": {
+   "value": "125000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-377": {
+   "value": "153000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-378": {
+   "value": "1508000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-379": {
+   "value": "-487000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-380": {
+   "value": "942000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-381": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-382": {
+   "value": "870000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-02T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-383": {
+   "value": "861000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-02T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-384": {
+   "value": "1812000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-385": {
+   "value": "870000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-386": {
+   "value": "942000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-387": {
+   "value": "9000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-388": {
+   "value": "114000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-389": {
+   "value": "101000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-390": {
+   "value": "1698000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShorttermDepositsClassifiedAsCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-391": {
+   "value": "769000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ShorttermDepositsClassifiedAsCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-392": {
+   "value": "1812000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-393": {
+   "value": "870000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-394": {
+   "value": "1191000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-395": {
+   "value": "913000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-396": {
+   "value": "150000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-397": {
+   "value": "177000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-398": {
+   "value": "10000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:InterestReceivedFromLoansToBanksFromOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-399": {
+   "value": "12000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:InterestReceivedFromLoansToBanksFromOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-400": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:InterestPaidOnAdvancesToBanksFromOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-401": {
+   "value": "-1000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:InterestPaidOnAdvancesToBanksFromOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-402": {
+   "value": "57000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-403": {
+   "value": "58000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-404": {
+   "value": "154000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-405": {
+   "value": "134000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-406": {
+   "value": "33000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-407": {
+   "value": "31000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-408": {
+   "value": "988000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:NetCashFlowsFromInterestPaidReceivedAndDividendsReceived",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-409": {
+   "value": "703000000",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "sparebank1srstnorge:NetCashFlowsFromInterestPaidReceivedAndDividendsReceived",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:NOK"
+   }
+  },
+  "fact-7": {
+   "value": "Konsernet SpareBank 1 S\u00f8r\u00f8st-Norge er total- leverand\u00f8r av produkter og tjenester for person-  og bedriftsmarkedet innenfor omr\u00e5dene: \u2022 Finansiering \u2022 Sparing og plassering \u2022 Forsikring \u2022 Betalingsformidling \u2022 Eiendomsmegling \u2022 Regnskapsf\u00f8ring og \u00f8konomisk r\u00e5dgivning",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-8": {
+   "value": " Kongsberg, Nedre Eiker,  Drammen, Lier, Holmestrand, Horten, T\u00f8nsberg,  F\u00e6rder, Sandefjord, Larvik, Bamble, Porsgrunn,  Skien, Ulefoss, Lunde, B\u00f8 og Notodden",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-6": {
+   "value": "Sandefjord",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-5": {
+   "value": "Norge ",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "fact-9": {
+   "value": "Norge",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "nb",
+    "entity": "scheme:5967007LIEEXZX4VQO21",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  }
+ }
+}
