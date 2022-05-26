@@ -1,2 +1,2 @@
 # xrbl_tests
-Some tests with XRBL data and Python data processing tools
+Some tests with XBRL data and Python data processing tools
