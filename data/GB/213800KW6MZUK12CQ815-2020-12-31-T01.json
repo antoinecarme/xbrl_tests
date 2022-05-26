@@ -1,0 +1,1288 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/CR/2021-02-03/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "ocilimited": "http://ocilimited.com/xbrl/2020",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/CR/2021-02-03",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://ocilimited.com/xbrl/2020/ocilimited-2020-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "fact-1": {
+   "value": "Oakley Capital Investments (\u2018OCI\u2019) aims to provide shareholders with consistent long-term returns in excess of the FTSE All-Share Index by providing exposure to private equity returns, where value can be created through market growth, consolidation and performance improvement.",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "en",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-2": {
+   "value": "3rd Floor, Mintflower Place, 8 Par-la-Ville Road, Hamilton HM08, Bermuda",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "en",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-3": {
+   "value": "3rd Floor, Mintflower Place, 8 Par-la-Ville Road, Hamilton HM08, Bermuda",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "en",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-4": {
+   "value": "Oakley Capital Investments Limited",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "en",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-7": {
+   "value": "10466000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromInterest",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-8": {
+   "value": "9218000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RevenueFromInterest",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-9": {
+   "value": "208536000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:NetRealisedGainsOnInvestmentsAtFairValueThroughProfitAndLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-10": {
+   "value": "17840000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:NetRealisedGainsOnInvestmentsAtFairValueThroughProfitAndLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-11": {
+   "value": "-133086000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:NetChangeInUnrealisedGainsLossesOnInvestmentsAtFairValueThroughProfitAndLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-12": {
+   "value": "127741000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:NetChangeInUnrealisedGainsLossesOnInvestmentsAtFairValueThroughProfitAndLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-13": {
+   "value": "13700000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-14": {
+   "value": "-2715000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:GainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-15": {
+   "value": "390000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-16": {
+   "value": "1073000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherIncome",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-17": {
+   "value": "100006000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-18": {
+   "value": "153157000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-19": {
+   "value": "7620000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OperatingExpense",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-20": {
+   "value": "17888000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OperatingExpense",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-21": {
+   "value": "92386000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-22": {
+   "value": "135269000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-23": {
+   "value": "0.48",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicAndDilutedEarningsLossPerShare",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP/xbrli:shares"
+   }
+  },
+  "fact-24": {
+   "value": "0.66",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicAndDilutedEarningsLossPerShare",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP/xbrli:shares"
+   }
+  },
+  "fact-25": {
+   "value": "505124000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-26": {
+   "value": "660966000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentFinancialAssetsAtFairValueThroughProfitOrLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-27": {
+   "value": "505124000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-28": {
+   "value": "660966000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-29": {
+   "value": "33000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentReceivables",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-30": {
+   "value": "40000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentReceivables",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-31": {
+   "value": "223090000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-32": {
+   "value": "48866000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-33": {
+   "value": "223123000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-34": {
+   "value": "48906000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-35": {
+   "value": "728247000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-36": {
+   "value": "709872000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-37": {
+   "value": "297000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-38": {
+   "value": "23864000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-39": {
+   "value": "297000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-40": {
+   "value": "23864000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-41": {
+   "value": "727950000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NetAssetsLiabilities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-42": {
+   "value": "686008000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NetAssetsLiabilities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-43": {
+   "value": "1806000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-44": {
+   "value": "1986000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-45": {
+   "value": "188144000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-46": {
+   "value": "229728000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-47": {
+   "value": "538000000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-48": {
+   "value": "454294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-49": {
+   "value": "727950000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-50": {
+   "value": "686008000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-51": {
+   "value": "4.03",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ocilimited:BasicAndDilutedNetAssetsPerShare",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP/xbrli:shares"
+   }
+  },
+  "fact-52": {
+   "value": "3.45",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ocilimited:BasicAndDilutedNetAssetsPerShare",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP/xbrli:shares"
+   }
+  },
+  "fact-53": {
+   "value": "180600000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NumberOfSharesIssued",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "xbrli:shares"
+   }
+  },
+  "fact-54": {
+   "value": "198600000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NumberOfSharesIssued",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "xbrli:shares"
+   }
+  },
+  "fact-55": {
+   "value": "2048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2018-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-56": {
+   "value": "244533000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2018-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-57": {
+   "value": "328241000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2018-01-02T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-58": {
+   "value": "574822000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2018-01-02T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-59": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-60": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-61": {
+   "value": "135269000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-62": {
+   "value": "135269000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-63": {
+   "value": "-62000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-64": {
+   "value": "-14805000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-65": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-66": {
+   "value": "-14867000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-67": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-68": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-69": {
+   "value": "9216000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-70": {
+   "value": "9216000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-71": {
+   "value": "-62000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-72": {
+   "value": "-14805000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-73": {
+   "value": "-9216000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-74": {
+   "value": "-24083000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-75": {
+   "value": "1986000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-76": {
+   "value": "229728000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-77": {
+   "value": "454294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-78": {
+   "value": "686008000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-79": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-80": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-81": {
+   "value": "92386000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-82": {
+   "value": "92386000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-83": {
+   "value": "-180000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-84": {
+   "value": "-41584000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-85": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-86": {
+   "value": "-41764000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:OrdinarySharesRepurchasedAndCancelled",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-87": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-88": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-89": {
+   "value": "8680000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-90": {
+   "value": "8680000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-91": {
+   "value": "-180000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-92": {
+   "value": "-41584000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-93": {
+   "value": "-8680000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-94": {
+   "value": "-50444000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTransactionsWithOwners",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-95": {
+   "value": "1806000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-96": {
+   "value": "188144000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-97": {
+   "value": "538000000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-98": {
+   "value": "727950000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-99": {
+   "value": "95983000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:PurchasesOfInvestmentsClassifiedAsOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-100": {
+   "value": "127265000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:PurchasesOfInvestmentsClassifiedAsOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-101": {
+   "value": "332595000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:SalesOfInvestmentsClassifiedAsOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-102": {
+   "value": "90005000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ocilimited:SalesOfInvestmentsClassifiedAsOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-103": {
+   "value": "5146000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-104": {
+   "value": "842000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-105": {
+   "value": "21050000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsFromOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-106": {
+   "value": "7009000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsFromOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-107": {
+   "value": "390000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-108": {
+   "value": "1073000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashReceiptsFromOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-109": {
+   "value": "221098000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-110": {
+   "value": "-42354000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-111": {
+   "value": "51894000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-112": {
+   "value": "4737000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-113": {
+   "value": "8680000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-114": {
+   "value": "9216000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-115": {
+   "value": "-60574000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-116": {
+   "value": "-13953000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-117": {
+   "value": "160524000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-118": {
+   "value": "-56307000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-119": {
+   "value": "48866000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-02T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-120": {
+   "value": "107888000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2018-01-02T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-121": {
+   "value": "13700000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-122": {
+   "value": "-2715000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2019-01-01T00:00:00/2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-123": {
+   "value": "223090000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-124": {
+   "value": "48866000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:GBP"
+   }
+  },
+  "fact-6": {
+   "value": "Limited",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "en",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  },
+  "fact-5": {
+   "value": "Bermuda",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "en",
+    "entity": "scheme:213800KW6MZUK12CQ815",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00"
+   }
+  }
+ }
+}

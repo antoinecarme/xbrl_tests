@@ -1,0 +1,2101 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "ISO4217": "http://www.xbrl.org/2003/iso4217",
+   "conduitreinsurance": "http://conduitreinsurance.com",
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "taxonomy": [
+   "http://conduitreinsurance.com/xbrl/2021/21380085AE62D1BXSF19-2021-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "f247": {
+   "value": "Conduit Holdings Limited",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f3383": {
+   "value": "2021-12-31",
+   "dimensions": {
+    "concept": "ifrs-full:DateOfEndOfReportingPeriod2013",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f21918": {
+   "value": "378800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InsuranceRevenue",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21924": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InsuranceRevenue",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21936": {
+   "value": "32600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ExpensesFromAllocationOfPremiumsPaidToReinsurer",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21942": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ExpensesFromAllocationOfPremiumsPaidToReinsurer",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21953": {
+   "value": "346200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PremiumsWrittenNetOfReinsurance",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21959": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PremiumsWrittenNetOfReinsurance",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21971": {
+   "value": "-152800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangeInUnearnedPremiums",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21977": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangeInUnearnedPremiums",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21989": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangeInUnearnedPremiumsOnPremiumsCeded",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f21995": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangeInUnearnedPremiumsOnPremiumsCeded",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22006": {
+   "value": "194200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:NetEarnedPremium",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22012": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:NetEarnedPremium",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22024": {
+   "value": "5500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetInvestmentIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22030": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetInvestmentIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22042": {
+   "value": "1000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetRealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22048": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetRealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22060": {
+   "value": "7600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetUnrealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22066": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetUnrealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22077": {
+   "value": "-500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22083": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22094": {
+   "value": "190600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:TotalNetRevenue",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22100": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:TotalNetRevenue",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22112": {
+   "value": "191000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:InsuranceLossesAndLossAdjustmentExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22118": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:InsuranceLossesAndLossAdjustmentExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22130": {
+   "value": "48900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:InsuranceLossesAndLossAdjustmentExpensesRecoverable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22136": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:InsuranceLossesAndLossAdjustmentExpensesRecoverable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22147": {
+   "value": "142100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetInsuranceLosses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22153": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetInsuranceLosses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22165": {
+   "value": "59100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:InsuranceAcquisitionExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22171": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:InsuranceAcquisitionExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22183": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ExpenseFromEquitysettledSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22189": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ExpenseFromEquitysettledSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22201": {
+   "value": "30600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22207": {
+   "value": "4500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22218": {
+   "value": "232100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:TotalExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22224": {
+   "value": "4800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:TotalExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22235": {
+   "value": "-41500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22241": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22253": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22259": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22270": {
+   "value": "-42000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22276": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22302": {
+   "value": "-0.25",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD/xbrli:shares"
+   }
+  },
+  "f22309": {
+   "value": "-0.03",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD/xbrli:shares"
+   }
+  },
+  "f22602": {
+   "value": "67500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22606": {
+   "value": "3700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:AccruedInterestReceivable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22610": {
+   "value": "1008400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:Investments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22614": {
+   "value": "155000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:InwardsPremiumsReceivable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22618": {
+   "value": "800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:UnearnedPremiumsOnPremiumsCeded",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22622": {
+   "value": "48900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ReinsuranceRecoverable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22626": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:OtherReinsuranceReceivables",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22630": {
+   "value": "1600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22634": {
+   "value": "2900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22638": {
+   "value": "44600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:DeferredAcquisitionExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22642": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22647": {
+   "value": "1334800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22655": {
+   "value": "171600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:LossesAndLossAdjustmentExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22659": {
+   "value": "152800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:UnearnedPremiums",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22663": {
+   "value": "7300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:AmountsPayableToReinsurers",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22667": {
+   "value": "19000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherPayables",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22671": {
+   "value": "2900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:LeaseLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22677": {
+   "value": "353600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22684": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22688": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:OwnShares",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22692": {
+   "value": "1056000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22696": {
+   "value": "29700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:Dividends",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22700": {
+   "value": "-46600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22705": {
+   "value": "981200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22710": {
+   "value": "1334800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22731": {
+   "value": "1054000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22735": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:AccruedInterestReceivable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22739": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:Investments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22743": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:InwardsPremiumsReceivable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22747": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:UnearnedPremiumsOnPremiumsCeded",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22751": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:ReinsuranceRecoverable",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22755": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:OtherReinsuranceReceivables",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22759": {
+   "value": "1100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22763": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22767": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:DeferredAcquisitionExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22771": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22777": {
+   "value": "1055300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22785": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:LossesAndLossAdjustmentExpenses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22789": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:UnearnedPremiums",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22793": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:AmountsPayableToReinsurers",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22797": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherPayables",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22801": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:LeaseLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22806": {
+   "value": "2500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Liabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22813": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22817": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:OwnShares",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22821": {
+   "value": "1055700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:OtherReserves",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22825": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:Dividends",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22829": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22834": {
+   "value": "1052800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f22839": {
+   "value": "1055300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23093": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23097": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23101": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23105": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23109": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23119": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23123": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23127": {
+   "value": "1100900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23131": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23135": {
+   "value": "1102600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IssueOfEquity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23147": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:IssuanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23151": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:IssuanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23155": {
+   "value": "45500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:IssuanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23161": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:IssuanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23165": {
+   "value": "45500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:IssuanceCosts",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23177": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23183": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23187": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23193": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23197": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23232": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23238": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23242": {
+   "value": "1055700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23246": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23252": {
+   "value": "1052800000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23312": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23316": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23320": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23324": {
+   "value": "-42000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23328": {
+   "value": "-42000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23340": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTreasuryShareTransactions",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23344": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTreasuryShareTransactions",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23350": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTreasuryShareTransactions",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23354": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTreasuryShareTransactions",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23358": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughTreasuryShareTransactions",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23370": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23374": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23378": {
+   "value": "-0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23382": {
+   "value": "29700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23386": {
+   "value": "29700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23398": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23404": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23408": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23414": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23418": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:EquityBasedIncentives",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23429": {
+   "value": "1700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23435": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23441": {
+   "value": "1056000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:OtherReservesMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23447": {
+   "value": "-76300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23453": {
+   "value": "981200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23772": {
+   "value": "-42000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23776": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23780": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpenseOnLeaseLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23784": {
+   "value": "-6200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFairValueGainsLosses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23788": {
+   "value": "1000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetRealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23792": {
+   "value": "7600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetUnrealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23796": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23800": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ExpenseFromEquitysettledSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23804": {
+   "value": "82000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangesInOperatingReinsuranceAssetsAndLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23808": {
+   "value": "5500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangesInOtherOperationalAssetsAndLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23814": {
+   "value": "48700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23821": {
+   "value": "1570400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:PurchaseOfInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23825": {
+   "value": "558900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ProceedsOnSalesAndMaturitiesOfInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23829": {
+   "value": "7500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23833": {
+   "value": "900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23837": {
+   "value": "500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23843": {
+   "value": "-1005400000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23850": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssuingShares",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23854": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23858": {
+   "value": "29700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23862": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23868": {
+   "value": "-30000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23873": {
+   "value": "-986700000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23877": {
+   "value": "1054000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23881": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23886": {
+   "value": "67500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2022-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23907": {
+   "value": "-4600000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23911": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationExpense",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23915": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:InterestExpenseOnLeaseLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23919": {
+   "value": "-100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFairValueGainsLosses",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23923": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetRealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23927": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:NetUnrealisedLossesOnInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23931": {
+   "value": "-200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUnrealisedForeignExchangeLossesGains",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23935": {
+   "value": "300000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ExpenseFromEquitysettledSharebasedPaymentTransactionsInWhichGoodsOrServicesReceivedDidNotQualifyForRecognitionAsAssets",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23939": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangesInOperatingReinsuranceAssetsAndLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23943": {
+   "value": "1500000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "conduitreinsurance:ChangesInOtherOperationalAssetsAndLiabilities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23948": {
+   "value": "-3100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23955": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:PurchaseOfInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23959": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "conduitreinsurance:ProceedsOnSalesAndMaturitiesOfInvestments",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23963": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:InterestReceivedClassifiedAsInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23967": {
+   "value": "200000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23971": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23976": {
+   "value": "-100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23983": {
+   "value": "1057100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromIssuingShares",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23987": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23991": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f23995": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f24000": {
+   "value": "1057100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f24005": {
+   "value": "1053900000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f24009": {
+   "value": "0",
+   "decimals": -6,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f24013": {
+   "value": "100000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f24019": {
+   "value": "1054000000",
+   "decimals": -5,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00",
+    "unit": "ISO4217:USD"
+   }
+  },
+  "f24107": {
+   "value": "Conduit Holdings Limited",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f24108": {
+   "value": "Conduit Holdings Limited",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f24111": {
+   "value": "Bermuda",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f24119": {
+   "value": "Clarendon House, 2 Church Street, Hamilton HM 11, Bermuda",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f24121": {
+   "value": "Bermuda",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f24126": {
+   "value": "The principalactivity of the Group is to provide reinsurance products and services to its clients worldwide.",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "f24131": {
+   "value": "worldwide",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "en",
+    "entity": "scheme:21380085AE62D1BXSF19",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  }
+ }
+}
