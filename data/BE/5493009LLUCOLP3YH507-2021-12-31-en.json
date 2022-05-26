@@ -1,0 +1,3454 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "ifrs-full": "http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "van": "http://www.vandevelde.eu/en/xbrl/2021",
+   "xbrl": "https://xbrl.org/2021",
+   "xbrli": "http://www.xbrl.org/2003/instance"
+  },
+  "linkTypes": {
+   "ftTyp_fact-footnote": "http://www.xbrl.org/2003/arcrole/fact-footnote"
+  },
+  "linkGroups": {
+   "ftGrp_default": "http://www.xbrl.org/2003/role/link"
+  },
+  "taxonomy": [
+   "http://www.vandevelde.eu/en/xbrl/2021/5493009LLUCOLP3YH507-2021-12-31.xsd"
+  ]
+ },
+ "facts": {
+  "Tag1": {
+   "value": "Lageweg 49260 Wichelen",
+   "dimensions": {
+    "concept": "ifrs-full:PrincipalPlaceOfBusiness",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag2": {
+   "value": "Belgium",
+   "dimensions": {
+    "concept": "ifrs-full:DomicileOfEntity",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag240": {
+   "value": "73290000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag279": {
+   "value": "80174000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag241": {
+   "value": "4617000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag273": {
+   "value": "4546000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Goodwill",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag242": {
+   "value": "20276000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag274": {
+   "value": "22409000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IntangibleAssetsOtherThanGoodwill",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag243": {
+   "value": "22997000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag275": {
+   "value": "24821000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PropertyPlantAndEquipment",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag244": {
+   "value": "10240000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssetsThatDoNotMeetDefinitionOfInvestmentProperty",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag276": {
+   "value": "14710000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RightofuseAssetsThatDoNotMeetDefinitionOfInvestmentProperty",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag245": {
+   "value": "13744000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag277": {
+   "value": "12525000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:InvestmentAccountedForUsingEquityMethod",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag308": {
+   "value": "227000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag309": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag246": {
+   "value": "1189000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag278": {
+   "value": "1163000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag247": {
+   "value": "133887000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag280": {
+   "value": "105105000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag248": {
+   "value": "43205000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag281": {
+   "value": "39350000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Inventories",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag249": {
+   "value": "13258000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTradeReceivables",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag282": {
+   "value": "10665000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTradeReceivables",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag250": {
+   "value": "3878000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag283": {
+   "value": "5312000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag251": {
+   "value": "73546000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag284": {
+   "value": "49778000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag252": {
+   "value": "207177000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag285": {
+   "value": "185279000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Assets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag253": {
+   "value": "163121000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag303": {
+   "value": "144650000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag254": {
+   "value": "1936000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag286": {
+   "value": "1936000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IssuedCapital",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag307": {
+   "value": "4755000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag306": {
+   "value": "1932000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag255": {
+   "value": "743000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag287": {
+   "value": "743000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:SharePremium",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag305": {
+   "value": "-3097000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AccumulatedOtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag304": {
+   "value": "-5502000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AccumulatedOtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag256": {
+   "value": "168294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag288": {
+   "value": "149405000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RetainedEarnings",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag258": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag289": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncontrollingInterests",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag259": {
+   "value": "285000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentGovernmentGrants",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag257": {
+   "value": "366000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentGovernmentGrants",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag260": {
+   "value": "11383000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag290": {
+   "value": "15997000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag261": {
+   "value": "463000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag291": {
+   "value": "156000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentProvisions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag262": {
+   "value": "528000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:NoncurrentProvisionLeaseLiability",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag292": {
+   "value": "662000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:NoncurrentProvisionLeaseLiability",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag263": {
+   "value": "1260000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentRecognisedLiabilitiesDefinedBenefitPlan",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag293": {
+   "value": "2249000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentRecognisedLiabilitiesDefinedBenefitPlan",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag264": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag294": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherNoncurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag265": {
+   "value": "8425000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag295": {
+   "value": "12229000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:NoncurrentLeaseLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag266": {
+   "value": "707000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag296": {
+   "value": "701000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DeferredTaxLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag267": {
+   "value": "32388000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag297": {
+   "value": "24266000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag268": {
+   "value": "25365000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag298": {
+   "value": "18429000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:TradeAndOtherCurrentPayables",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag269": {
+   "value": "3776000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLeaseLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag299": {
+   "value": "4342000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentLeaseLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag270": {
+   "value": "1676000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag300": {
+   "value": "1170000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCurrentLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag271": {
+   "value": "1571000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag301": {
+   "value": "325000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CurrentTaxLiabilitiesCurrent",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag272": {
+   "value": "207177000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag302": {
+   "value": "185279000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EquityAndLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote4"
+     ]
+    }
+   }
+  },
+  "Tag3": {
+   "value": "195251000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag9": {
+   "value": "152337000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Revenue",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag4": {
+   "value": "5093000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:MiscellaneousOtherOperatingIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag10": {
+   "value": "4329000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:MiscellaneousOtherOperatingIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag5": {
+   "value": "35865000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RawMaterialsAndConsumablesUsed",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag11": {
+   "value": "30674000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:RawMaterialsAndConsumablesUsed",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag6": {
+   "value": "64457000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag12": {
+   "value": "49969000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherExpenseByNature",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag7": {
+   "value": "45011000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag13": {
+   "value": "41289000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EmployeeBenefitsExpense",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag71": {
+   "value": "13237000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote2"
+     ]
+    }
+   }
+  },
+  "Tag72": {
+   "value": "15174000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DepreciationAmortisationAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote2"
+     ]
+    }
+   }
+  },
+  "Tag8": {
+   "value": "41774000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag14": {
+   "value": "19560000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossFromOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag15": {
+   "value": "1632000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag20": {
+   "value": "2279000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag16": {
+   "value": "2625000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag21": {
+   "value": "2571000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:FinanceCosts",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag37": {
+   "value": "-438000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag36": {
+   "value": "-1342000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfProfitLossOfAssociatesAccountedForUsingEquityMethod",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag17": {
+   "value": "40343000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag22": {
+   "value": "17926000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag18": {
+   "value": "8295000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag23": {
+   "value": "3207000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxExpenseContinuingOperations",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag19": {
+   "value": "32048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag24": {
+   "value": "14719000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag25": {
+   "value": "1919000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag62": {
+   "value": "-2171000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag63": {
+   "value": "966000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationRelatedToGroupEntities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag67": {
+   "value": "-1073000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationRelatedToGroupEntities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag64": {
+   "value": "953000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationRelatedToAssociatedCompanies",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag68": {
+   "value": "-1098000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslationRelatedToAssociatedCompanies",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag65": {
+   "value": "-463000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag66": {
+   "value": "217000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag26": {
+   "value": "1456000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag34": {
+   "value": "-1954000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag27": {
+   "value": "1265000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag33": {
+   "value": "-443000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag28": {
+   "value": "316000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag35": {
+   "value": "-89000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag29": {
+   "value": "949000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag32": {
+   "value": "-354000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag30": {
+   "value": "34453000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag31": {
+   "value": "12411000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag38": {
+   "value": "32048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag48": {
+   "value": "14719000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag39": {
+   "value": "32048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag49": {
+   "value": "14719000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag40": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag50": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossAttributableToNoncontrollingInterests",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag41": {
+   "value": "34453000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag51": {
+   "value": "12411000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag42": {
+   "value": "34453000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag52": {
+   "value": "12411000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag43": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag53": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag44": {
+   "value": "2.43",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "Tag54": {
+   "value": "1.11",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:BasicEarningsLossPerShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "Tag45": {
+   "value": "2.43",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "Tag55": {
+   "value": "1.11",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DilutedEarningsLossPerShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "Tag46": {
+   "value": "13169650",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:WeightedAverageShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "xbrli:shares"
+   }
+  },
+  "Tag56": {
+   "value": "13288660",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:WeightedAverageShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "xbrli:shares"
+   }
+  },
+  "Tag47": {
+   "value": "13172880",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustedWeightedAverageShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "xbrli:shares"
+   }
+  },
+  "Tag57": {
+   "value": "13288660",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustedWeightedAverageShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "xbrli:shares"
+   }
+  },
+  "Tag60": {
+   "value": "0",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "van:InterimDividendPaidPerDividendEntitledShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote3"
+     ]
+    }
+   }
+  },
+  "Tag61": {
+   "value": "1",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "van:InterimDividendPaidPerDividendEntitledShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote3"
+     ]
+    }
+   }
+  },
+  "Tag58": {
+   "value": "2",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwnersPerShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "Tag59": {
+   "value": "1",
+   "decimals": 2,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwnersPerShare",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR/xbrli:shares"
+   }
+  },
+  "Tag74": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidOrdinaryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote3"
+     ]
+    }
+   }
+  },
+  "Tag73": {
+   "value": "13294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidOrdinaryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote3"
+     ]
+    }
+   }
+  },
+  "Tag70": {
+   "value": "26645000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag69": {
+   "value": "13323000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsProposedOrDeclaredBeforeFinancialStatementsAuthorisedForIssueButNotRecognisedAsDistributionToOwners",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag88": {
+   "value": "1936000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag91": {
+   "value": "-427000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag96": {
+   "value": "743000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag123": {
+   "value": "-752000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag99": {
+   "value": "2774000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:CumulatedComprehensiveIncomeRestatedMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag104": {
+   "value": "147891000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag128": {
+   "value": "-6406000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:RevaluationReserveOfSharesMember",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote1"
+     ]
+    }
+   }
+  },
+  "Tag115": {
+   "value": "1262000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:ShareInRevaluationReserveTopFormMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag118": {
+   "value": "-72000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AccumulatedOtherComprehensiveIncomeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag75": {
+   "value": "146949000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag105": {
+   "value": "14719000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag76": {
+   "value": "14719000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag124": {
+   "value": "-354000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag100": {
+   "value": "-2171000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:CumulatedComprehensiveIncomeRestatedMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag106": {
+   "value": "-31000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag119": {
+   "value": "217000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AccumulatedOtherComprehensiveIncomeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag77": {
+   "value": "-2339000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag92": {
+   "value": "1505000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfTreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag78": {
+   "value": "1505000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfTreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag107": {
+   "value": "120000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag79": {
+   "value": "120000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag108": {
+   "value": "13294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag80": {
+   "value": "13294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag89": {
+   "value": "1936000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag93": {
+   "value": "-1932000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag97": {
+   "value": "743000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag125": {
+   "value": "-1106000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag101": {
+   "value": "603000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:CumulatedComprehensiveIncomeRestatedMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag109": {
+   "value": "149405000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag129": {
+   "value": "-6406000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:RevaluationReserveOfSharesMember",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote1"
+     ]
+    }
+   }
+  },
+  "Tag116": {
+   "value": "1262000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:ShareInRevaluationReserveTopFormMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag120": {
+   "value": "145000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AccumulatedOtherComprehensiveIncomeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag81": {
+   "value": "144650000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag110": {
+   "value": "32048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag82": {
+   "value": "32048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag126": {
+   "value": "949000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag102": {
+   "value": "1919000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:CumulatedComprehensiveIncomeRestatedMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag111": {
+   "value": "36000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag121": {
+   "value": "-463000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AccumulatedOtherComprehensiveIncomeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag83": {
+   "value": "2441000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherComprehensiveIncome",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag94": {
+   "value": "2823000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfTreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag84": {
+   "value": "2823000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfTreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag112": {
+   "value": "128000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag85": {
+   "value": "128000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseThroughExerciseOfOptions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag113": {
+   "value": "13323000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag86": {
+   "value": "13323000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaid",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag90": {
+   "value": "1936000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:IssuedCapitalMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag95": {
+   "value": "-4755000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:TreasurySharesMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag98": {
+   "value": "743000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:SharePremiumMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag127": {
+   "value": "-157000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:ReserveOfRemeasurementsOfDefinedBenefitPlansMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag103": {
+   "value": "2522000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:CumulatedComprehensiveIncomeRestatedMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag114": {
+   "value": "168294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:RetainedEarningsMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag130": {
+   "value": "-6406000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:RevaluationReserveOfSharesMember",
+    "unit": "iso4217:EUR"
+   },
+   "links": {
+    "ftTyp_fact-footnote": {
+     "ftGrp_default": [
+      "footnote1"
+     ]
+    }
+   }
+  },
+  "Tag117": {
+   "value": "1262000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "van:ShareInRevaluationReserveTopFormMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag122": {
+   "value": "-318000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "ifrs-full:ComponentsOfEquityAxis": "ifrs-full:AccumulatedOtherComprehensiveIncomeMember",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag87": {
+   "value": "163121000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:Equity",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag131": {
+   "value": "40343000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag135": {
+   "value": "17926000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProfitLossBeforeTax",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag132": {
+   "value": "13237000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpenseAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag136": {
+   "value": "15174000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDepreciationAndAmortisationExpenseAndImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag183": {
+   "value": "-83000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag182": {
+   "value": "-113000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag181": {
+   "value": "-284000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:AdjustmentsForDecreaseIncreaseInNetValuationAllowanceCurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag180": {
+   "value": "-430000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:AdjustmentsForDecreaseIncreaseInNetValuationAllowanceCurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag179": {
+   "value": "-723000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag178": {
+   "value": "-821000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForProvisions",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag197": {
+   "value": "-438000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag196": {
+   "value": "-1342000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForUndistributedProfitsOfInvestmentsAccountedForUsingEquityMethod",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag133": {
+   "value": "223000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:AdjustmentsForLossGainOnSaleOfSubsidiariesAssociatesAndAssetsHeldForSale",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag137": {
+   "value": "222000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:AdjustmentsForLossGainOnSaleOfSubsidiariesAssociatesAndAssetsHeldForSale",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag199": {
+   "value": "-953000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceIncomeCost",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag198": {
+   "value": "-995000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForFinanceIncomeCost",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag134": {
+   "value": "1944000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAdjustmentsForNoncashItems",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag177": {
+   "value": "-1003000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherAdjustmentsForNoncashItems",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag200": {
+   "value": "56048000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag138": {
+   "value": "33292000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag176": {
+   "value": "-3764000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag175": {
+   "value": "-1786000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInInventories",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag174": {
+   "value": "-2400000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag185": {
+   "value": "4645000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInTradeAccountReceivable",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag173": {
+   "value": "-549000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInOtherAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag143": {
+   "value": "5188000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForDecreaseIncreaseInOtherAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag139": {
+   "value": "3032000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAccountPayable",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag172": {
+   "value": "-1503000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInTradeAccountPayable",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag140": {
+   "value": "4838000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInOtherLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag171": {
+   "value": "-3723000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:AdjustmentsForIncreaseDecreaseInOtherLiabilities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag195": {
+   "value": "-1157000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInWorkingCapital",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag194": {
+   "value": "-2821000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInWorkingCapital",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag141": {
+   "value": "5630000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag144": {
+   "value": "4802000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncomeTaxesPaidRefundClassifiedAsOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag170": {
+   "value": "-953000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:InterestsReceivedPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag184": {
+   "value": "-995000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:InterestsReceivedPaidClassifiedAsOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag142": {
+   "value": "50622000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag145": {
+   "value": "30316000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInOperatingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag146": {
+   "value": "4694000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag148": {
+   "value": "2541000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag147": {
+   "value": "110000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag149": {
+   "value": "193000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag201": {
+   "value": "1167000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag202": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag186": {
+   "value": "-5751000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag187": {
+   "value": "-2348000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInInvestingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag151": {
+   "value": "44871000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:NetCashFlowFromUsedInBeforeFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag150": {
+   "value": "27968000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:NetCashFlowFromUsedInBeforeFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag152": {
+   "value": "13322000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag158": {
+   "value": "13294000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:DividendsPaidClassifiedAsFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag153": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:DividendsReceivedClassifiedAsFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag159": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "van:DividendsReceivedClassifiedAsFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag154": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSaleOrIssueOfTreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag160": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:ProceedsFromSaleOrIssueOfTreasuryShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag155": {
+   "value": "2823000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag161": {
+   "value": "1505000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsToAcquireOrRedeemEntitysShares",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag156": {
+   "value": "4804000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag162": {
+   "value": "4716000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag157": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag163": {
+   "value": "0",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInIncreaseDecreaseInCurrentBorrowings",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag189": {
+   "value": "-20949000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag188": {
+   "value": "-19515000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashFlowsFromUsedInFinancingActivities",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag164": {
+   "value": "23922000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag167": {
+   "value": "8453000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag193": {
+   "value": "49778000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag190": {
+   "value": "41433000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag191": {
+   "value": "-154000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag192": {
+   "value": "-108000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag165": {
+   "value": "73546000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag168": {
+   "value": "49778000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:CashAndCashEquivalents",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag166": {
+   "value": "23922000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag169": {
+   "value": "8453000",
+   "decimals": -3,
+   "dimensions": {
+    "concept": "ifrs-full:IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2020-01-01T00:00:00/2021-01-01T00:00:00",
+    "unit": "iso4217:EUR"
+   }
+  },
+  "Tag207": {
+   "value": "\n1. General  information\nThe Van de Velde Group designs, develops, manufactures and markets\nfashionable luxury lingerie together with its subsidiaries. The company\nis a limited liability company, with its shares listed on Euronext Brussels.\nThe company\u2019s main office is located in Wichelen, Belgium.\nThe consolidated financial statements were authorized for issue by the\nBoard of Directors on 23\ue61fFebruary 2022, subject to approval of the\nstatutory non-consolidated accounts by the shareholders at the Ordinary\nGeneral Meeting to be held on 27\ue61fApril 2022. In compliance with Belgian\nlaw, the consolidated accounts will be presented for informational pur-\nposes to the shareholders of Van de Velde NV at the same meeting. The\nconsolidated financial statements are not subject to amendment, except\nconfirming changes to reflect decisions, if any, of the shareholders with\nrespect to the statutory non-consolidated financial statements affecting\nthe consolidated financial statements.\nThis annual report is in accordance with article 3:32\ue61fof Belgium\u2019s\nCompanies Code. The various components as prescribed by article\n3:32\ue61fare split across the various chapters in this annual report.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag203": {
+   "value": "Van de Velde",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag204": {
+   "value": "designs, develops, manufactures and marketsfashionable luxury lingerie together with its subsidiaries",
+   "dimensions": {
+    "concept": "ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag206": {
+   "value": "limited liability company",
+   "dimensions": {
+    "concept": "ifrs-full:LegalFormOfEntity",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag205": {
+   "value": "Belgium",
+   "dimensions": {
+    "concept": "ifrs-full:CountryOfIncorporation",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag210": {
+   "value": "\n2. Summary of significant accounting\npolicies\nThe accompanying consolidated financial statements have been pre-\npared in compliance with \u2018International Financial Reporting Standards\n(IFRS)\u2019, as adopted for use in the European Union as of the balance\nsheet date.\nThe amounts in the financial statements are presented in thousands of\neuro unless stated otherwise. The financial statements were prepared\nin accordance with the historical cost principle, except for valuation at\nfair value of derivative financial instruments.\nUse of estimates\nThe preparation of financial statements in conformity with IFRS requires\nthat management make certain estimates and assumptions that affect\nthe amounts reported in the financial statements and accompanying\nnotes.\nEstimates made on each reporting date reflect the conditions that\nexisted on those dates (e.g. market prices, interest rates and foreign\nexchange rates). Although these estimates are based on management\u2019s\nbest knowledge of current events and actions that the Group may under-\ntake, actual results may differ from those estimates.\nThe most important application of estimates relates to:\nImpairment of intangible fixed assets with indefinite useful\nlife (including goodwill)\nIntangible fixed assets with indefinite useful life including goodwill are\nsubject to an annual impairment test. This test requires an estimation\nof the value-in-use of these assets. The estimate of the value-in-use\nrequires an estimate of the expected future cash flows related to these\nassets and the choice of an appropriate discount rate to determine\nthe present value of these cash flows. For the estimate of the future\ncash flows, management must make a number of assumptions and\nestimates, such as expectations with regard to growth in revenues,\ndevelopment of profit margin and operating costs, period and amount\nof investments, development of working capital, growth percentages for\nthe long term and the choice of a discount rate that takes into account\nthe specific risks. More details are given in note 3.\nEmployee benefits \u2013 share-based payments\nThe Group values the costs of the share option programmes on the basis\nof the fair value of the instruments on the grant date. The estimate of the\nfair value of the share-based payments requires a valuation depending on\nthe terms and conditions of the grant. The valuation model also requires\ninput data, such as the expected life of the option, the volatility and the\ndividend yield. The assumptions and the model used to estimate the fair\nvalue for share-based payments are explained in note 22.\nEmployee benefits \u2013 pensions\nThe costs of the defined pension plans and other long-term employee\nbenefits and the cash value of the pension liability are determined by\nactuarial calculations. To this end, various assumptions are used that\ncould differ from the actual developments in the future. As a conse-\nquence of the complexity of the actuarial calculations and the long-term\ncharacter of the liabilities, the employee liabilities are highly sensitive to\nchanges in the assumptions. The main actuarial assumptions and the\nsensitivity analysis are included in note 15.\nChange in accounting policies\nThe accounting policies adopted are consistent with those of the previ-\nous fiscal year except for the following new or revised IFRS standards\nand IFRIC interpretations effective as of 1\ue61fJanuary 2021:\n \u2013\nAmendments to IFRS 4\ue61fInsurance Contracts \u2013 deferral of IFRS 9,\neffective 1\ue61fJanuary 2021\n \u2013\nAmendments to IFRS 9\ue61fFinancial Instruments, IFRS 7\ue61fFinancial\nInstruments: Disclosures, IAS 39\ue61fFinancial Instruments: Recognition\nand measurement, IFRS 4\ue61fInsurance contracts and IFRS 16\ue61fLeases \u2013\nInterest Rate Benchmark Reform \u2013 Phase 2, effective 1\ue61fJanuary 2021\n \u2013\nAmendments to IFRS 16\ue61fLeases \u2013 Covid-19\ue61frelated rent concessions\nbeyond 30\ue61fJune 2021, effective 1\ue61fApril 2021\n \nThe above changes did not have any material impact on the annual con-\nsolidated accounts of the Group, with exception for IFRS 16 Leases. A\nrent discount was received in 2021 of 596 thousand euro.\n\nConsolidation principles\nSubsidiaries\nVan de Velde NV has direct or indirect control over an entity if and only\nif it has all the following:\n \u2013 Power over the investee;\n \u2013\nExposure, or rights, to variable returns from its involvement with\nthe investee; and\n \u2013 The ability to use its power over the investee to affect the amount \nof the investor\u2019s returns.\n \nThe financial statements of subsidiaries are included in the consolidated\nfinancial statements of the Group from the date that control commences\nuntil the date that control ceases. They are prepared as of the same\nreporting date and using the Group accounting policies. Intragroup bal-\nances, transactions, income and expenses are eliminated in full.\nAssociated companies\nAssociated companies are companies in which Van de Velde NV directly\nor indirectly has a significant influence. This is assumed to be the case\nwhen the Group holds at least 20% of the voting rights attached to\nthe shares. The financial statements of these companies are prepared\nin accordance with the same accounting policies used for the Group.\nThe consolidated financial statements contain the share of the Group\nin the result of associated companies in accordance with the equity\nmethod from the day that the significant influence is acquired until the\nday it ends. If the share of the Group in the losses of the associated\ncompanies is greater than the carrying amount of the participation, the\ncarrying amount is set at zero and additional losses are recognized only\ninsofar as the Group has assumed additional obligations.\nParticipations in associated companies are revalued if there are indica-\ntions of possible impairment or of the disappearance of the reasons for\nearlier impairments.\nThe participations valued in the balance sheet in accordance with the\nequity method also include the carrying amount of related goodwill.\nForeign currencies\nForeign currency transactions\nThe reporting currency of the Group is the euro. Foreign currency\ntransactions are recorded at the exchange rate on the transaction date.\nMonetary assets and liabilities denominated in foreign currencies are\nconverted at the exchange rate on the balance sheet date. Gains and\nlosses resulting from the settlement of foreign currency transactions\nand from the conversion of monetary assets and liabilities denominated\nin foreign currencies are recognized in the income statement. Non-\nmonetary assets and liabilities denominated in foreign currencies are\nconverted at the foreign exchange rate on the date of the transaction.\nFinancial statements of foreign activities\nVan de Velde\u2019s foreign operations outside the euro zone are considered\nto be foreign activities. Accordingly, assets and liabilities are converted to\neuro at foreign exchange rates on the balance sheet date. Income state-\nments of foreign entities are converted to euro at the average exchange\nrates of that currency over the past 12\ue61fmonths. The components of share-\nholders\u2019 equity are converted at historical rates. Exchange differences\narising from the conversion of shareholders\u2019 equity to euro at year-end\nexchange rates are recorded in \u2018Other comprehensive income\u2019. On sale\nor disposal of a foreign operation, the deferred cumulative amount recog-\nnized in equity relating to that particular foreign operation is recognized\nin the income statement.\nThe Group treats goodwill and intangible assets with an indefinite use-\nful life, arising from business combinations, as a monetary item. As a\nresult, these assets are converted based on the exchange rate in effect\non the balance sheet date.\nIntangible assets\n(1) Research and development\nThe nature of the development costs within the Van de Velde Group,\nprimarily product and process innovation, is such that they do not meet\nthe criteria set out in IAS 38\ue61ffor recognition as intangible assets. They are\ntherefore expensed when incurred. Development costs within the Group\nin relation to research and development of software are capitalized under\nsoftware. The depreciation begins when the intangible assets are avail-\nable for use, and this by a straight-line depreciation over a period of five\nyears. When the activation starts, the conditions of IAS38 are fulfilled.\n(2) Acquired brands\nBrands acquired as part of business combinations are deemed to be\nintangible assets with an indefinite useful life. These are measured at the\nvalue established as part of the allocation of fair value of the identifiable\nassets, obligations and contingent obligations on the acquisition date,\nless accumulated impairment losses. These brands are not amortized\nbut are tested annually for impairment (for more details, see note 3).\nThe correctness of classification as intangible assets with indefinite\nuseful life is also evaluated.\n(3) Other intangible assets\nOther intangible assets (software and online platform) acquired by Van\nde Velde are recognized at cost (purchase price plus all directly attribut-\nable costs) less accumulated amortization and accumulated impairment\nlosses. Expenses for the registration of trade names and designs are\nrecorded as brands with finite useful life to the extent that this relates to\nnew registrations in the country of registration. Other expenditures on\ninternally generated goodwill and brands are recognized in the income\nstatement when incurred. Amortization begins when the intangible asset\nis available using the straight-line method. The useful life of intangible\nassets with a finite life is generally estimated at three to five years. Other\nintangible assets include acquired distribution rights and similar rights,\nwhich are amortized over a period of five years. The rules of IAS 38\ue61fare\nmet at the moment of activation of other intangible assets.\n\nGoodwill\n(1) Goodwill\nGoodwill represents the excess of the cost of an acquisition over the\nfair value of the Group\u2019s share of the net identifiable assets of the\nacquired subsidiary/associate at the date of acquisition. Goodwill is\ntested annually for impairment or more frequently if events or changes\nin circumstances indicate that the asset might be impaired. Goodwill\nis treated by the Group as an asset of the parent and is considered as\na monetary item. As a result, these assets are converted based on the\nrate in force at the balance sheet date. Goodwill is recorded at cost less\naccumulated impairment losses.\n(2) Negative goodwill\nIf the Group\u2019s interest in the net fair value of the identifiable assets,\nliabilities and contingent liabilities exceeds the cost of the business\ncombination, Van de Velde will immediately recognize any positive dif-\nference through profit or loss.\nTangible fixed assets\n(1) Initial expenditure\nTangible fixed assets are recognized at cost less accumulated deprecia-\ntion and accumulated impairment losses. Cost is determined as being\nthe purchase price plus other directly attributable acquisition costs, such\nas non-refundable tax and transport.\n(2) Subsequent expenditure\nSubsequent expenditures are capitalized only when it increases the\nfuture economic benefits embodied in the item of property, plant and\nequipment. Otherwise, it is recognized in profit or loss when incurred.\n(3) Depreciation\nThe depreciable amount equals the cost of the asset less its residual\nvalue. Depreciation starts from the date the asset is ready for use, using\nthe straight-line method over the estimated useful life of the asset.\nResidual value and useful life are reviewed at least at each fiscal year end.\nThe depreciation rates used are as follows:\nBuildings 15-25\ue61fyears\nProduction machinery and equipment  2-10\ue61fyears\nElectronic office equipment\n(1)\n 3-5\ue61fyears\nFurniture\n(1)\n 5-10\ue61fyears\nVehicles 3-5\ue61fyears\n \nLand is not depreciated as it is deemed to have an indefinite life.\nImpairment of assets\nThe carrying amount of Van de Velde\u2019s fixed assets, other than deferred\ntax assets, financial assets and other non-current assets are reviewed\non each balance sheet date to determine whether there is any indica-\ntion of impairment. If any such indication exists, the asset\u2019s recover-\nable amount is estimated. An impairment test is conducted annually\non intangible assets that are not yet available for use, intangible assets\nwith an indefinite useful life and goodwill, regardless of whether there\nis any indication of impairment. An impairment loss is recognized in\nprofit or loss whenever the carrying amount of an asset exceeds its\nrecoverable amount.\n(1) Calculation of recoverable amount\nThe realizable value of an asset is the greater of its fair value less cost\nto sell and value-in-use. In assessing value-in-use, the estimated future\ncash flows are discounted to their present value using a discount rate\nthat reflects current market assessments of the time value of money\nand the risks specific to the asset. For an asset that does not generate\nlargely independent cash inflows, the recoverable amount is determined\nfor the cash-generating unit to which the asset belongs.\n(2) Reversal of impairment\nImpairment losses on goodwill and intangible fixed assets with indefi-\nnite useful life are not reversed. For any other assets, an impairment\nloss is reversed if there has been a change in the estimates used to \ndetermine the recoverable amount. An impairment loss is reversed only\nto the extent that the asset\u2019s carrying amount does not exceed the car-\nrying amount that would have been determined, net of depreciation or\namortization, if no impairment loss had been recognized.\n\nInvestments in associates\nIn 2021, Van de Velde changed the method of converting the share in the\nnet asset of Top Form International Ltd. to bring it in line with the require\n-\nment of IAS 21 39 a and c. whereby the underlying share in the net asset\nof Top Form International Ltd. is converted at the closing rate, and the\nconversion differences are included in other comprehensive income.\nTo keep the figures comparable, this IAS 8 restatement has been made\nin the opening balance sheet as of 1 January 2020, as well as in the other\ncomprehensive income for the 12-month period ended 31 December\n2020. This restatement has no impact on the profit and loss account\nof this period or for the comparable periods but is recognized in other\ncomprehensive income.\nParticipation in associates  \n(in 000 euro)\n01.01.2020\n31.12.2020\nBook value before adjustment 11,631  10,505\nImpact change in calculation of conversion\nassociated company\n3,117  2,025\nBook value after adjustment 14,748 12,525\nEquity - Other comprehensive income\n(in 000 euro)\n01.01.2020\n31.12.2020\nBook value before adjustment -6,312 -7,518\nImpact change in calculation of conversion\nassociated company\n3,117  2,025\nBookvalue after adjustment  -3,195  -5,493\nInventories\nRaw materials, work in progress, merchandise and finished goods are\nvalued at the lower of cost or net realizable value. Cost of inventories\ncomprises all purchase costs, conversion costs and other costs incurred\nin bringing the inventories to their present location and present condition.\nThe valuation method for the stocks is the first in first out (FIFO) method.\nPurchasing costs include:\n \u2013 Purchase price, plus\n \u2013 Import duties and other taxes (if not recoverable), plus\n \u2013\nTransport, handling and other costs directly attributable to the acquisi-\ntion of the goods, less\n \u2013 Trade discounts, rebates and other similar items.\n \nConversion costs include:\n \u2013 Costs directly related to the units of production, plus\n \u2013\nA systematic allocation of fixed and variable indirect production costs.\n \nThe provision for obsolescence is calculated consistently throughout the\nGroup based on the age and expected future sales of the items at hand.\nTrade and other receivables\nTrade receivables are recognized at cost less impairment losses. If there\nis objective evidence that an impairment loss has been incurred on trade\nreceivables, the impairment loss recognized is the difference between\nthe carrying amount and the present value of estimated future cash\nflows. All trade receivables are individually assessed for excess impair-\nment according to the ECL model.\n(a) Classification and valuation\nUnder IFRS 9, debt instruments are subsequently valued at fair value\nthrough profit or loss (FVTPL), amortized cost or fair value with recogni-\ntion of value adjustments to unrealized results (FVTOCI). The classifica-\ntion is based on two criteria: the business model of the Group for the\nmanagement of the assets; and whether the contractual cash flows\nof the instruments represent \u2018principal and interest payments only\u2019 on\nthe outstanding principal. Trade receivables and other financial assets\nare held to collect contractual cash flows and lead to cash flows that\nrepresent only payments of principal and interest. These are classified\nand valued as debt instruments at amortized cost as explained in the\n\u2018Revenue from contracts with customers\u2019 section.\nThe Group has not designated financial obligations as FVTPL. There are\nno changes in the classification and valuation of the Group\u2019s financial\nliabilities.\n(b) Impairment\nIFRS 9\ue61frequires the Group to recognize a provision for expected credit\nlosses (ECLs) for all debt instruments that are not held at fair value\nthrough profit or loss and contract assets. ECLs are based on the differ-\nence between the contractual cash flow that follows from the contract\nand all cash flows that the Group expects to receive, discounted on\nthe basis of the effective interest rate. For trade receivables, the Group\nuses the simplified application for the calculation of the ECLs whereby\nan impairment is recognized on the basis of historical credit losses,\nadjusted for economic or credit conditions that are such that the actual\nlosses are greater or less than suggested by historical trends.\nLeases\nThe Group assesses at contract inception whether a contract is, or con\n-\ntains, a lease. That is, if the contract conveys the right to control the use\nof an identified asset for a period of time in exchange for consideration.\nGroup as a lessee\nThe Group applies a single recognition and measurement approach for\nall leases, except for short-term leases (<12\ue61fmonths) and leases of\nlow-value assets (<\u20ac 5,000). The Group recognizes lease liabilities to\nmake lease payments and right-of-use assets representing the right to\nuse the underlying assets.\ni)  Right-of-use assets\nThe Group recognizes right-of-use assets at the commencement date of\nthe lease (i.e., the date the underlying asset is available for use). Right-\nof-use assets are measured at cost, less any accumulated depreciation\nand impairment losses, and adjusted for any remeasurement of lease\nliabilities. The cost of right-of-use assets is valued at the initial value of\nthe obligation. The cost increases with the lease payments on or before\nthe start of the lease, decreases with the lease benefits, increases with\nthe initial direct costs of the lessee and increases with the estimate of\nthe costs for restoring the asset to its original condition. Right-of-use\nassets are depreciated on a straight-line basis over the shorter of the\nlease term and the estimated useful lives of the assets, as follows:\n\u2022  Plant and machinery  maximum 10\ue61fyears\n\u2022  Motor vehicles     maximum 5\ue61fyears\nIf ownership of the leased asset transfers to the Group at the end of\nthe lease term or the cost reflects the exercise of a purchase option,\ndepreciation is calculated using the estimated useful life of the asset.\n\nThe right-of-use assets are also subject to impairment. Refer to the\naccounting policies in section(s) Impairment of non-financial assets.\nii)  Lease liabilities\nAt the commencement date of the lease, the Group recognizes lease\nliabilities measured at the present value of lease payments to be made\nover the lease term. The lease payments include fixed payments less\nany lease incentives receivable, variable lease payments that depend\non an index or a rate, and amounts expected to be paid under residual\nvalue guarantees. The lease payments also include the exercise price of\na purchase option reasonably certain to be exercised by the Group and\npayments of penalties for terminating the lease, if the lease term reflects\nthe Group exercising the option to terminate. Variable lease payments\nthat do not depend on an index or a rate are recognized as expenses in\nthe period in which the event that triggers the payment occurs.\nTo determine the current value of the lease payments, the group will\ndiscount future lease payments at the incremental interest rate on the\nstart date (i.e. the interest that the lessee would pay if he took out a loan\nwith the bank for a similar asset over a similar duration). After the com-\nmencement date, the amount of lease liabilities is increased to reflect\nthe accretion of interest and reduced for the lease payments made. In\naddition, the carrying amount of lease liabilities is remeasured if there\nis a modification, a change in the lease term, a change in the lease pay-\nments (e.g. changes to future payments resulting from a change in an\nindex or rate used to determine such lease payments) or a change in the\nassessment of an option to purchase the underlying asset.\niii) Short-term leases and leases of low-value assets\nThe Group applies the short-term lease recognition exemption to its\nshort-term leases of machinery and equipment (i.e., those leases that\nhave a lease term of 12\ue61fmonths or less from the commencement date\nand do not contain a purchase option). The Group also applies the exemp-\ntion for leases for which the underlying assets have a low value (value\nbelow \u20ac 5,000).\nDerivative financial instruments\nHedges\nVan de Velde applies derivative financial instruments only in order to\nreduce the exposure to foreign currency risk. These financial instru-\nments are entered into in accordance with the aims and principles laid\ndown by general management, which prohibits the use of such financial\ninstruments for speculation purposes.\nDerivative financial instruments are initially measured at fair value.\nAlthough they provide effective economic hedges, they do not qualify\nfor hedge accounting under the specific requirements in IAS 39\ue61f(Financial\nInstruments: Recognition and Measurement). As a result, at reporting\ndate all derivatives are measured at fair value with changes in fair value\nrecognized immediately in the income statement. The fair value of deriva-\ntives is calculated by discounting the expected future cash flows at the\nprevailing interest rates. All spot purchases and sales of financial assets\nare recognized on the settlement date.\nCash and cash equivalents\nCash and cash equivalents include bank balances, available cash and\nshort-term deposits. Interest income is recognized based on the effec-\ntive interest rate of the asset.\nShare capital\n(1) Change in capital\nWhen there is an increase or decrease in Van de Velde\u2019s share capital,\nall directly attributable costs relating to that event are deducted from\nequity and not recognized in profit or loss when incurred.\n(2) Dividends\nDividends are recognized as a liability in the period in which they are\napproved by the General Meeting.\nProvisions\nProvisions are recognized when Van de Velde has a present legal or\nconstructive obligation as a result of past events, and it is probable\nthat an outflow will be required to settle the obligation and a reliable\nestimate of the amount of the obligation can be made. If the effect is\nmaterial, provisions are determined by discounting the expected future\ncash flows at a rate that reflects current market assessments of the time\nvalue of money and, where appropriate, the risks specific to the liability.\nEmployee benefits\n(1) Pension plan\nVan de Velde has group insurance plans for its Belgian employees and\ngroup insurance plans for its employees elsewhere. Under IAS 19\ue61fall\npension plans are recognized as defined contribution plans or defined\npension plans. A defined contribution plan is a pension plan in which a\ncompany pays fixed contributions to a separate company and has no\nlegal or actual obligation to pay further contributions if the pension fund\nhas inadequate assets to pay the benefits related to the years of service\nin the current or previous periods to all employees. A defined pension\nplan is a pension plan that is not a defined contribution plan.\nThe pension plans in foreign countries are defined contribution plans. The\ncosts connected with these are recognized through profit and loss when\nincurred. Retirement plans in Belgium are defined retirement plans.\n\nA liability was recognized in the balance sheet with regard to the Belgian\npension schemes equal to the sum of the cash value of the gross liabili-\nties on account of defined pension entitlements (including the tax due\non contributions relating to pension costs) as at the balance sheet date,\nless the market value of the fund investments. An independent actuary\nmakes on an annual basis an actuarial calculation of this gross liability\nusing the projected unit credit method.\nThe interest expense is calculated by applying a discount rate to the\nasset or the liability of the defined pension entitlements. This inter-\nest expense is recognized through profit and loss. In establishing an\nappropriate discount rate, the company bases itself on the interest rates\napplicable to high-grade corporate bonds in cash, which correspond to\nthe currency in which the liability is expected to be paid in accordance\nwith the expected duration of the defined pension liability.\nRevaluations, including actuarial gains and losses and the return on fund\ninvestments (excluding net interest expense), are recognized in other\ncomprehensive income when they occur. Revaluations must not be\nreclassified to profit and loss in later periods.\nPast service pension cost is recognized through profit and loss when the\nplan is changed or when the related restructuring or termination benefits\nbecome payable by the company, whichever occurs first.\n(2) Share-based payments\nThe fair value of the share options awarded under the Group\u2019s share\noption plan is established on the grant date, with due consideration\nfor the terms and conditions under which the options are granted and\nusing a valuation technique corresponding to generally accepted valu-\nation methods for establishing the price of financial instruments and\nwith due consideration for all relevant factors and assumptions. The\nfair value of the share options is recognized as personnel expenses for\nthe period until the beneficiary acquires the option unconditionally (i.e.\nvesting date). This concerns equity settled option plans being incorpo-\nrated in the equity.\nIncome tax\nIncome tax on the profit or loss for the year comprises current and\ndeferred tax. Income tax is recognized in the income statement except\ninsofar as it relates to items included in shareholders\u2019 equity. In that\ncase, income tax is included in shareholders\u2019 equity.\nCurrent tax is the expected tax payable on the taxable income for the\nyear, using applicable tax rates on the balance sheet date, and any\nadjustments to tax payables with respect to previous years.\nFor financial reporting purposes, deferred income tax is calculated using\nthe liability method based on temporary differences at the balance sheet\ndate between the tax bases of assets and liabilities and their carrying\namounts.\nDeferred income tax assets are recognized only insofar as it is probable\nthat taxable profit will be available against which the deductible tem-\nporary differences, the carry-forward of unused tax credits and unused\ntax losses can be utilized.\nDeferred income tax assets and liabilities are measured at the tax rates\nthat are expected to apply in the year in which the asset is realized or\nthe liability is settled, based on tax rates (and tax laws) that have been\nimplemented or substantively implemented at the balance sheet date.\nDeferred tax assets and deferred tax liabilities are offset when a legally\nenforceable right exists to set off current tax assets against current tax\nliabilities and the deferred taxes relate to the same taxable entity and\nthe same taxation authority.\nTrade and other payables\nTrade and other payables are stated at cost, Trade payables are non-\ninterest bearing and are normally settled on 30-day terms. Other paya-\nbles are non-interest bearing and have an average term of six months.\nRevenue from contracts with customers\nIFRS 15\ue61fprovides a five-step model for the administrative processing\nof revenue from contracts with customers. Under IFRS 15, revenue is\nrecognized in an amount that reflects the consideration to which the\nentity expects to be entitled in exchange for those goods or services.\n(1) Goods sold\nThe two biggest revenue streams of the Group are revenue from whole-\nsale and revenue from retail. Within these revenue streams, it is usually\nexpected that the sale of the goods represents the only performance\nobligation. Furthermore, the revenue is recognized when the control\nover the article is transferred to the customer, usually upon delivery\nof the goods.\nAllowed discounts for cash payments are charged to the profit and loss\naccount at the moment of the collection of the claim. This discount is\nincluded as a reduction in turnover. Van de Velde has applied the practical\nexpedient for allowed discounts for cash payments. That is, the promised\namount of consideration is not adjusted for the effects of a significant\nfinancing component if the period between the transfer of the promised\ngood or service and the payment is one year or less.\nSales of products in the physical and digital stores are recorded when\nthe sale is settled. The sale is recorded in revenue excluding taxes on\nsales and value added taxes and includes discounts and commercial\npromotions.\nThe necessary provisions for returns are recognized and revised every\nsix months based on historical data.\n(2) Gift cards and store credits\nThe Group\u2019s retail network sells gift cards and issues credits to its cus-\ntomers when merchandise is returned. The cards and credits either do\nnot expire or have an expiry date of up to 24\ue61fmonths. In line with IFRS 15,\nthe Group recognizes sales from gift cards when they are redeemed by\nthe customer. The unused gift cards and credits are included in the profit\nand loss account in accordance with internally determined percentages.\nThis recognition represents the estimate of the management of which\nthe probability of use by the customer is estimated to be minimal. This\nprofit is included in turnover.\nFinancial income\nFinancial income comprises dividend income and interest income.\nRoyalties arising from the use by others of the company\u2019s resources\nare recognized when it is probable that the economic benefits associated\n\nwith the transaction will flow to the company and the revenue can be\nmeasured reliably. Dividend income is recognized in the income state-\nment on the date that the dividend is. Interest income is recognized\nbased on the effective interest rate of the asset.\nGovernment grants\nA government grant is recognized when there is reasonable assur-\nance that it will be received and that the company will comply with the\nattached conditions. Grants that compensate the company for expenses\nincurred are recognized as revenue in the income statement on a sys-\ntematic basis in the same periods in which the expenses are incurred.\nGrants that compensate the company for the cost of an asset are, spread\nout over the depreciation period of the asset in question, included in the\nincome statement under other operating income.\nExpenses\n(1) Interest expenses\nAll interest and other costs incurred in connection with borrowings and\nfinance lease liabilities are recognized in the income statement using\nthe effective interest rate method.\n(2) Research and development, advertising and promotional\ncosts, and system development costs\nResearch, advertising and promotional costs are expensed in the year in\nwhich these costs are incurred. Development costs and system develop-\nment costs are expensed in the year in which these costs are incurred\nif they do not meet the criteria for capitalization. If the development\nexpenditure meets the criteria, it will be capitalized.\nNew and amended standards and interpretations,\neffective after year end 2021\nThe Group has not early-adopted any standards or interpretations issued\nbut not yet effective as at 31\ue61fDecember 2021.\nStandards and interpretations issued but not yet effective up to the\ndate of issuance of the Group\u2019s financial statements are listed below.\nVan de Velde expects no material impact on the Group consolidated\nfinancial statements:\n \u2013\nAmendments to IAS 1\ue61fPresentation of Financial Statements \u2013\nClassification of Liabilities as Current or Non-current, effective\n1\ue61fJanuary 2023\n (1)\n\ue61f\n \u2013\nAmendments to IAS 1\ue61fPresentation of Financial Statements and IFRS\nPractice Statement 2: Disclosure of Accounting policies, effective\n1\ue61fJanuary 2023\n(1)\n \u2013 Amendments to IAS 8\ue61fAccounting policies, Changes in Accounting \nEstimates and Errors: Definition of Accounting Estimates, effective\n1\ue61fJanuary 2023\n(1)\n \u2013\nAmendments to IAS 12\ue61fIncome Taxes: Deferred tax related to assets\nand liabilities arising from a single transaction, effective 1\ue61fJanuary\n2023\n(1)\n \u2013 Amendments to IAS 16\ue61fProperty, plant and equipment \u2013 Proceeds \nbefore intended use, effective 1\ue61fJanuary 2022\n \u2013\nAmendments to IAS 37\ue61fProvisions, contingent liabilities and con-\ntingent assets \u2013 onerous contracts \u2013 cost of fulfilling a contract,\neffective 1\ue61fJanuary 2022\n \u2013 Amendments to IFRS 3\ue61fBusiness combinations \u2013 References to the \nconceptual framework, effective 1\ue61fJanuary 2022\n \u2013\nAmendments to IFRS 17\ue61fInsurance contracts: Initial Application of\nIFRS 17\ue61fand IFRS 9\ue61f\u2013 Comparative Information, effective 1\ue61fJanuary\n2023\n(1)\n \u2013 IFRS 17\ue61fInsurance Contracts, effective 1\ue61fJanuary 2023\n \u2013 Annual Improvements Cycle - 2018-2020, effective 1\ue61fJanuary 2022\n(1)  Not yet approved by the EU as of December 28, 2021. On November 19, 2021, the IASB\npublished a new draft for discussion regarding the following subject: Amendments to\nIAS 1 Presentation of Financial Statements \u2013 Classi\ufb01cation of short-term or long-term\ndebt\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag208": {
+   "value": "\n3.  Goodwill and intangible assets with\nindefinite useful life\n(a) Goodwill\nGoodwill is allocated and tested for impairment at the cash-generating\nunit level that is expected to benefit from synergies of the combination\nthe goodwill resulted from.\nThe carrying value of goodwill (after impairment and other adjustments)\nwas allocated to each of the cash-generating units (in thousand euro)\nas follows:\n000\ue61feuro Andres Sarda Intimacy Rigby & Peller Re-tail\n(1)\nTotal\nCarrying value, gross\nAt 01/01/2021 6,357 26,189 1,749 2,797 37,092\nAcquisition throug business combinations 0 0 0 0 0\nExchange differences 0 0 71 0 71\nAt 31/12/2021 6,357 26,189 1,820 2,797 37,163\nImpairment and other adjustments\nAt 01/01/2021 6,357 26,189 0 0 32,546\nAdjustments 0 0 0 0 0\nAt 31/12/2021 6,357 26,189 0 0 32,546\nAt 31/12/2021\nAccumulated acquisitions 6,357 26,189 1,820 2,797 37,163\nAccumulated adjustments 6,357 26,189 0 0 32,546\nGoodwill, net 31/12/2021 0 0 1,820 2,797 4,617\n(1)  Re-tail refers to the former Donker stores and online store in the Netherlands, which subsequently became Lincherie stores under our own management.\n(1)  Re-tail refers to the former Donker stores and online store in the Netherlands, which subsequently became Lincherie stores under our own management.\n(b) Brand names with indefinite useful life\nThe carrying value of brands with indefinite useful life (after impairment and other adjustments) was allocated to each of the cash-generating units\n(in thousand euro) as follows:\n000\ue61feuro Andres Sarda Intimacy Rigby & Peller Re-tail\n(1)\nTotal\nCarrying value, gross\nAt 01/01/2021 11,000 7,784 6,734 0 25,518\nAcquisition throug business combinations 0 0 0 0 0\nExchange differences 0 0 280 0 280\nAt 31/12/2021 11,000 7,784 7,014 0 25,798\nImpairment and other adjustments\nAt 01/01/2021 5,531 7,784 0 0 13,315\nAdjustments 0 0 0 0 0\nAt 31/12/2021 5,531 7,784 0 0 13,315\nAt 31/12/2021\nAccumulated acquisitions 11,000 7,784 7,014 0 25,798\nAccumulated adjustments 5,531 7,784 0 0 13,315\nBrand names with indefinite useful life, net 31/12/2021 5,469 0 7,014 0 12,483\n\nBrands with indefinite useful life are:\n \u2013 The Andres Sarda brand acquired in 2008. In 2012 an impairment charge of 5,531 thousand euro was recognized on this brand.\n \u2013 The Intimacy brand and concept acquired in 2010. This brand and concept is fully written off in 2014 (7,784 thousand euro).\n \u2013 The Rigby & Peller brand and concept acquired in 2011, the fair value of which was determined as part of a business combination.\n \u2013 These brands are considered to have an indefinite useful life because the Group sees them as a fully fledged extension of its existing brand \nportfolio.\nImpairment test\nIn the fourth quarter of every year, the Group conducts its annual impairment test for each cash-generating unit. The following intangible assets\nallocated to each of the cash-generating units were subject to an impairment test in 2021:\n000\ue61feuro Andres Sarda Intimacy Rigby & Peller Re-tail Total\nGoodwill 0 0 1,820 2,797 4,617\nBrands with indefinite useful life 5,469 0 7,014 0 12,483\nTotal intangible assets 5,469 0 8,834 2,797 17,100\nResult of the impairment test\nIn 2021\ue61fthe impairment test showed that the realizable value for all cash-\ngenerating units (Andres Sarda, Rigby & Peller and Re-tail) exceeded the\ncarrying value and hence no impairment was required.\nMethodology applied to the impairment test\nThis test aims to compare the realizable value and the carrying value of\neach cash-generating unit:\n \u2013 A model-based approach determines the realizable value based on \nthe calculated value-in-use, being the present value of the future\nexpected cash flows from these cash-generating units:\n \u2013\nFor the first two years in the forecast period (2022-2023), the\ngrowth plan as approved by the Board of Directors is used as\nthe basis.\n \u2013 For the subsequent years (2024-2025), a cash flow projection is \ndrawn up based on realistic assumptions.\n \u2013 The discount rate used to calculate the present value of the future \nexpected cash flows is based on the market assessments and is\nexplained below.\n \nThe calculation of the value-in-use for all cash-generating units is most\nsensitive to the following assumptions:\n \u2013 Turnover assumptions for the forecast period;\n \u2013 EBITDA\n(1)\n development and EBITDA margins applied to the turnover\nforecast;\n \u2013\nGrowth rate used to extrapolate cash flows beyond the forecast\nperiod;\n \u2013 Discount rate.\n(1)   Operating pro\ufb01t before depreciation and amortization\nThe assumptions related to turnover and EBITDA developments are\nbased on available internal data as well as historical percentages on the\nbasis of experience, which are determined for each of the cash-gener-\nating units separately. The growth rate and discount rates are checked\nagainst external sources insofar as possible and relevant.\nTurnover assumptions for the forecast period\nFor the three cash-generating units, the growth plan as approved by\nthe Board of Directors is the starting point for the first two years in the\nforecast period (2022-2023).\nFor Andres Sarda we expect turnover growth during the period \n2024-2025.\nFor the planning period (2022-2025) moderate turnover growth on a\nlike-for-like basis has been applied to the cash-generating units Rigby\n& Peller and Re-tail.\nFully aligned with the segment reporting, the turnover estimates for the\ncash-generating units Rigby & Peller and Re-tail include the retail turnover\nrealized by the stores as well as the wholesale turnover for the Van de\nVelde products sold by these retail channels. Futhermore, the estimate\nfor Rigby & Peller also takes into account the digital sales generated\noutside the United Kingdom under the Rigby & Peller brand name.\nEBITDA development and EBITDA margins applied to the\nturnover forecast\nA development towards the target EBITDA margin is assumed for Andres\nSarda. The improved margin for Andres Sarda should mainly be achieved\nthrough turnover growth in the wholesale business and continued pen-\netration of Andres Sarda in Van de Velde\u2019s own stores. The cost develop-\nments will also be monitored very strictly.\n\nA gradual increase in the EBITDA percentage towards the target EBITDA\npercentage for a (partially) integrated retail chain is assumed for the\ncash-generating units Rigby & Peller and Re-tail. This is achieved by\nmeans of a high gross margin, limited cost increases and the target\nmarket share of Van de Velde products. The contributions to EBITDA of\ndigital sales under the Rigby & Peller brand in Germany and the United\nStates of America were also included in the valuation.\nGrowth rate used to extrapolate cash flows beyond the\nforecast period\nThe long-term percentage applied to extrapolate cash flows beyond the\nforecast period is assessed in line with the expected long-term inflation\nfor all cash-generating units (2%).\nDiscount rate\nThe discount rates represent the current market assessment of the\nrisks specific to the Van de Velde Group on the one hand and the cash-\ngenerating units on the other. The discount rates are estimated on the\nbasis of the weighted average cost of capital after tax and are for the\nthree cash-generating units in a range between 7.4% and 8.6%. This\ncorresponds to a cost of capital before tax of between 9.5% and 10.6%.\nSensitivity to changes in assumptions\nWith regard to the assessment of the value of the cash-generating unit\nAndres Sarda, Rigby & Peller and Re-tail, management is of the opinion,\nbased on the sensitivity analysis, that a change to the basic assumptions\nwould not currently lead to the book value of the unit exceeding the \nrealizable value. The tested sensitivities related to the following aspects:\n \u2013\nLower than planned turnover growth (of -4% or -5%) during the\nplanning period (2022-2025);\n \u2013 A reduction in the long-term percentage (from 2% to 1%) used to \nextrapolate the expected turnover;\n \u2013 An increase in the weighted average cost of capital of 7% or 8% to \n12% on average.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfIntangibleAssetsAndGoodwillExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag209": {
+   "value": "\nThe expenses of brands with a finite useful life relate among other things\nto registration costs of developed in-house brands.\n000\ue61feuro Total\nBrands with finite\nuseful life\nBrands with\nindefinite use-\nful life\nDistribution\nrights and similar\nrights Software Key money\nIntangible assets, gross\nAt 01/01/2020 57,208 4,516 25,518 3,734 23,123 317\nInvestments 1,622 85 0 0 1,537 0\nDisposals 0 0 0 0 0 0\nOther adjustments 282 0 0 0 282 0\nExchange adjustments 0 0 0 0 0 0\nAt 31/12/2020 59,112 4,601 25,518 3,734 24,942 317\nAmortization and impairment\nAt 01/01/2020 33,268 4,465 13,315 3,734 11,522 232\nAmortization 3,435 -248 0 0 3,668 15\nImpairment 0 0 0 0 0 0\nDisposals 0 0 0 0 0 0\nExchange adjustments 0 0 0 0 0 0\nAt 31/12/2020 36,703 4,217 13,315 3,734 15,190 247\nIntangible assets, net 31/12/2020 22,409 384 12,203 0 9,752 70\nIntangible assets, gross\nAt 01/01/2021 59,112 4,601 25,518 3,734 24,942 317\nInvestments 2,274 142 0 0 2,132 0\nDisposals 0 0 0 0 0 0\nOther adjustments 0 0 0 0 0 0\nExchange adjustments 280 0 280 0 0 0\nAt 31/12/2021 61,666 4,743 25,798 3,734 27,074 317\nAmortization and impairment\nAt 01/01/2021 36,703 4,217 13,315 3,734 15,190 247\nAmortization 4,687 170 0 0 4,466 51\nImpairment 0 0 0 0 0 0\nDisposals 0 0 0 0 0 0\nExchange adjustments 0 0 0 0 0 0\nAt 31/12/2021 41,390 4,387 13,315 3,734 19,656 298\nIntangible assets, net 31/12/2021 20,276 356 12,483 0 7,418 19\n4. Intangible assets\nThe investment in software in 2021 concerns the further development\nand successful activation of the digital B2C platform and the B2B plat-\nform. In addition, there were additional investments in the further expan-\nsion of the Customer Data Platform.\n\nKey money relates to stores in Germany,  Spain and The Netherlands.\nKey money refers to the \u2018droit au bail\u2019 or the right to rent the shops in\nGermany, the Netherlands and Spain and is recognized at cost.\nExpenditure on research activities undertaken to acquire new scientific\nor technical knowledge and understanding, is recognized as expense\nwhen incurred.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfIntangibleAssetsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag211": {
+   "value": "\n5. Tangible fixed assets\n000\ue61feuro Total\nLand and\nbuildings\nInstallations, machinery\nand equip-ment\nAssets under\nconstruction\nTangible fixed assets, gross\nAt 01/01/2020 95,771 43,817 51,595 359\nInvestments 1,093 555 475 63\nTransfer -282 69 69 -420\nDisposals -3,141 -1,486 -1,655 0\nExchange adjustments -129 -105 -24 0\nAt 31/12/2020 93,312 42,850 50,460 2\nDepreciation and impairment\nAt 01/01/2020 66,660 25,085 41,575 0\nDepreciation 4,846 1,894 2,952 0\nDisposals -3,015 -1,470 -1,545 0\nExchange adjustments 0 0 0 0\nAt 31/12/2020 68,491 25,509 42,982 0\nTangible fixed assets, net 31/12/2020 24,821 17,341 7,478 2\nTangible fixed assets, gross\nAt 01/01/2021 93,312 42,850 50,460 2\nInvestments 2,374 755 1,590 29\nTransfer 0 0 2 -2\nDisposals -2,735 0 -2,735 0\nExchange adjustments 146 0 146 0\nAt 31/12/2021 93,097 43,605 49,463 29\nDepreciation and impairment\nAt 01/01/2021 68,491 25,509 42,982 0\nDepreciation 4,217 1,305 2,912 0\nDisposals -2,608 0 -2,608 0\nExchange adjustments 0 0 0 0\nAt 31/12/2021 70,100 26,814 43,286 0\nTangible fixed assets, net 31/12/2021 22,997 16,791 6,177 29\nThe investments in tangible fixed assets mainly concern various investments in the improvement and maintenance of buildings and materials. The\ninvestments in machines mostly concerns investments in our distribution centre.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfPropertyPlantAndEquipmentExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag212": {
+   "value": "\n6. Investments in associates\n \nInvestments in associates consist of the following Group interests:\n \u2013\n25.7% in Top Form International Ltd.   \nTop Form is a company based in Hong Kong with operations in several\nAsian countries. The main activity is the production of lingerie for\nmainly major European and American fashion brands. The company\nis listed on the Hong Kong Stock Exchange. Van de Velde invested in\nTop Form in 2007 and has held 25.66% of shares since 2011.\n \nThe participation in the associated company Top Form International Ltd.\nis \u20ac 1.2m higher than at the end of 2020.\nNet carrying amount\n000\ue61feuro\nTop Form Ltd.\nAt 01/01/2020 14,748\nResults of the fiscal year -1,342\nDividend received 0\nUnrealized results 217\nRealized results 0\nConversion profit and losses -1,098\nAt 31/12/2020 12,525\nAt 01/01/2021 12,525\nResults of the fiscal year -438\nCapital increase 2021 1,167\nDividend received 0\nShare in other comprehensive income (conversion\nimpact)\n-463\nConversion profit and losses 953\nAt 31/12/2021 13,744\nKey figures per participation are as follows:\nKey figures\n000 euro\nTop Form Ltd.\n(31/12/2021)\nTop Form Ltd.\n(31/12/2020)\nTangible fixed assets 19,420 20,879\nOther fixed assets 25,593 19,211\nRight of use asset 2,574 3,119\nCurrent assets 59,800 61,229\nNon current liabilities 6,029 4,841\nCurrent liabilities 41,793 43,611\nLease liabilities 1,441 3,165\nTotal net assets 58,124 52,820\nUnrealized result in equity 11,490 12,035\nTurnover 170,714 129,948\nProfit/(Loss) attributable to own-\ners of the company\n--2,244 -3,840\n \nThe figures for Top Form International Ltd. refer to the closing situation\non 31 December 2021 (first half of fiscal year 2021-2022). Turnover and\nnet result refer to the result over a period of 12 months.\nReconciliation with the net book value:\nReconciliation net book value\nTop Form Ltd.\n(31/12/2021)\nParticipation percentage 25.66%\nTotal equity (in 000 HKD) 471,721\nParticipation in equity (in 000 HKD) 121,044\nCumulative exchange differences 2,974\nInvestment in association (book value) (in 000 euro) 13,744\n \nThe book value of the 25.66% participation in Top Form was 13,744\nthousand euro at 31 December 2021 and the value of this participa-\ntion based on the share price on that date was 4,122 thousand euro.  \nVan de Velde maintains the book value of the participation in Top Form\nbased on the share in the underlying equity of Top Form rather than on\nthe share price.\nThe transformation of Top Form (including major relocations within Asia\nand the transition in the customer portfolio) had a substantial negative\nimpact on the results of Top Form in the fiscal years ending on 30 June\n\n2019 and 30 June 2020. This was intensified in the fiscal year ending\non 30 June 2020 by consequences of covid-19, as the majority of Top\nForms customers were forced to close stores worldwide.\nThese events had an impact on the share price, together with a very low\nshare trade volume and significant fluctuations in the share price due to\nthe limited number of transactions. In the past calendar year there were\noften several consecutive days without any trading in the share, and a\nsignificant part of the transactions in the past calendar year were linked\nto 1 person who increased his stake for 5% to 8.98%.\nTop Form moved back into profit in the fiscal year ending 31 December\n2021 and the transformation and related investment plans were con-\ntinued.  Based on all input available when the year was closed, Van de\nVelde continues to feel that the share in the underlying equity continues\nto reflect the value of the participation in Top Form most accurately. At\nthe closing of the year, the methodology was updated for identifying\nan impairment on Top Form\nImpairment test\nIn parallel with the impairment test on goodwill and brand names with\nindefinite useful life, a test was also performed on the value of the\nparticipation in Top Form.ests\nMethodology for impairment tests\nThis test consists in comparing the value according to the equity method\nas included in het balance sheet of Van de Velde share (25.66%) in the\nunderlying recoverable amount of Top Form, whereby the recoverable\namount is determined on the basis of the present value of the future\nexpected cash flows from the activities of Top Form.\nFor this test, budget and business plans prepared by Top Forms man-\nagement for the years 2022-2025, as also approved by Top Forms board\nof directors and audit committee, were used. These budgets include\nplanned investments and changes in working capital.\nIn order to check the reliability of the estimated cash flows, the budget\nexercise made for the years 2018, 2019 and 2020 was compared with\nthe actual results. This exercise showed that Top Form is able to estimate\ntheir results in a reliable way. In accordance with the requirements of\nIFRS, confirmation was also received that these budgets have been pre-\npared in accordance with the current financial and operational structure\nof the group, without taking into account any future reorganisation or\nimprovements or adjustments of the asset.\nThe main assumptions used in the calculation, which are also most \nsensitive in determining the recoverable amount are:\n \u2013 A discounting rate of 11% was used for this test.\n \u2013 Turnover estimates used a growth between 5 to 7%\n \u2013\nGrowth percentage used to extrapolate cash flows beyond the plan-\nning period was set at 2.5%.  \n \nThe headroom in the base case scenario is 6,045 keur. The abovemen-\ntioned sensitivities were subjected to various sensitivity tests. The fol-\nlowing changes were made to the calculation models.\n \u2013\nTurnover estimates used during the period to which the expectations \nrelate were reduced to 3% and 5%. The headroom amounts in the\ncase 1,183 keur.  \n \u2013\nGrowth percentage used to extrapolate cash flows beyond the plan-\nning period was reduced to 1%. The headroom amounts 3,864 keur\nin this case.\n \u2013\nDiscounting rate was increased to 13%. The headroom is 2,628 keur\nin this case.\n \nThe sensitivity tests described above show that there is sufficient head-\nroom. As a result, the recoverable amount of Van de Velde\u2019s participation\nin Top Form, based on the calculations and tests, is higher than the car-\nrying amount included in the closing balance sheet of 2021.\nBased on the various valuation models used, there is currently no need\nto recognize an impairment on the financial assets as included on the\nbalance sheet of Van de Velde NV.\nThe abovementioned test is conducted annually to check for indications\nof an impairment on the asset, or more frequently if additional indicators\nof impairment should emerge.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfInterestsInAssociatesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag213": {
+   "value": "\n7. Other fixed assets\n \nOther fixed assets consist of the following:\n000\ue61feuro 2021 2020\nSecurity depostis for VAT 217 217\nOther security deposits 780 765\nOther participating interests 75 75\nPrepaid rent expenses 0 12\nBorrowings 117 94\nOther fixed assets, net 1,189 1,163\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfOtherNoncurrentAssetsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag214": {
+   "value": "\n8. Grants\nThis grant of 407 thousand euro was received from VLAIO (the Flemish \nAgency for Innovation and Entrepreneurship) in tranches in 2020, 2019, \n2018 and 2017 in relation to an ongoing research and development project.\nThe grant is recognized in the income statement pro rata the depreciation\nof the underlying asset for which the grant was received. The grant of 41\nthousand euro was recognized in the income statement in 2020. In 2021,\n81 thousand euro was recognized in the income statement.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfGovernmentGrantsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag215": {
+   "value": "\n9. Inventories\n \nInventories by major components are as follows:\n000\ue61feuro 2021 2020\nFinished and merchandise goods 24,473 21,589\nWork in progress 10,728 11,468\nRaw materials 13,663 12,001\nInventories, gross 48,864 45,058\nLess: Allowance for obsolescence -5,659 -5,708\nInventories, net 43,205 39,350\nThe allowance for obsolescence in 2021 concerns finished product (2,674\nthousand euro) and raw materials (2,985 thousand euro). The allowance\nfor obsolescence in 2020 concerns finished product (3,497 thousand\neuro) and raw materials (2,211 thousand euro).\nThe allowance for obsolescence and the additional write-downs are\nrecorded in the income statement under \u2018Cost of materials\u2019.\nThe cost of materials is as follows:\n000\ue61feuro 2021 2020\nPurchase of raw materials 39,720 33,078\nChange in inventories -3,806 1,761\nChange in allowance for obsolescence -49 -643\nCost of materials 35,865 30,674\nThe evolution in the components of the working capital was explained\nin the activity report.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfInventoriesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag216": {
+   "value": "\n10. Trade and other receivables\n \nAccounts trade receivable are as follows:\n000\ue61feuro 2021 2020\nTrade receivables, gross 13,753 11,353\nLess: allowance for doubtful debtors -495 -688\nTrade receivables, net 13,258 10,665\n \nTrade and other receivables are non-interest bearing. Standard payment\nterms are country-defined. In addition to payment terms, Van de Velde\nalso applies customer-defined credit limits in order to assure proper\nfollow-up. In the event of overdue invoices, a reminder procedure is\ninitiated.\nIn 2021 there was a loss of 193 thousand euro with respect to trade\nreceivables (166 thousand euro in 2020). This loss is recognized in the  \nincome statement under \u2018Turnover\u2019.\nConcerning the trade receivables, there are no indications that the debt-\nors will not fulfil their payment obligations. Neither are there any custom-\ners that account for more than 10% of the consolidated turnover. Under\nIFRS 9 Van de Velde has an obligation to recognize expected losses on\ntrade receivables. The application of this IFRS standard was included in\nthe recognized impairment at an amount equal to 86 thousand euro (86\nthousand euro in 2020). The total reduction in the allowance for doubtful\ndebtors, -193 thousand euro, is recognized in the income statement\nunder \u2018Other expenses\u2019.\n\nThe table below summarizes the allowances for doubtful debtors:\n000\ue61feuro 2021 2020\nAt 1 January -688 -501\nApplied losses 193 166\nAdditions 0 -353\nAt 31 December -495 -688\n \nThe aging analysis of the trade receivables at year end is as follows:\n000\ue61feuro\nTotal\nNot past due\nPast due  \n1 - 60 days\nPast due  \n60-90 days\nPast due >  \n90 days\n2021 13,753 10,420 1,954 686 693\n2020 11,353 8,117 2,072 325 839\nThe evolution in the components of the working capital was explained\nin the activity report.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfTradeAndOtherReceivablesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag217": {
+   "value": "\n11. Other current assets\n \nOther current assets consist of the following:\n000\ue61feuro 2021 2020\nPrepaid expenses\n(1)\n1,786 1,192\nTax receivables (VAT & corporate income tax) 2,092 4,118\nFX forward contracts (note 20) 0 2\nOther current assets, net 3,878 5,312\n(1)   The pre-paid expenses mainly concern pre-paid maintenance costs.  \nThe decrease in tax receivables is the result of a decrease in the corporate income tax to\nbe recovered at the end of 2021 compared to the end of 2020.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfOtherCurrentAssetsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag218": {
+   "value": "\n12. Cash and cash equivalents\n \nCash and cash equivalents consist of the following:\n000\ue61feuro 2021 2020\nCash at banks and in hand 68,546 49,778\nMarketable securities 5,000 0\nCash and cash equivalents 73,546 49,778\nThe marketable securities consist entirely of saving accounts at financial\ninstitutions.\nCash and cash equivalents recognized in the cash flow statement com-\nprise the same elements as presented above.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfCashAndCashEquivalentsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag219": {
+   "value": "\n13. Share capital\n000\ue61feuro 2021 2020\nNominative shares 7,562,477 7,627,208\nDematerialized shares 5,760,003 5,695,272\nTotal number of shares 13,322,480 13,322,480\nAt 31 December 2021 Van de Velde NV\u2019s share capital was 1,936 thou-\nsand euro (fully paid), represented by 13,322,480 shares with no nomi-\nnal value and all with the same rights insofar as they are not treasury\nshares, whose rights have been suspended or cancelled. The Board of\nDirectors of Van de Velde NV is authorized to raise the subscribed capital\none or more times by a total amount of 1,936 thousand euro under the\nconditions stated in the Articles of Association. This authorization is valid\nfor five years after publication in the annexes to Belgisch Staatsblad/\nMoniteur belge (3 January 2020).\nThe distributions from retained earnings of Van de Velde NV, the parent\ncompany, is limited to a legal reserve, which was built up in previous\nyears, in accordance with Belgium\u2019s Companies Code, to 10% of the\nsubscribed capital.\nTreasury shares\nThe Extraordinary General Meeting of Shareholders of 11 December\n2019 gave the Board of Directors the power to acquire the company\u2019s\nown shares. This power is valid for a period of (i) three years, commenc-\ning on 3 January 2020, if the acquisition is necessary to prevent a serious\nimminent disadvantage and (ii) five years, commencing on 11 December\n2019, if the Board of Directors acquires the legally permissible number\nof treasury shares at a price equal to the price at which they are quoted\non Euronext Brussels, in accordance with article 7:215 of the Code of\nCompanies and associations.\nThe Board of Directors approved a share buyback programme of up \nto 15 million euro on 25 February 2020. The buyback programme was\nsuspended on 18 March 2020 due to the uncertainties caused by the\ncovid-19 pandemic. And last but not least on 28 August 2020, the Board\nof Directors decided to restart the programme from 4 September 2020\nand with a anticipated term of 1 year.\nOn 23 February 2022, the Governing Council adopted a programme for\nthe repurchase of own shares approved for a maximum of \u20ac15 m. This\nrepurchase  programme will start on 1 March 2022 and has an expected\nduration of one year.\nAt the end of 2020 Van de Velde NV held 77,183 treasury shares.\nIn 2021, 116,857 of its own shares were acquired by Van de Velde NV.\nDuring 2021 no options were exercised under the option plan.\nAt the end of 2021, Van de Velde NV held 194,040 treasury shares\ntotalling 4,755 thousand euro. The treasury shares held by Van de Velde\nNV will, on the one hand, be offered to management under an option\n\nprogramme that has been running since 2010 and, on the other hand,\nbe used to reduce the excessive cash pile.\n000\ue61feuro 2021 2020\nShare capital 1,936 1,936\nTreasury shares -4,755 -1,932\nShare premium 743 743\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfIssuedCapitalExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag220": {
+   "value": "\n14. Provisions\n000\ue61feuro Provisions\nAt 01/01/2020 411\nArising during the year 0\nUtilized -183\nReversal -72\nProvisions 31/12/2020 156\nAt 01/01/2021 156\nArising during the year 307\nUtilized 0\nReversal 0\nProvisions 31/12/2021 463\nIn 2021, a provision of 240 thousand euros was booked for the set-\ntlement of the covid-related payment received in The Netherlands. In\naddition, the provision already in place for sales agents was increased\nby 67 thousand euros.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfProvisionsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag221": {
+   "value": "\n15. Pensions\nVan de Velde has five defined pension plans in Belgium. These plans are\nclarified on a cumulative basis, as they are situated in the same geo-\ngraphical location and have the same attributes and risk characteristics,\ni.e. defined retirement plans.\nAs well as the Belgian pension plans, the company also has pension\nplans for its staff in foreign countries. These pension plans are defined\ncontribution plans. In 2021 the pension provision on the balance sheet\nwas -24 thousand euro (24 thousand euro in 2020).\nThe pension plan in Belgium is subject to Belgian legislation and is a\ngroup insurance plan with guaranteed return (Tak 21). Since 2016, an\nannual actuarial valuation occurred on 31 December by an independ-\nent actuary.\nThe pension plan in Belgium is financed. If the fund investments are\nlower than the minimum guarantee set by law, the insurer will notify the\nemployer. The latter can then pay an additional contribution into the plan.\n\nThe adjusted actuarial calculation on 31 December 2021 and 31 December 2020 shows the following results:\nAt\n01/01/2020\nPension cost allocated to\nrealized income\nReturn\n(1)\nGain/(loss) as a consequence\nof changes to calculation\nmethod allocated to other\ncomprehensive income\n(2)\nEmployer contribution\nBenefits paid\nAt\n31/12/2020\nDefined pension entitlement liability -10,580 -890 -102 -1,440 0 705 -12,307\nMarket value of the fund investments 8,994 0 90 997 706 -705 10,082\nNet liability in the balance sheet -1,586 -890 -12 -443 706 0 -2,225\nAt\n01/01/2021\nPension cost allocated to\nrealized income\nReturn\n(1)\nGain/(loss) as a consequence of\nchanges to calculation method\nallocated to other comprehen-\nsive income\n(2)\nEmployer contribution\nBenefits paid\nAt\n31/12/2021\nDefined pension entitlement liability -12,307 -976 -55 2,037 -26 245 -11,082\nMarket value of the fund investments 10,082 0 47 -772 734 -245 9,846\nNet liability in the balance sheet -2,225 -976 -8 1,265 708 0 -1,236\n(1)  The \u2018Return\u2019 column includes the interest cost to the de\ufb01ned pension rights and the expected return on the asset.  \n(2)   For the 2021 \ufb01nancial year, 185 thousand euro of the change in calculation method allocated to other comprehensive income consists of experience adjustments, 951 thousand euro\n\ufb01nancial adjustments and 901 thousand euro demographic adjustments. For the 2020 \ufb01nancial year, the change in calculation method allocated to other comprehensive income consists of\n49 thousand euro experience adjustments and -1,889 thousand euro \ufb01nancial adjustments.\n\nThe expected duration of the non-discounted pension payments is bro-\nken down in the table below:\nExpected benefits\nWithin 12 months (fiscal year\nending 31 December 2021)\n99\nBetween 2 and 5 years 790\nBetween 5 and 10 years 2,040\nTotal expected benefits 2,929\nThe cash value of pension liabilities depends on a number of factors that\nare determined actuarially on the basis of a number of assumptions.\nThe assumptions that are used when calculating the net pension costs\n(income) include the discount rate. Changes in the assumptions impact\nthe carrying value of the pension liabilities.\nVan de Velde determines the appropriate discount rate at the end of\neach year. This is the interest rate that must be applied to determine\nthe cash value of the estimated future cash flows required to meet the\npension liabilities. When determining the appropriate discount rate, Van\nde Velde uses the interest rate of high-value corporate bonds expressed\nin the currency in which the pensions will be paid out and with a dura-\ntion com-parable to the duration of the corresponding pension liabilities.\nOther important assumptions for pension liabilities, such as the expected\nannual growth rate of salaries and expected withdrawals, are based\npartly on current market conditions and partly on proprietary parameters.\nThe investments primarily relate to qualifying insurance policies (99.9%\nof all investments). The expected contribution by the employer for the\nyear ending 31 December 2021 is 708 thousand euro.\nThe main actuarial assumptions used in the valuation of the pension\nplans are shown in the table below:\n2021 2020\nAnnual pay rises (excluding inflation) 1.93%\nage 20-24: 6.60%\nage 25-29: 5.10%\nage 30-34: 2.60%\nage 35-39: 2.10%\nage 40-44: 3.10%\nfrom age 45: 1.60%\nAnnual inflation 1.90% 1.90%\nAnnual discount rate 1.00% 0.45%\nPension age in years 65 65\nTotal number of members 985 991\nAverage age in years 44.4 43.98\nEstimated duration in years 17.79 17.73\nThe table below shows the effect of the discount rate on the defined pension entitlement liability:\nValuation trend -0,5% Original Valuation trend -0,5%\nDiscount rate 0.50% 1.00% 1.50%\nDefined pension entitlement liability 12,040 11,082 10,217\nMarket value of the investment funds 10,663 9,846  9,104\nThe table below shows the effect of the withdrawals from the plan on the defined pension entitlement liability:\nOriginal Sensitivity\nWithdrawals from the plan Employer table 0.00%\nDefined pension entitlement 11,082 12,886\nThe sensitivity analysis in the above tables is determined on the basis of a method that shows the impact on the liability due to the defined pension\nentitlements as a consequence of reasonable changes to significant assumptions occurring at the end of the period. This analysis is based on a\nchange to a significant assumption that keeps all other assumptions constant. The sensitivity analysis may not be representative of actual changes\nin the defined pension entitlement liability because it is unlikely that changes to the assumptions could occur in isolation.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfDefinedBenefitPlansExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag222": {
+   "value": "\n16. Other operating income and other\nexpenses\n \nOther operating income and other expenses consists of the following:\n000\ue61feuro 2021 2020\nIncome from passed on costs 3,227 1,998\nIncome from recovered costs 1,286 1,823\nOther income 580 508\nTotal other operating income\ue61f\ue61f\ue61f\ue61f  5,093 4,329\nSubcontracting costs 20,504 14,414\nDistribution costs 9,662 6,105\nSales and marketing costs 19,525 16,284\nGeneral administration costs 14,765 13,166\nTotal other expenses 64,456 49,969\nThe other operating income consisting mainly of charged export duties\nand transport costs and the recovered costs include primarily recovered\npersonnel costs. The increase of revenue from charged costs is a result\nof a higher turnover.\nThe increase in expenses (subcontracting, distribution, sales, and mar-\nketing) are mainly the result of higher sales volumes and marketing\nefforts.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfOtherOperatingIncomeExpenseExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag223": {
+   "value": "\n17. Deferred taxes assets and liabilities\n \nThe deferred taxes, valued at the theoretical tax rate of 25%, consist of the following:\n000\ue61feuro\nDeferred tax liabilities on\nfixed assets\nDeferred tax assets on assets/\nliabilities\nDeferred tax assets on transfer-\nrable losses\nTotal\nAt 01/01/2020 1,820 -1,355 0 465\nChanges 462 1 -227 236\nAt 31/12/2020 2,282 -1,354 -227 701\nAt 01/01/2021 2,282 -1,354 -227 701\nChanges -324 103 0 -221\nAt 31/12/2021 1,958 -1,251 -227 480\nThe net deferred tax liability of 480 thousand euro mainly concerns\nthe following:\n-  With regard to the deferred tax liability on fixed assets, the depreci-\nation amount of a tangible fixed asset must be spread over its life in\na systematic way. In the statutory financial statements we use the\ndouble declining depreciation method on assets purchased until 31\nDecember 2019, which is restated in the consolidation. The deferred\ntax on this at the end of 2021 was 1,958 thousand euro.\n-  The deferred taxes of 951 thousand euro were recorded on a revalua-\ntion of stock. Deferred taxes of 253 thousand euro are also recognized\nunder IAS 19 with regard to the pension liability at Van de Velde.\nFinally the deferred tax assets of 47 thousand euro concern the\nsettlement of the partnership agreement with Private Shop.\n-  The deferred tax asset of 227 thousand euro on transferrable losses\nconcern our German retail division. For our division in the United\nStates, Intimacy Management Company LLC, it was decided not to\nprovide for a deferred tax asset as there is no certainty that we will\nbe able to use this in the future against future profits. The current\nestimated unrecognized latency is 1,650 keur.\n-   The decrease of -221 keur was recognized in the profit and loss\naccount for -537 keur and 316 keur was recognized in equity (see\nnote 23).\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfDeferredTaxesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag224": {
+   "value": "\n18. Trade and other payables\n \nTrade and other payables consist of the following:\n000\ue61feuro 2021 2020\nTrade payables 11,228 8,196\nPayroll, social charges 4,785 4,514\nGift cards and credits issued 293 342\nAccrued charges\n(1)\n8,384 4,746\nDeferred income 675 517\nFx forward contracts (note 20) 0 114\nTrade and other payables 25,365 18,429\n(1)  In addition to the accrued bonuses to employees and directors as well as discounts to\ncustomers, accrued charges also includes the cost of external employees.\nThe evolution in the components of the working capital was explained\nin the activity report.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfTradeAndOtherPayablesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag225": {
+   "value": "\n19. Other current liabilities and taxes\npayable\n000\ue61feuro 2021 2020\nOther current liabilities: taxes (VAT payable, local taxes,\nwithholding taxes)\n1,676 1,170\nTaxes payable: corporate income taxes 1,571 325\nThe increase in 2021 is due to the growth in turnover, which results in a\nhigher taxable base and therefore also a higher actual tax rate (explana-\ntory note 23) than in 2020. This growth in turnover also leads to an\nincrease in the outstanding VAT debt at the end of 2021.\n",
+   "dimensions": {
+    "concept": "van:DisclosureOfOtherCurrentLiabilitiesAndTaxesPayableExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag226": {
+   "value": "\nDerivatives that do not qualify for hedge accounting\nThe company applied FX forward contracts to manage transaction risks.\nNo FX forward contracts were concluded for 2021. As these contracts\ndo not meet the hedging criteria of IAS 39, they are valued at fair value\nand recognized as trading contracts through profit or loss.\nOn 31 December 2021 the fair value of these FX forward contracts\nwas zero as no contracts were entered into. On 31 December 2020\nthe fair value of these FX forward contracts was -112 thousand euro,\ncomprising an unrealized income of 2 thousand euro and an unrealized\nloss of 114 thousand euro.\nIn summary, the various fair values are shown in the following table:\n000\ue61feuro 2021 2020\nDerivatives that do not qualify for hedge accounting:\nOther current assets 0 2\nOther current liabilities 0 -114\nReal value 0 -112\nThe valuation technique used to determine the fair value is level 2-com-\npliant, with the various levels and related valuation techniques defined\nas follows:\n \u2013\nLevel 1: quoted (and not adjusted) prices on active markets for identi-\ncal assets and liabilities;\n \u2013\nLevel 2: other techniques, in which all inputs that have a major impact\non the recognized fair value are observable (directly or indirectly);\n \u2013\nLevel 3: techniques, using inputs with a major impact on the fair value\nand for which no observable market data is available.\n20. Financial instruments\n \nThe fair value of the financial assets and liabilities (including cash, trade\nreceivables and trade liabilities) is essentially equal to the book value,\nwith the exception of the derivatives, which are valued at fair value.\nThe Group applies derivative financial instruments to limit the risks of\nunfavourable exchange rate fluctuations originating from operations\nand investments.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfFinancialInstrumentsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag227": {
+   "value": "\n21. Financial result\n \nThe financial result breaks down as follows:\n000\ue61feuro 2021 2020\nInterest income 11 17\nInterest costs -105 -51\nInterest result, net -94 -34\nExchange gains 1,621 2,217\nExchange losses -1,655 -1,498\nExchange gains due to IFRS16 0 45\nExchange losses due to IFRS16 -5 -61\nExchange result, net -39 703\nIncome from investments (dividends) 0 0\nOther financial income 0 0\nOther financial costs -406 -250\nOther financial costs due to IFRS 16 -454 -711\nFinancial result -993 -292\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfFinanceIncomeExpenseExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag231": {
+   "value": "\n22. Personnel expenses\n \nPersonnel expenses are as follows:\n000\ue61feuro 2021 2020\nWages 8,617 7,438\nSalaries 28,088 25,746\nSocial security contributions 7,838 7,438\nOther personnel expenses 468 667\nPersonnel expenses 45,011 41,289\nWorkforce at balance sheet date 2021 2020\nWhite collars 555 560\nBlue collars 952 941\nTotal 1,507 1,501\nShare-based payments\nThe fair value of the options on the grant date is recognized for the period\nuntil the beneficiary acquires the option unconditionally in accordance\nwith the gradual acquisition method.\nThe impact of IFRS 2 on the result of the year 2021 was 128 thousand\neuro versus 120 thousand euro in 2020.\nThe option plans were valued using the Black-Scholes-Merton model\nfor call options. The following assumptions were used to determine the\nweighted average fair value at grant date:  \nPLAN 2015\nPLAN 2015\nPLAN 2015\nPLAN 2015\nPLAN 2020\nPLAN 2020\nAward date\n(1)\n29.09.16\n03.10.17\nn/a 15.10.19\n09.10.20\n01.10.21\nDividend\nright as of the\ngrant date\nno no n/a no no no\nContractual\nterm of the\noptions\n5-10 5-10 n/a 7-10 5-10 5-10\nExercise price 63.02 45.13 n/a 23.36 22.6 28.75\nExpected\nvolatility\n35.00% 35.00% n/a 35.00% 35.00% 35.00%\nRisk-free\ninterest rate\n-0.269% -0.143% n/a -0.234% -0.580% -0.322%\n-0.242% -0.398% n/a -0.415% -0.785% -0.580%\nFair value of\nthe share in\noptions (in\neuro)\n16.40 11.23 n/a 7.67 5.32 8.25\n(1)  The exchange of property will take place on the 60th day after the award date and is\ncalled the grant date.\nThe share option plan has changed as follows:\nNumber of shares and options\nOption plan\n2010\ue61f- 2020\nOutstanding at 01/01/2020 62,000\nExercisable at 01/01/2020 11,000\nMovements during the year\nAccepted 30,000\nForfeited 0\nExercised 0\nExpired 0\nOutstanding at 31/12/2020 92,000\nExercisable at 31/12/2020 22,000\nMovements during the year\nAccepted 35,000\nForfeited 0\nExercised 0\nExpired 6,000\nOutstanding at 31/12/2021 121,000\nExercisable at 31/12/2021 36,000\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfEmployeeBenefitsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag232": {
+   "value": "\n23. Income taxes\n \nThe major components of income tax expense for the years ending\n31 December 2021 and 2020 are:\n000\ue61feuro 2021 2020\nCurrent income tax 8,832 2,882\nCurrent income tax charge 8,247 2,864\nAdjustments in respect of current income tax of previ-\nous years\n585 18\nDeferred income tax -537 325\nRelating to the origination and reversal of temporary\ndifferences\n-537 325\nIncome tax expense reported in the consolidated\nincome statement\n8,295 3,207\nTaxes reported in the other comprehensive income 316 -89\n\nThe reconciliation of income tax expense applicable to income before\ntaxes at the statutory income tax rate and income tax expense at the\nGroup\u2019s effective income tax rate for each of the past two years ending\n31 December is as follows:\n000\ue61feuro 2021 2020\nProfit before taxes\n(1)\n40,781 19,268\nParent's statutory tax rate of 25%  10,195 4,817\nHigher income tax rates in other countries 0 0\nLower income tax rates in other countries -219 -745\nUtilization tax losses and unrecognized losses 0 -88\nDisallowed expenses 215 177\nTax credits -1,896 -954\nTotal income taxes 8,295 3,207\nEffective income tax rate 20.34% 16.64%\n(1)  Pro\ufb01t before taxes excluding the share in the result of associates and impairment\ncharges.\nThe effective tax rate in 2021 is 20.34% compared to 16.64% in 2020\nas a result of a higher taxable basis.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfIncomeTaxExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag233": {
+   "value": "\n24. Earnings per share\n \nBasic earnings per share are calculated by dividing the net income for\nthe year attributable to ordinary shareholders by the weighted average\nnumber of ordinary shares outstanding during the year, excluding the\nshares purchased by the Group and held as treasury shares (note 13).\nDiluted earnings per share are calculated by dividing the net income for\nthe year attributable to ordinary shareholders by the weighted average\nnumber of ordinary shares outstanding during the year, both adjusted\nfor the effects of dilutive potential ordinary shares (stock options).\n2021 2020\nProfit attributable to shareholders (in 000 euro) 32,048 14,719\nWeighted average number of ordinary shares 13,169,650 13,288,660\nDilutive effect of stock options 3,230 0\nWeighted average number of shares after impact\nof dilution\n13,172,880 13,288,660\nBasic earnings per share (euro) 2.43 1.11\nDiluted earnings per share (euro) 2.43 1.11\nIn 2021 only the options awarded over the period 2019 and 2020 had a\ndilutive effect. In 2020 no options awarded over the period 2014-2020\nhad a dilutive effect.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfEarningsPerShareExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag239": {
+   "value": "\n25. Dividends paid and proposed\n000\ue61feuro 2021 2020\nDividend paid 13,323 13,294\nDividend paid\n- in 2021:\n1.00 euro per share for fiscal year 2020.\n- in 2020:\n1.00 euro per dividend entitled share as interim divi-\ndend for fiscal year 2020.\nDividend proposed 26,645 13,323\nDividend proposed:\n- 2.00 euro per share for fiscal year 2021.\n- No dividend rights are attached to treasury shares.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfDividendsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag234": {
+   "value": "\n26. Commitments and contingent liabilities\nThe Group has lease contracts for various assets such as vehicles and\nbuildings used in its activities. The Group depreciates these assets on a\nstraight-line basis over the shorter of the following periods: lease term\nin the contract or estimated useful life of the assets, with a maximum\nof 5 years for cars and a maximum of 10 years for buildings.\nThere are several lease contracts that include extension and termina-\ntion options and variable lease payments. The contracts with variable\nlease payments are revenue-based. One variable lease payment of 154\nthousand euro was applicable in 2021. We estimate the future outflow\nfor this contract at 697 thousand euros, spread over a period of four\nyears. The other contracts with variable lease payments are currently\nexpected to generate no additional outflow. There are currently no known\nfuture obligations under the extension and termination options that are\nnot included in the current liabilities on the balance sheet.\nThe Group also has certain leases of assets with short lease terms and\nleases of assets with low value. The Group applies the \u2018short-term lease\u2019\nand \u2018lease of low-value assets\u2019 recognition exemptions for these leases.\nContracts that do not relate to an identifiable asset also fall outside the\nscope as well as the variable rental obligations according to turnover.\n\nSet out below are the carrying amounts of right-of-use assets recognized and the movements during the period:\n000\ue61feuro Total\nRight-of-use on rental agreements for\nbuildings\nRight-of-use on rental agree-\nments for passenger vehicles\nRight-of-use assets, gross\nAt 01/01/2020 28,388 25,664 2,724\nAdditions 1,755 970 785\nRemeasurement -1,727 -1,727 0\nOther adjustments 0 0 0\nDisposal -2,011 -1,899 -112\nExchange rate effects -1,259 -1,257 -2\nAt 31/12/2020 25,146 21,751 3,395\nDepreciation and impairment\nAt 01/01/2020 5,828 5,269 559\nDepreciations recorded 5,400 4,522 878\nImpairment 1,476 1,476 0\nOther adjustments 15 15 0\nDisposal -2,002 -1,890 -112\nExchange rate effects -281 -280 -1\nAt 31/12/2020 10,436 9,112 1,324\nRight-of-use assets, net at 31/12/2020 14,710 12,639 2,071\nRight-of-use assets, gross\nAt 01/01/2021 25,146 21,751 3,395\nAdditions 1,763 658 1,105\nRemeasurement -1,599 -1,659 60\nOther adjustments 0 0 0\nDisposal -4,202 -3,655 -547\nExchange rate effects 982 980 2\nAt 31/12/2021 22,090 18,075 4,015\nDepreciation and impairment\nAt 01/01/2021 10,436 9,112 1,324\nDepreciations recorded 4,333 3,300 1,033\nImpairment 0 0 0\nOther adjustments 0 0 0\nDisposal -3,401 -2,876 -525\nExchange rate effects 482 483 -1\nAt 31/12/2021 11,850 10,019 1,831\nRight-of-use assets, net at 31/12/2021 10,240 8,056 2,184\n\nThe investments in 2021 concern a new showroom location in both\nDenmark and Finland, and a contract renewal for a shop in both the\nUnited Kingdom and The Netherlands. The revaluations are due to the\nimpact of the rental contracts that were negotiated and the adjustment\nof the presumed term of the rental contract compared to 2020.  In 2021\nthis primarily relates to the closure of the store in the United States. Six\nunprofitable stores were closed in our own retail network in 2021. Two\nstores were closed in both Germany and the United States, with one\nclosing in both The Netherlands and the United Kingdom.  \nThe provision for lease liabilities relates to a provision for costs necessary\nto restore the leased assets to their original condition upon termination\nof the contract.\n \nThe table below summarizes the maturity profile of the undiscounted\nGroup\u2019s financial liabilities:\n000\ue61feuro 3 to 12 months 1 to 5 years More than 5 years Total\n2021 4,014 8,100 784 12,898\n2020 5,381 11,057 1,842 18,280\nSet out below are the carrying amounts of long- and short-term lease liabilities and the movements during the period:\n000\ue61feuro 2021 2020\nAt 01/01 16,571 22,553\nAdditions 1,862 1,788\nOther changes (revaluations and exchange rate effect) -1,360 -2,943\nPayments -4,872 -4,827\nAt 31/12 12,201 16,571\nCurrent 3,776 4,342\nNon-current 8,425 12,229\nThe following are the amounts of IFRS16 in profit and loss:\n000\ue61feuro 2021 2020\nDepreciation expense of right-of-use assets 4,333 -5,400\nImpairment lease liabilities 0 -1,476\nMovement ARO obligations -190 -139\nInterest expense on lease liabilities -454 -711\nExchange rate differences on lease obligations -5 -16\nExpense relating to short-term leases (included in 'other expenses') 8 3\nExpense relating to leases of low-value assets (included in 'other expenses') 14 20\nRent costs related to termination fees minus realized rent reductions (included in 'other expenses') 4 52\nVariable rental cost based on turnover 154 0\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfCommitmentsAndContingentLiabilitiesExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag235": {
+   "value": "\n27. Related party disclosures\n \nFull consolidation\nThe consolidated financial statements include the financial statements of Van de Velde NV and the subsidiaries listed in the following table.\nName Adress (%) Equity interest 2021 Change on previous year\nVAN DE VELDE NV Lageweg 4\n9260\ue61fSCHELLEBELLE, Belgium\nVAT BE 0448.746.744\nParent company\nVAN DE VELDE GMBH & Co KG Blumenstra\u00dfe 24\n40212\ue61fDUSSELDORF, Germany\n100 0\nVAN DE VELDE\nVERWALTUNGS GMBH\nBlumenstra\u00dfe 24\n40212\ue61fDUSSELDORF, Germany\n100 0\nVAN DE VELDE TERMELO\nES KERESKEDELMI KFT\nSelyem U.4\n7100\ue61fSZEKSZARD, Hungary\n100 0\nVAN DE VELDE UK LTD Cannon Place, 78\ue61fCannon Street,\nEC4N 6AF LONDON,\nUnited Kingdom\n100 0\nMARIE JO GMBH Blumenstra\u00dfe 24\n40212\ue61fDUSSELDORF, Germany\n100 0\nVAN DE VELDE IBERICA SL Calle Santa Eulalia, 5\n08012\ue61fBARCELONA, Spain\n100 0\nVAN DE VELDE CONFECTION SARL Route De Sousse BP 25\n4020\ue61fKONDAR, Tunisia\n100 0\nVAN DE VELDE FINLAND OY 1B25A, Fashion Center, H\u00e4rk\u00e4haankuja 14\n01730\ue61fVantaa, Finland\n100 0\nVAN DE VELDE NORTH AMERICA INC 1252\ue61fMadison Avenue\nNY 10128, NEW YORK,\nUnited States of America\n100 0\nVAN DE VELDE DENMARK APS Lejrvejen 8\n6330\ue61fPADBORG, Denmark\n100 0\nVAN DE VELDE RETAIL INC 1252\ue61fMadison Avenue\nNY 10128, NEW YORK,\nUnited States of America\n100 0\nINTIMACY MANAGEMENT\nCOMPANY LLC\n1252\ue61fMadison Avenue\nNY 10128, NEW YORK,\nUnited States of America\n100 0\nRIGBY & PELLER LTD First Floor 22\ue61fConduit Street\nW1S 2XR, LONDON\nUnited Kingdom\n100 0\nVAN DE VELDE NEDERLAND BV Beethovenstraat 28\n1077\ue61fJH AMSTERDAM, The Netherlands\n100 0\nVAN DE VELDE HONG KONG LTD\n(1)\n21/F Edinburgh Tower, The Landmark\n15\ue61fQueen\u2019s Road, Central, Hong Kong\n0 100\n(1)  The liquidation of Van de Velde Hong Kong Ltd. was completed on 19 February 2021.\nSales of goods and services are at arm\u2019s length between Group companies.\n\nCompanies to which the equity method is applied\nThe equity method is applied to the following companies:\nName Adress (%) Equity interest 2021 Change on previous year\nTOP FORM INTERNATIONAL LTD 7/F., Port 33, 33\ue61fTseuk Luk Street,\nSan Po Kong, Kowloon, Hongkong\n25.7 0\n000\ue61feuro 2021 2020\nBasic remuneration 985 1,162\nVariable remuneration 459 186\nGroup insurance premiums 6 6\nOther benefits 7 7\nExceptional remuneration 118 0\nTotal 1,575 1,361\nIn addition to these cash benefits, share-based benefits were granted to\nthe members of the management committee through the share option\nplan. In 2021 the members of the management committee had the\nopportunity to participate in a share option plan by which they were\ngranted 5,000 options (same in 2020). No calculated costs are linked\nto the options accepted by the members of the management commit-\ntee in 2021.\nTop Form International Ltd. (\u201cTFI\u201d)\nIn 2021 transactions between the Group and TFI totalled 6,925 thou-\nsand US dollar. On 31 December 2021 the Group had trade payables\nto TFI in the amount of 346 thousand US dollar. In 2020 transactions\nbetween the Group and TFI totalled 9,036 thousand US dollar. On 31\nDecember 2020 the Group had trade payables to TFI in the amount of\n24 thousand US dollar.\nRelationships with shareholders\n43.73% of the shares of Van de Velde NV are held by the general public.\nThese shares are traded on Euronext Brussels. Van de Velde Holding NV.\nwhich groups the interests of the Laureys and Van de Velde families,\nholds the remainder of the shares.\nRelationship with key management personnel\nSee the remuneration report in chapter 3.\nDirector Remuneration\nFor his chairmanship of the Nomination and Remuneration Committee,\nthe Audit and Risk Committee and the Strategic Committee, the chair-\nman of the Board of Directors (Herman Van de Velde NV) received annual\ngross remuneration of 25,000 euro. The other non-executive members\n(excluding the managing director) receive annual remuneration of 15,000\neuro for their membership of the Board of Directors. All members of the\nBoard of Directors (excluding the managing director) receive 2,500 euro\nfor their membership of the Nomination and Remuneration Committee\nand the Audit and Risk Committee respectively. The total remuneration\nfor the directors (excluding the managing director) was 145.0 thousand\neuro in 2021 and 103.3 thousand euro in 2020. The directors have not\nreceived any loan or advance from the Group.\nManagement Committee Remuneration\nFor the year ended 31 December 2021, a total amount of 1,575 thousand\neuro (1,361 thousand euro in 2020) was awarded to the members of\nthe Management Committee, including the managing director. See the\nremuneration report in chapter 3 for more details.\nThese total amounts include the following components:\n \u2013 Basic remuneration: base salary earned in their position during the \nyear under review;\n \u2013\nVariable remuneration: bonus acquired in the year under review. There\nare various pay-out forms, including cash, deferred payment or a \ncomplementary pension plan;\n \u2013\nGroup insurance premiums: insurance premium (invalidity, death,\npension plan) paid by the Group;\n \u2013 Other benefits are the private use of a company car and hospitaliza-\ntion insurance.\n \u2013 Exceptional compensation concerns a retention bonus.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfRelatedPartyExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag228": {
+   "value": "VAN DE VELDE NV",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfParentEntity",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag229": {
+   "value": "Lageweg 49260\ue61fSCHELLEBELLE, Belgium",
+   "dimensions": {
+    "concept": "ifrs-full:AddressOfRegisteredOfficeOfEntity",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag230": {
+   "value": "Van de Velde Holding NV",
+   "dimensions": {
+    "concept": "ifrs-full:NameOfUltimateParentOfGroup",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag236": {
+   "value": "\n28. Segment information\n \nVan de Velde is a single-product business, being the production and sale\nof luxury lingerie. Van de Velde distinguishes two operating segments:\nWholesale and Retail. No segments have been combined.\nVan de Velde Group has identified the Management Committee as having\nprimary responsibility for operating decisions and has defined operat-\ning segments on the basis of information provided to the Management\nCommittee.\nWholesale refers to business with independent specialty retailers (cus-\ntomers external to the Group) and eCommerce through brand sites and\nstores linked to our wholesale brands. Retail refers to business through\nour own retail network (stores, franchisees and eCommerce through\nretail sites). The type of customer to which sales are made determines\nwhether the customer is allocated to Wholesale or Retail. The integrated\nmargin within the retail segment is shown for Van de Velde products sold\nthrough Van de Velde\u2018s own retail network. In other words, the retail\nsegment comprises the wholesale margin on Van de Velde products\nand the results generated within the network itself.\nManagement monitors the results in the two segments to a certain level\n(\u2018direct contribution\u2019) separately, so that decisions can be made on the\nallocation of resources and the evaluation of performance. Performance\nin the segments is evaluated on the basis of directly attributable rev-\nenues and costs. General costs (such as overhead), financial result, the\nresult using the equity method, tax on the result and minority interests\nare managed at Group level and are not attributed to segments. Costs\nthat are not attributed benefit both segments and any further division\nof the costs, such as general administration, IT and accountancy, would\nbe arbitrary.\n\nSegment Income Statement 2021 2020\n000\ue61feuro Wholesale Retail\nUnallocated\nTotal\nWholesale\nRetail Unallocated Total\nSegment revenues 167,666 27,585 0 195,251 130,029 22,308 0 152,337\nSegment costs -84,154 -25,649 -30,437 -140,240 -70,631 -23,934 -23,038 -117,603\nDepreciation 0 -778 -12,459 -13,237 0 -986 -14,188 -15,174\nSegment results 83,512 1,158 -42,896 41,774 59,398 -2,612 -37,226 19,560\nNet finance profit -993 -292\nResult from associates -438 -1,342\nIncome taxes -8,295 -3,207\nNet income 32,048 14,719\nSegment Balance Sheet 2021 2020\n000\ue61feuro Wholesale Retail Total Wholesale Retail Total\nSegment assets 58,970 15,683 74,653 51,900 16,707 68,607\nUnallocated assets 132,524 116,672\nConsolidated total assets 58,970 15,683 207,177 51,900 16,707 185,279\nSegment liabilities 0 0 0 0 0 0\nUnallocated liabilities 207,177 185,279\nConsolidated total liabilities 0 0 207,177 0 0 185,279\nCapital expenditure 2021 2020\n000\ue61feuro\nWholesale\nRetail Unallocated Total Wholesale Retail Unallocated Total\nTangible fixed assets 0 363 2,011 2,374 0 104 989 1,093\nIntangible fixed assets 0 0 2,274 2,274 0 0 1,622 1,622\nRight-of-use assets 0 0 1,763 1,763 0 0 1,755 1,755\nDepreciation 0 778 12,459 13,237 0 986 14,188 15,174\nBreakdown by region - turnover 2021 2020\n000\ue61feuro Eurozone Elsewhere Total Eurozone Elsewhere Total\nTurnover 140,588 54,663 195,251 112,577 39,760 152,337\nThe most important markets accounting for more than 10% of turnover are stated below in descending order of turnover:\n \u2013 Germany, Belgium and The Netherlands for the Eurozone;\n \u2013 United States, United Kingdom and Switzerland for Elsewhere.\nAssets that can be reasonably attributed to segments (goodwill and other\nfixed assets as well as inventories and trade receivables) are attributed.\nOther assets are reported as non-attributable, as are liabilities. Assets\nand liabilities are largely managed at Group level, so a large part of these\nassets and liabilities are not attributed to segments.\nThe accounting policies of the operating segments are the same as \nthe key policies of the Group. The segmented results are therefore\nmeasured in accordance with the operating result in the consolidated\nfinancial statements.\nVan de Velde does not have any transactions with a single customer in\nWholesale or Retail worth more than 10% of total turnover.\nTransactions between operating segments are on an arm\u2019s length basis,\ncomparable with transactions with third parties.\nIn the following tables, the segmented information is shown for the\nperiods ending on 31 December 2021 and on 31 December 2020.\n\nFurther information about the assets of the company - location (000 euro) Belgium Elsewhere Total\nTangible fixed assets 20,692 2,305 22,997\nIntangible assets 15,510 4,766 20,276\nRight-of-use assets 1,656 8,584 10,240\nInventories 40,433 2,772 43,205\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfEntitysReportableSegmentsExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag237": {
+   "value": "\n29. Events after balance sheet\n \nNo events after the balance sheet date had a major impact on the situ-\nation of the company.\nOn 1 May 2022, a new CEO will start at Van de Velde after an induction\nperiod. More details on this in a separate press release of 24 February\n2022.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfEventsAfterReportingPeriodExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "Tag238": {
+   "value": "\n30. Business risks with respect to IFRS7\n \nBesides the general strategic risks, Van de Velde has identified the fol-\nlowing risks with respect to IFRS 7:\nCurrency risk\nDue to its international character, the Group is confronted with various\nexchange rate risks on sale and purchase transactions.\nIn terms of currency risk, between 25% and 30% of Group turnover is\ngenerated in currencies other than the euro. In addition, a significant\nproportion of purchases and expenses are in foreign currency (e.g. pur-\nchases of raw materials and subcontractors, as well as local expenses\nwithin the retail network).\nWhere possible, currency risks are managed by offsetting transactions in\nthe same currency or by fixing exchange rates through forward contracts.\nThese risks are managed at the level of the parent company. The Group\nis aware that exchange risks cannot always be fully hedged.\nForeign operations increase the currency risk of the Group. Financial\ninstruments are not used to hedge this risk.\nClosing rate Average rate\nCAD 1.4466 1.4804\nCHF 1.0368 1.0795\nAUD 1.5575 1.5758\nNOK 0.8394 0.8577\nGBP 1.1295 1.1810\nUSD 3.2518 3.2818\nThe Group performed a sensitivity analysis in 2021 on the outstanding\ntrade receivables and trade payables of the Group at the balance sheet\ndate have been converted with a sensitivity of 10%.\n000\ue61feuro +10% -10%\nCAD 62 -62\nCHF 81 -81\nAUD 30 -30\nGBP 66 -66\n239 -239\nThe Group performed a sensitivity analysis in 2021 on the the equity\ncomponents in the foreign currency of the Group at the balance sheet\ndate have been converted with a sensitivity of 10%.\n000 euro +10% -10%\nGBP 353 -353\nUSD 1,363 -1,363\nTND 1,238 -1,238\n2,954 -2,954\nCredit risk\nAs a consequence of the large diversified customer portfolio, the Group\ndoes not have a significant concentration of credit risks. The Group has\ndeveloped strategies and additional procedures to monitor and limit\ncredit risk at its customers. Wholesale sales are generated through\naround 3,600 independent retailers and a small number of luxury depart-\nment stores. No single customer accounts for more than 2.2% of the\nannual turnover of the Group.\nFurthermore, the insolvency risk is covered by credit insurance. In\naccordance with IFRS9, the Group applies the ECL model to its trade\nreceivables. For further explanation in this regard, we refer to note 10.\nWith respect to eCommerce activities, the credit risk is limited by using\ncountry-specific payment methods, and there is collaboration with an\nexternal partner who monitors the creditworthiness of potential eCom-\nmerce customers.\n\nLiquidity and cash flow risk\nThe liquidity and cash flow risk is rather limited thanks to the large\noperational cash flow and the net cash position (73.5 million euro). Credit\nlines worth more than 10 million euro are also available. The Group has\nno borrowings with fixed repayments.\nRisk of interruptions in the supply chain\nAdequate measures have been taken in several areas to minimize inter-\nruptions in the supply chain and deal with any such interruptions that do\noccur. Examples of such measures are:\n \u2013\nThe IT department has a disaster recovery plan designed to minimize\nthe risk of damage from the failure of the computer infrastructure.\nInvestments are also made to limit the risk of failure of the computer\ninfrastructure.\n \u2013 The risks of interruption in deliveries by a supplier and the possible \nalternatives (if available) have been identified and are regularly moni-\ntored. The creditworthiness of suppliers is also monitored.\n \u2013 As far as possible, the concentration risk at suppliers is managed by \nsufficient diversification. The ten leading material suppliers account\nfor approximately 60% of purchase costs of material. The largest\nsupplier accounts for approximately 26% of purchase costs and the\nsecond largest supplier for 9% , whereas all other suppliers account\nfor maximum 5%.\n \u2013\nAssembly capacity is mainly spread over Tunisia, China and Thailand.\n \u2013\nThe raw materials warehouse and the distribution centre are located\nat the same site. These warehouses are in separate buildings and\nboth comply with high safety standards.\n \u2013 Transparent chain management has been set up in which provisions \nand/or any interruptions are proactively identified so that action can\nbe taken.\n \nMoreover, business risks as a consequence of a potential interruption\nare covered by insurance. Adequate measures have been taken in con-\nsultation with insurers who also regularly inspect the various locations.\nRisk of overvalued stock\nVan de Velde\u2019s business model entails risks with regard to raw materi-\nals and finished products. Raw materials are ordered and production is\nlaunched before we have full insight into the orders. As far as possible,\nVan de Velde attempts to concentrate this risk at the level of raw materi-\nals rather than finished products.\nVan de Velde also applies a strict policy regarding write-downs on\ninventories:\n \u2013 The value of finished products for which sales are declining is writ-\nten down at the end of the season or during the following season.\nThese finished products are fully written off in the subsequent year.\n \u2013 If there is no further need for additional production, the related raw \nmaterials are written off completely.\n \nProduct risk\nSales are spread over about 50,000 stock references, more than 10,000\nof which are changed every season. Therefore, sales do not depend on\nthe success of any one model.\nCompliance and regulatory risks\nVan de Velde Group is subject to federal, regional and local laws and regu\n-\nlations in each country in which it operates. Such laws and regulations\nrelate to a wide variety of matters, such as data security, privacy, product\nliability, health and safety, import and export, occupational accidents,\nemployment practices and the relationship with associates (regarding\novertime and workplace safety among other things), tax matters, unfair\ncompetitive practices and similar regulations.\nCompliance with, or changes in, these laws could reduce the revenues\nand profitability of the Group and could affect its business, financial\nconditions or the results of operations.\nVan de Velde Group has been subject to and may in the future be subject\nto allegations of violating certain laws and/or regulations. Such allega-\ntions or investigations or proceedings may require the Group to devote\nsignificant management resources to defending itself. In the event that\nsuch allegations are proven, Van de Velde may be subject to significant\nfines, damages awards and other expenses, and its reputation may be\nharmed.\nVan de Velde Group actively strives to ensure compliance with all laws\nand regulations to which it is subject. A degree of insurance has been\ntaken out to cover some of the above-mentioned risks.\nOther operational risks\nThe Group is also faced with other operational risks which (if possible)\nare monitored and for which (if available) correcting actions are taken.\n",
+   "dimensions": {
+    "concept": "ifrs-full:DisclosureOfFinancialRiskManagementExplanatory",
+    "language": "en",
+    "entity": "scheme:5493009LLUCOLP3YH507",
+    "period": "2021-01-01T00:00:00/2022-01-01T00:00:00"
+   }
+  },
+  "footnote4": {
+   "value": "<span style=\"border-right: none; border-left: none;\">The numbers of </span><span style=\"border-left: none; border-right: none;\">2020</span><span style=\"border-right: none; border-left: none;\"> were restated in accordance with IAS</span><span style=\"border-left: none; border-right: none;\">8</span><span style=\"border-right: none; border-left: none;\">. This restatement has no impact on the income statement, but will be incorporated into the unrealized results. For details of  </span><span style=\"border-right: none; border-left: none;\">the restatement we refer to note </span><span style=\"border-left: none; border-right: none;\">2</span><span style=\"border-right: none; border-left: none;\"> on page </span><span style=\"border-left: none; border-right: none;\">41</span>",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "footnote4",
+    "language": "en"
+   }
+  },
+  "footnote2": {
+   "value": "<span class=\"_ _27\"> </span>This includes depreciation and write-downs on \ufb01xed assets, however the write-downs on current assets are included in other expenses.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "footnote2",
+    "language": "en"
+   }
+  },
+  "footnote3": {
+   "value": "<span style=\"border-right: none; border-left: none;\"><span style=\"border-right: none; border-left: none;\">Interim dividend, paid in <span style=\"border-left: none; border-right: none;\">2020</span>, of <span style=\"border-left: none; border-right: none;\">1.00</span> euro per dividend entitled share is to replace the <span style=\"border-left: none; border-right: none;\">2019</span> dividend that was not paid out</span></span>.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "footnote3",
+    "language": "en"
+   }
+  },
+  "footnote1": {
+   "value": "The revaluation reserve of shares relates to a not realized revaluation reserve of Top Form International Ltd shares, when the interest in Top Form International Ltd. was not yet included inaccordance with the equity method, but as available-for-sale \ufb01nancial assets. This not realized reserve remains unchanged until the sale of the interest in Top Form International Ltd.",
+   "dimensions": {
+    "concept": "xbrl:note",
+    "noteId": "footnote1",
+    "language": "en"
+   }
+  }
+ }
+}
